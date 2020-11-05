@@ -26,4 +26,4 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # End of Script
 
 # Display Installation Complete Message
-echo "All good now! Please, restart the computer, backup your system using Timeshift and then run the 2nd Script to install all your Apps."
+echo "All good now :) Please, restart the computer, backup your system using Timeshift and then run the 2nd Script to install all your Apps."
