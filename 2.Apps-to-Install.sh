@@ -87,7 +87,7 @@ sudo apt dist-upgrade -y &&
 sudo apt install -f &&
 sudo apt autoremove -y &&
 sudo apt autoclean &&
-sudo apt clean &&
+sudo apt clean
 
 # End of Script
 
