@@ -2,18 +2,13 @@
 
 ## Apps to Install ##
 
-# System Update 
+# System Update
 sudo apt update &&
 
-# Ubuntu Software App Store
-sudo apt install -yy gnome-tweaks gparted synaptic gufw hardinfo dconf-editor &&
-
-# Other Apps
-sudo apt install -yy autokey-gtk virtualbox neofetch htop net-tools &&
+# Ubuntu Software App Store (.deb)
+sudo apt install -yy gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg &&
 
 # PPA's Apps from Launchpad
-## Timeshift
-sudo apt-add-repository ppa:teejee2008/ppa -y &&
 ## Adding Papirus Icons
 sudo add-apt-repository ppa:papirus/papirus -y &&
 ## Adding Grub Customizer
@@ -26,10 +21,12 @@ sudo add-apt-repository ppa:git-core/ppa -y &&
 sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y &&
 ## Adding KeePassXC
 sudo add-apt-repository ppa:phoerious/keepassxc -y &&
+## Adding OBS Studio
+sudo add-apt-repository ppa:obsproject/obs-studio -y &&
 ### System Update
 sudo apt update -qq &&
 #### Installing the Programs
-sudo apt install -yy timeshift papirus-icon-theme grub-customizer qbittorrent git cryptomator keepassxc &&
+sudo apt install -yy papirus-icon-theme grub-customizer qbittorrent git cryptomator keepassxc obs-studio &&
 
 # PPA's Apps from Other Sources
 ## Adding Amazon Corretto 11
@@ -37,11 +34,14 @@ wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - sudo add-apt
 ## Adding GitHub Desktop - The Linux Fork
 wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null -yy &&
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list' -yy &&
+## Adding Brave Browser
+sudo apt install apt-transport-https curl gnupg -yy &&
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add - -yy &&
+echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list -yy &&
+### System Update
+sudo apt update -qq &&
 #### Installing the Programs
-sudo apt update &&
-sudo apt install -yy java-common &&
-sudo apt install -yy java-11-amazon-corretto-jdk &&
-sudo apt install -yy github-desktop &&
+sudo apt install -yy java-common java-11-amazon-corretto-jdk github-desktop brave-browser &&
 
 # Snap Apps
 ## IntelliJ IDEA
@@ -79,15 +79,17 @@ gsettings set org.gnome.desktop.notifications show-banners false &&
 sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop &&
 
 # Finishing Things Up
-sudo apt update &&
-sudo apt upgrade -yy &&
-sudo apt dist-upgrade -yy &&
-sudo apt install -f -yy && 
-sudo apt autoremove -yy &&
-sudo apt autoclean -yy && 
+## System Update and Upgrade
+sudo apt update && 
+sudo apt upgrade -y &&
+sudo apt dist-upgrade -y &&
+## System Clean Up
+sudo apt install -f &&
+sudo apt autoremove -y &&
+sudo apt autoclean &&
 sudo apt clean &&
 
 # End of Script
 
 # Display Installation Complete Message
-echo "All done! Please, restart the computer."
+echo "All done! Please, restart the computer and clean your system using BleachBit."

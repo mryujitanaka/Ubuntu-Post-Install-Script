@@ -6,6 +6,13 @@
 sudo apt update && 
 sudo apt upgrade -y &&
 sudo apt dist-upgrade -y &&
+
+# System Backup
+sudo apt-add-repository ppa:teejee2008/ppa -y &&
+sudo apt update &&
+sudo apt install -y timeshift &&
+
+# System Clean Up
 sudo apt install -f &&
 sudo apt autoremove -y &&
 sudo apt autoclean &&
@@ -19,4 +26,4 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # End of Script
 
 # Display Installation Complete Message
-echo "All good now! Please, restart the computer and then run the 2nd Script to install all your Apps."
+echo "All good now! Please, restart the computer, backup your system using Timeshift and then run the 2nd Script to install all your Apps."
