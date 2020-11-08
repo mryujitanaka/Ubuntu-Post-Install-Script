@@ -10,19 +10,19 @@ sudo apt install -yy gnome-tweaks gparted synaptic gufw hardinfo dconf-editor ba
 
 # PPA's Apps from Launchpad
 ## Adding Papirus Icons
-sudo add-apt-repository ppa:papirus/papirus -y &&
+sudo add-apt-repository ppa:papirus/papirus -yy &&
 ## Adding Grub Customizer
-sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y &&
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer -yy &&
 ## Adding qBittorrent
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y &&
+sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -yy &&
 ## Adding Git
-sudo add-apt-repository ppa:git-core/ppa -y &&
+sudo add-apt-repository ppa:git-core/ppa -yy &&
 ## Adding Cryptomator
-sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y &&
+sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -yy &&
 ## Adding KeePassXC
-sudo add-apt-repository ppa:phoerious/keepassxc -y &&
+sudo add-apt-repository ppa:phoerious/keepassxc -yy &&
 ## Adding OBS Studio
-sudo add-apt-repository ppa:obsproject/obs-studio -y &&
+sudo add-apt-repository ppa:obsproject/obs-studio -yy &&
 ### System Update
 sudo apt update -qq &&
 #### Installing the Programs
@@ -81,11 +81,11 @@ sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop &&
 # Finishing Things Up
 ## System Update and Upgrade
 sudo apt update && 
-sudo apt upgrade -y &&
-sudo apt dist-upgrade -y &&
+sudo apt upgrade -yy &&
+sudo apt dist-upgrade -yy &&
 ## System Clean Up
 sudo apt install -f &&
-sudo apt autoremove -y &&
+sudo apt autoremove -yy &&
 sudo apt autoclean &&
 sudo apt clean
 
