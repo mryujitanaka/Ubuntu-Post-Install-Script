@@ -2,6 +2,9 @@
 
 ## Ubuntu Setup ##
 
+# Uninstall Bloatware Apps
+sudo apt --purge remove -yy yelp gnome-logs seahorse &&
+
 # System Update and Upgrade 
 sudo apt update && 
 sudo apt upgrade -y &&
