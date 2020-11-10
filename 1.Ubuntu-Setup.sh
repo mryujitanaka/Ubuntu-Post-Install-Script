@@ -11,7 +11,7 @@ sudo apt upgrade -yy &&
 sudo apt dist-upgrade -yy &&
 
 # System Backup
-sudo apt-add-repository ppa:teejee2008/ppa -yy &&
+sudo apt-add-repository ppa:teejee2008/ppa -yy
 sudo apt update &&
 sudo apt install -yy timeshift &&
 
