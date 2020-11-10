@@ -10,19 +10,19 @@ sudo apt install -yy gnome-tweaks gparted synaptic gufw hardinfo dconf-editor ba
 
 # PPA's Apps from Launchpad
 ## Adding Papirus Icons
-sudo add-apt-repository ppa:papirus/papirus -yy &&
+sudo add-apt-repository ppa:papirus/papirus -yy
 ## Adding Grub Customizer
-sudo add-apt-repository ppa:danielrichter2007/grub-customizer -yy &&
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer -yy
 ## Adding qBittorrent
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -yy &&
+sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -yy
 ## Adding Git
-sudo add-apt-repository ppa:git-core/ppa -yy &&
+sudo add-apt-repository ppa:git-core/ppa -yy
 ## Adding Cryptomator
-sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -yy &&
+sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -yy
 ## Adding KeePassXC
-sudo add-apt-repository ppa:phoerious/keepassxc -yy &&
+sudo add-apt-repository ppa:phoerious/keepassxc -yy
 ## Adding OBS Studio
-sudo add-apt-repository ppa:obsproject/obs-studio -yy &&
+sudo add-apt-repository ppa:obsproject/obs-studio -yy
 ### System Update
 sudo apt update -qq &&
 #### Installing the Programs
@@ -30,14 +30,14 @@ sudo apt install -yy papirus-icon-theme grub-customizer qbittorrent git cryptoma
 
 # PPA's Apps from Other Sources
 ## Adding Amazon Corretto 11
-wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - sudo add-apt-repository 'deb https://apt.corretto.aws stable main' -yy &&
+wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - sudo add-apt-repository 'deb https://apt.corretto.aws stable main' -yy
 ## Adding GitHub Desktop - The Linux Fork
-wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null -yy &&
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list' -yy &&
+wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null -yy
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list' -yy
 ## Adding Brave Browser
-sudo apt install apt-transport-https curl gnupg -yy &&
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add - -yy &&
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list -yy &&
+sudo apt install apt-transport-https curl gnupg -yy
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add - -yy
+echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list -yy
 ### System Update
 sudo apt update -qq &&
 #### Installing the Programs
@@ -45,10 +45,10 @@ sudo apt install -yy java-common java-11-amazon-corretto-jdk github-desktop brav
 
 # Snap Apps
 ## IntelliJ IDEA
-sudo snap install intellij-idea-community --classic -yy &&
+sudo snap install intellij-idea-community --classic
 
 # Flatpak Update
-flatpak update -yy &&
+flatpak update -y
 
 # Flatpak Apps
 ## VLC
