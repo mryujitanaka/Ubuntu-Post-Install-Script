@@ -46,7 +46,7 @@ sudo apt install -yy java-common java-11-amazon-corretto-jdk github-desktop brav
 
 # Snap Apps
 ## IntelliJ IDEA
-sudo snap install intellij-idea-community --classic
+sudo snap install intellij-idea-community --classic &&
 
 # Flatpak Update
 flatpak update -y
