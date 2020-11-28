@@ -26,18 +26,18 @@ This is my **personal Ubuntu post install script** and I sincerely hope that thi
 
 <!-- To Do -->
 ## To Do
-[ ] Finish editing the README
+- [ ] Finish editing the README
 
 Add the programs below to the script to be downloaded:
-[ ] BleachBit
-[ ] Dropbox
-[ ] GoogleChrome
-[ ] LibreOfficeExtensions - LanguageTool
-[ ] Themes - Sweet-Ambar-Blue
-[ ] Themes - Sweet-Dark
-[ ] WordPress
-[ ] XAMPP
-[ ] XtremeDownloadManager
+- [ ] BleachBit
+- [ ] Dropbox
+- [ ] GoogleChrome
+- [ ] LibreOfficeExtensions - LanguageTool
+- [ ] Themes - Sweet-Ambar-Blue
+- [ ] Themes - Sweet-Dark
+- [ ] WordPress
+- [ ] XAMPP
+- [ ] XtremeDownloadManager
 
 <!-- License -->
 ## License
