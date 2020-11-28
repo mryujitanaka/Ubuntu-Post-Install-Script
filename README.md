@@ -33,8 +33,8 @@ Add the programs below to the script to be downloaded:
 - [ ] Dropbox
 - [ ] GoogleChrome
 - [ ] LibreOfficeExtensions - LanguageTool
-- [ ] Themes - Sweet-Ambar-Blue
-- [ ] Themes - Sweet-Dark
+- [ ] Theme - Sweet-Ambar-Blue
+- [ ] Theme - Sweet-Dark
 - [ ] WordPress
 - [ ] XAMPP
 - [ ] XtremeDownloadManager
