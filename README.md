@@ -31,9 +31,20 @@ Distributed under the GPLv3 License. For more information, click [here](https://
 
 <!-- License Logos -->
 <p align = "left">
-    <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/images/GNU-Logo.png">
-    <img src="images/GNU-Logo.png" alt="GNU Logo" width="150" height="150">
-    </a>
+    <tr>
+        <td>
+            <a href="https://www.gnu.org/">
+            <img src="images/GNU-Logo.png" alt="GNU Logo" width="150" height="150">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.gnu.org/licenses/gpl-3.0.html">
+            <img src="images/GPLv3-Logo.png" alt="GNU Logo" width="150" height="150">
+            </a>
+        </td>
+    </tr>
 </p>
 
 <!-- Contact -->
