@@ -41,7 +41,7 @@ Distributed under the GPLv3 License. For more information, click [here](https://
     <tr>
         <td>
             <a href="https://www.gnu.org/licenses/gpl-3.0.html">
-            <img src="images/GPLv3-Logo.png" alt="GNU Logo" width="180" height="150">
+            <img src="images/GPLv3-Logo.png" alt="GNU Logo" width="200" height="150">
             </a>
         </td>
     </tr>
