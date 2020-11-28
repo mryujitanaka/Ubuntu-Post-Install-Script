@@ -57,4 +57,4 @@ Distributed under the GPLv3 License. For more information, click [here](https://
 * [Ubuntu18-setup](https://github.com/ChrisTitusTech/Ubuntu18-setup)
 * [Erro ao baixar programas via Shell Script pelo terminal no Ubuntu](https://plus.diolinux.com.br/t/erro-ao-baixar-programas-via-shell-script-pelo-terminal-no-ubuntu/27328)
 * [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
-*[Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
