@@ -32,7 +32,7 @@ Distributed under the GPLv3 License. For more information, click [here](https://
 <!-- License Logos -->
 <p align = "left">
     <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/images/GNU-Logo.png">
-    <img src="images/GNU-Logo.png" alt="GNU Logo" width="90" height="90">
+    <img src="images/GNU-Logo.png" alt="GNU Logo" width="150" height="150">
     </a>
 </p>
 
