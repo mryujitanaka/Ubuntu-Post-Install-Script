@@ -9,7 +9,6 @@ This is my **personal Ubuntu post install script** and I sincerely hope that thi
 
 <!-- Built With -->
 ### Built With
-
 * [Shell Script](https://en.wikipedia.org/wiki/Shell_script)
 
 <!-- Getting Started -->
@@ -41,9 +40,7 @@ Add the programs below to the script to be downloaded:
 
 <!-- License -->
 ## License
-
 Distributed under the GPLv3 License. For more information, click [here](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/LICENSE).
-
 <!-- License Logos -->
 <p align = "left">
     <tr>
@@ -65,9 +62,8 @@ Distributed under the GPLv3 License. For more information, click [here](https://
 <!-- Contact -->
 ## Contact
 
-<!-- Acknowledgements and References-->
-## Acknowledgements and References
-
+<!-- Acknowledgements-->
+## Acknowledgements
 * [gabrielworkstation](https://github.com/Diolinux/gabrielworkstation)
 * [Ubuntu18-setup](https://github.com/ChrisTitusTech/Ubuntu18-setup)
 * [Erro ao baixar programas via Shell Script pelo terminal no Ubuntu](https://plus.diolinux.com.br/t/erro-ao-baixar-programas-via-shell-script-pelo-terminal-no-ubuntu/27328)
