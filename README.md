@@ -14,8 +14,10 @@
 <p>No more! Automate your processes and optimize your time! Let my script do all the work for you!</p>
 
 <!-- Built With -->
-### Built With
-* [Shell Script](https://en.wikipedia.org/wiki/Shell_script)
+<h2><strong>&#x1F6E0 Built With</strong></h2>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Shell_script">Shell Script</a></li>
+    </ul>
 
 <!-- Getting Started -->
 ## Getting Started
