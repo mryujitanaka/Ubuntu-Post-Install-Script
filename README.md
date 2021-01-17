@@ -29,7 +29,7 @@
 <h3>Prerequisites</h3>
     <ul>
         <li>Have a computer with Ubuntu or any other deb-based Linux distribution installed;</li>
-        <li>Have basic knowledge of Linux.</li>
+        <li>Have basic knowledge of Linux;</li>
         <li>Basic familiarity with the Linux terminal;</li>
         <li>Internet access.</li>
     </ul>
