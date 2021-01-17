@@ -9,9 +9,9 @@
 
 <!-- About The Project -->
 <h2><strong>&#x1F9D0 About the Project</strong></h2>
-<p>This project was created specifically to meet my needs after installing Ubuntu on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for me. So I thought: "why not share it with the world?".</p>
-<p>I bet you must have already wasted a lot of time downloading all your programs again after formatting your PC, right? You need to download a more updated program and so on... YUCK!</p>
-<p>No more! Automate your processes and optimize your time! Let my script do all the work for you!</p>
+    <p>This project was created specifically to meet my needs after installing Ubuntu on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for me. So I thought: "why not share it with the world?".</p>
+    <p>I bet you must have already wasted a lot of time downloading all your programs again after formatting your PC, right? You need to download a more updated program and so on... YUCK!</p>
+    <p>No more! Automate your processes and optimize your time! Let my script do all the work for you!</p>
 
 <!-- Built With -->
 <h2><strong>&#x1F6E0 Built With</strong></h2>
@@ -20,13 +20,16 @@
     </ul>
 
 <!-- Getting Started -->
-## Getting Started
+<h2><strong>&#x1F3C1 Getting Started</strong></h2>
+    <p>This project contains two .sh files:</p>
+    <p>"1.Ubuntu-Setup.sh" and "2.Apps-to-Install.sh".</p>
+    <p>This means that you must first run the first file and then the second.</p>
 
 <!-- Prerequisites -->
 ### Prerequisites
 
 <!-- Usage Examples -->
-## Usage
+### Usage
 
 <!-- Contributing -->
 ## Contributing
