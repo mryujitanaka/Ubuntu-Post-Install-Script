@@ -1,11 +1,19 @@
-<!-- Greetings -->
-# Ubuntu Post Install Script
-Hey there! Thank you for accessing this repository. :blush:
- 
-This is my **personal Ubuntu post install script** and I sincerely hope that this project helps you as much as it helped me to automate my life. :nerd_face:
+<!-- Heading -->
+<h1 align="center">Ubuntu Post Install Script</h1>
+    <p align="center">My personal<em>Ubuntu post install script</em>that I use to update packages and install my favorite programs</p>
+<br>
+
+---
+
+<br>
 
 <!-- About The Project -->
 ## About The Project
+This project was created specifically to meet my needs after installing Ubuntu on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for me. So I thought: "why not share it with the world?".
+
+I bet you must have already wasted a lot of time downloading all your programs again after formatting your PC, right? You need to download a more updated program and so on... YUCK!
+
+No more! Automate your processes and optimize your time! Let my script do all the work for you!
 
 <!-- Built With -->
 ### Built With
