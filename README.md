@@ -55,7 +55,7 @@ When the 2nd script is finished, restart your PC again.
 That's it! Now just test the programs that were automatically downloaded to your computer!
 
 ### Notes
-The scripts were created specifically to meet my needs. So, if you want to change them to suit yours and/or share them with others, you can according to the license of this project.
+The scripts were created specifically to meet my needs. So, if you want to change them to suit yours and/or share them with others, you can according to the [license](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script#license) of this project.
 
 Before running the scripts, I strongly recommend that you study them and observe what they will update/install on your computer.
 
