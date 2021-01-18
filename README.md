@@ -36,7 +36,7 @@
 
 <!-- Usage Examples -->
 ### Usage
-First, download the two .sh files
+First, download the two .sh files.
 
 Then give the files permission to run as programs.
 
