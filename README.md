@@ -68,7 +68,9 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 <!-- To Do -->
 ## To Do
-- [ ] Finish editing the README
+- [ ] Finish editing the README.
+
+- [ ] Enable the maximum performance of the NVIDIA card via terminal commands.
 
 Add the programs below to the script to be downloaded:
 - [ ] BleachBit
