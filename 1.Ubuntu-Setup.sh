@@ -3,7 +3,7 @@
 ## Ubuntu Setup ##
 
 # Uninstall Bloatware Apps
-sudo apt --purge remove -y yelp gnome-logs seahorse
+sudo apt --purge remove -y yelp* gnome-logs seahorse gnome-contacts geary libreoffice* gnome-weather ibus-mozc mozc-utils-gui gucharmap simple-scan popsicle popsicle-gtk totem*
 
 # System Update and Upgrade
 sudo apt update
