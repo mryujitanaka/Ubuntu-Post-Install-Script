@@ -68,6 +68,8 @@ flatpak install flathub org.gnome.meld -y
 flatpak install flathub org.audacityteam.Audacity -y
 ## Visual Studio Code
 flatpak install flathub com.visualstudio.code -y
+## IntelliJ IDEA
+### flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
