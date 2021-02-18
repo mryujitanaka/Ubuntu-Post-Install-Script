@@ -46,7 +46,7 @@ sudo apt install -y java-common java-11-amazon-corretto-jdk github-desktop brave
 
 # Snap Apps
 ## IntelliJ IDEA
-sudo snap install intellij-idea-community --classic
+### sudo snap install intellij-idea-community --classic
 
 # Flatpak Update
 flatpak update -y
@@ -68,8 +68,6 @@ flatpak install flathub org.gnome.meld -y
 flatpak install flathub org.audacityteam.Audacity -y
 ## Visual Studio Code
 flatpak install flathub com.visualstudio.code -y
-## IntelliJ IDEA
-### flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
