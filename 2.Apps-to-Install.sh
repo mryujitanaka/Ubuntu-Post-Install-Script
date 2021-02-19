@@ -6,7 +6,7 @@
 sudo apt update
 
 # Ubuntu Software App Store
-sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg clamav clamav-daemon libclamunrar9
+sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg clamav clamav-daemon libclamunrar9 ttf-mscorefonts-installer
 
 # PPA's Apps from Launchpad
 ## Adding Papirus Icons
