@@ -6,7 +6,7 @@
 sudo apt update
 
 # Ubuntu Software App Store
-sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg clamav clamav-daemon libclamunrar9 ttf-mscorefonts-installer
+sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg clamav clamav-daemon libclamunrar9 ttf-mscorefonts-installer flameshot
 
 # PPA's Apps from Launchpad
 ## Adding Papirus Icons
@@ -33,8 +33,8 @@ sudo apt install -y papirus-icon-theme grub-customizer qbittorrent git cryptomat
 wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 ## Adding GitHub Desktop - The Linux Fork
-wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
+### wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
+### sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 ## Adding Brave Browser
 sudo apt install apt-transport-https curl gnupg
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
@@ -42,7 +42,7 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 ### System Update
 sudo apt update -qq
 #### Installing the Programs
-sudo apt install -y java-common java-11-amazon-corretto-jdk github-desktop brave-browser
+sudo apt install -y java-common java-11-amazon-corretto-jdk brave-browser
 
 # Snap Apps
 ## IntelliJ IDEA
