@@ -10,7 +10,7 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt dist-upgrade -y
 
-# Activate the lines below by removing the comments (###) if you want Timeshift to be installed.
+# Activate the lines below by removing the comments (###) that are in front of the lines that start with sudo, if you want Timeshift to be installed.
 ## System Backup
 ### sudo apt-add-repository ppa:teejee2008/ppa -y
 ### sudo apt update
@@ -22,7 +22,7 @@ sudo apt autoremove -y
 sudo apt autoclean
 sudo apt clean
 
-# Activate the lines below by removing the comments (###) if you want Flatpak to be installed on your PC. Check beforehand if your Operating System already supports program installations via flatpak.
+# Activate the lines below by removing the comments (###) that are in front of the lines that start with sudo and flatpak remote-add, if you want Flatpak to be installed on your PC. Check beforehand if your Operating System already supports Flatpak.
 ## Flatpak Support
 ### sudo apt install -y flatpak
 ### sudo apt install -y gnome-software-plugin-flatpak

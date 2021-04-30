@@ -19,7 +19,7 @@ sudo add-apt-repository ppa:git-core/ppa -y
 sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y
 ## Adding KeePassXC
 sudo add-apt-repository ppa:phoerious/keepassxc -y
-# If you want to install OBS Studio and / or Grub Customizer on your PC, disable the comments (####) and add after the line "#### Installing the Programs", obs-studio and grub-customizer to be installed with the other apps.
+# If you want to install OBS Studio and / or Grub Customizer on your PC, disable the comments (###) that are in front of the lines that start with sudo, and add after the line "#### Installing the Programs" obs-studio and grub-customizer to be installed.
 ## Adding OBS Studio
 ### sudo add-apt-repository ppa:obsproject/obs-studio -y
 ## Adding Grub Customizer
@@ -47,7 +47,7 @@ sudo apt update -qq
 #### Installing the Programs
 sudo apt install -y java-common java-11-amazon-corretto-jdk brave-browser
 
-# If your system is compatible with Snap technology, disable commenting (###).
+# If your system is compatible with Snap technology, disable commenting (###) to install IntelliJ IDEA.
 # Snap Apps
 ## IntelliJ IDEA
 ### sudo snap install intellij-idea-community --classic
