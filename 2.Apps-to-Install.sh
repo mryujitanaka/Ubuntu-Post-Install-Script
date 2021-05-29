@@ -5,7 +5,7 @@
 # System Update
 sudo apt update
 
-# Ubuntu Software App Store
+# Ubuntu & Pop!_OS Apps
 sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg clamav clamav-daemon libclamunrar9 ttf-mscorefonts-installer flameshot
 
 # PPA's Apps from Launchpad
@@ -34,9 +34,9 @@ sudo apt install -y papirus-icon-theme qbittorrent git cryptomator keepassxc
 wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 ## Adding Brave Browser
-sudo apt install apt-transport-https curl gnupg
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt install apt-transport-https curl
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 # The GitHub Desktop PPA is not working to add to the system at this time. Try going to the developer's repository and download the latest version compatible with your OS.
 # If you decide to try to install GitHub Desktop anyway, remove the comments (###) that are in front of the lines that start with wget and sudo, and add github-desktop after the line "#### Installing the Programs".
 ## Adding GitHub Desktop - The Linux Fork
@@ -52,8 +52,9 @@ sudo apt install -y java-common java-11-amazon-corretto-jdk brave-browser
 ## IntelliJ IDEA
 ### sudo snap install intellij-idea-community --classic
 
+# Activate the lines below by removing the comments (##) that are in front of the lines that start with flatpak, if you want Flatpak to be updated on your PC.
 # Flatpak Update
-flatpak update -y
+## flatpak update -y
 
 # Flatpak Apps
 ## VLC
