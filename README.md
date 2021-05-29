@@ -1,6 +1,6 @@
 <!-- Heading -->
 <h1 align="center">Ubuntu Post Install Script</h1>
-    <p align="center">My personal <em>Ubuntu post install script</em> that I use to update packages and install my favorite programs &#x1F913&#x1F596</p>
+    <p align="center">My personal <em>Ubuntu (and Pop!_OS) post install script</em> that I use to update packages and install my favorite programs &#x1F913&#x1F596</p>
 <br>
 
 ---
@@ -9,7 +9,7 @@
 
 <!-- About The Project -->
 <h2><strong>&#x1F9D0 About the Project</strong></h2>
-    <p>This project was created specifically to meet my needs after installing Ubuntu on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for me. So I thought: "why not share it with the world?".</p>
+    <p>This project was created specifically to meet my needs after installing Ubuntu (or Pop!_OS) on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for myself. So I thought: "why not share it with the world?".</p>
     <p>I bet you must have already wasted a lot of time downloading all your programs again after formatting your PC, right? You need to download a more updated program and so on... YUCK!</p>
     <p>No more! Automate your processes and optimize your time! Let my script do all the work for you!</p>
 
@@ -28,7 +28,7 @@
 <!-- Prerequisites -->
 <h3>Prerequisites</h3>
     <ul>
-        <li>Have a computer with Ubuntu or any other deb-based Linux distribution installed;</li>
+        <li>Have a computer with Ubuntu or Pop!_OS distribution installed;</li>
         <li>Have basic knowledge of Linux;</li>
         <li>Basic familiarity with the Linux terminal;</li>
         <li>Internet access.</li>
