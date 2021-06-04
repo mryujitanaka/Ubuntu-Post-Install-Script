@@ -69,17 +69,13 @@ Improvements are always welcome, but they are only possible if you contribute in
 
 <!-- To Do -->
 ## To Do
-- [ ] Finish editing the README.
-
-- [ ] Enable the maximum performance of the NVIDIA card via terminal commands.
-
 Add the programs below to the script to be downloaded:
 - [ ] BleachBit
 - [ ] Dropbox
 - [ ] GoogleChrome
 - [ ] LibreOfficeExtensions - LanguageTool
-- [ ] Theme - Sweet-Ambar-Blue
-- [ ] Theme - Sweet-Dark
+- [ ] Sweet-Ambar-Blue Theme
+- [ ] Sweet-Dark Theme
 - [ ] WordPress
 - [ ] XAMPP
 - [ ] XtremeDownloadManager
@@ -107,6 +103,7 @@ Distributed under the GPLv3 License. For more information, click [here](https://
 
 <!-- Contact -->
 ## Contact
+Although my personal website is not ready yet, you can speak to me directly through this email: contact@yujisremarks.com
 
 <!-- Acknowledgements-->
 ## Acknowledgements
