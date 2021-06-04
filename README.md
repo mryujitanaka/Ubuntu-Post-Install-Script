@@ -62,11 +62,11 @@ Before running the scripts, I strongly recommend that you study them and observe
 I am not responsible for possible errors that may occur on your computer. Keep in mind that you are fully responsible for your actions from the moment you download any files or clone this repository.
 
 <!-- Contributing -->
-## Contributing
+<h2><strong>&#128200;&#129309; Contributing</strong></h2>
 Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy! If you found any errors in this project, click [here](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/issues).
 
 <!-- To Do -->
-## To Do
+<h2><strong>&#128221; To Do</strong></h2>
 Add the programs below to the script to be downloaded:
 - [ ] BleachBit
 - [ ] Dropbox
@@ -79,7 +79,7 @@ Add the programs below to the script to be downloaded:
 - [ ] XtremeDownloadManager
 
 <!-- License -->
-## License
+<h2><strong>&#9878; License</strong></h2>
 Distributed under the GPLv3 License. For more information, click [here](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/LICENSE).
 <!-- License Logos -->
 <p align = "left">
@@ -100,11 +100,11 @@ Distributed under the GPLv3 License. For more information, click [here](https://
 </p>
 
 <!-- Contact -->
-## Contact
+<h2><strong>&#128421; Contact</strong></h2>
 Although my personal website is not ready yet, you can speak to me directly through this email: contact@yujisremarks.com
 
 <!-- Acknowledgements-->
-## Acknowledgements
+<h2><strong>&#129392; Acknowledgements</strong></h2>
 * [gabrielworkstation](https://github.com/Diolinux/gabrielworkstation)
 * [Ubuntu18-setup](https://github.com/ChrisTitusTech/Ubuntu18-setup)
 * [Erro ao baixar programas via Shell Script pelo terminal no Ubuntu](https://plus.diolinux.com.br/t/erro-ao-baixar-programas-via-shell-script-pelo-terminal-no-ubuntu/27328)
