@@ -36,13 +36,11 @@
 
 <!-- Usage Examples -->
 ### Usage
-&#128073; First, download the two .sh files.
+&#128073; First, [download](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/archive/refs/heads/master.zip) the files.
 
-&#128073; Then give the files permission to run as programs.
+&#128073; Then extract the .sh files.
 
-&#9888; If you don't know how to allow a file to run as a program, click [here](https://askubuntu.com/questions/484718/how-to-make-a-file-executable#:~:text=There%20are%20two%20ways%20of,Allow%20executing%20file%20as%20program.&text=Note%20that%20chmod%20does%20also%20have%20some%20more%20advanced%20options.).
-
-&#128073; After giving permission to the files, first run the 1.Ubuntu-Setup.sh script on your terminal.
+&#128073; After extracting the .sh files, first run the 1.Setup.sh script on your terminal.
 
 &#9888; If you don't know how to run a .sh file on the terminal, click [here](https://askubuntu.com/questions/38661/how-do-i-run-sh-scripts).
 
