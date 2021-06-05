@@ -6,7 +6,7 @@
 sudo apt update
 
 # Ubuntu & Pop!_OS Apps
-sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg clamav clamav-daemon libclamunrar9 ttf-mscorefonts-installer flameshot
+sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg clamav clamav-daemon libclamunrar9 ttf-mscorefonts-installer flameshot grub-customizer
 
 # PPA's Apps from Launchpad
 ## Adding Papirus Icons
@@ -19,11 +19,9 @@ sudo add-apt-repository ppa:git-core/ppa -y
 sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y
 ## Adding KeePassXC
 sudo add-apt-repository ppa:phoerious/keepassxc -y
-# If you want to install OBS Studio and / or Grub Customizer on your PC, disable the comments (###) that are in front of the lines that start with sudo, and add after the line "#### Installing the Programs" obs-studio and grub-customizer to be installed.
+# If you want to install OBS Studio on your PC, disable the comments (###) that are in front of the lines that start with sudo, and add after the line "#### Installing the Programs" obs-studio to be installed.
 ## Adding OBS Studio
 ### sudo add-apt-repository ppa:obsproject/obs-studio -y
-## Adding Grub Customizer
-### sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
 ### System Update
 sudo apt update -qq
 #### Installing the Programs
@@ -52,9 +50,8 @@ sudo apt install -y java-common java-11-amazon-corretto-jdk brave-browser
 ## IntelliJ IDEA
 ### sudo snap install intellij-idea-community --classic
 
-# Activate the lines below by removing the comments (##) that are in front of the lines that start with flatpak, if you want Flatpak to be updated on your PC.
 # Flatpak Update
-## flatpak update -y
+flatpak update -y
 
 # Flatpak Apps
 ## VLC
@@ -96,4 +93,5 @@ sudo apt clean
 # End of Script
 
 # Display Installation Complete Message
-echo "All done :) Please, restart the computer, clean up your system using BleachBit (if you want) and then restart the computer again."
+echo "All done :)" 
+echo "Please, restart the computer, clean up your system using BleachBit (if you want) and then restart the computer again."
