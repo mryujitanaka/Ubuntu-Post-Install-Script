@@ -66,16 +66,16 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 <!-- To Do -->
 <h2><strong>&#128221; To Do</strong></h2>
-Add the programs below to the script to be downloaded:
-- [ ] BleachBit
-- [ ] Dropbox
-- [ ] GoogleChrome
-- [ ] LibreOfficeExtensions - LanguageTool
-- [ ] Sweet-Ambar-Blue Theme
-- [ ] Sweet-Dark Theme
-- [ ] WordPress
-- [ ] XAMPP
-- [ ] XtremeDownloadManager
+<p>Add the programs below to the script to be downloaded:</p>
+<p>&#9725; BleachBit</p>
+<p>&#9725; Dropbox</p>
+<p>&#9725; GoogleChrome</p>
+<p>&#9725; LibreOfficeExtensions - LanguageTool</p>
+<p>&#9725; Sweet-Ambar-Blue Theme</p>
+<p>&#9725; Sweet-Dark Theme</p>
+<p>&#9725; WordPress</p>
+<p>&#9725; XAMPP</p>
+<p>&#9725; XtremeDownloadManager</p>
 
 <!-- License -->
 <h2><strong>&#9878; License</strong></h2>
