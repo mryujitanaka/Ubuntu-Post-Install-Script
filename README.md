@@ -21,8 +21,7 @@
 
 <!-- Getting Started -->
 <h2><strong>&#x1F3C1 Getting Started</strong></h2>
-    <p>This project contains two .sh files:</p>
-    <p>"1.Setup.sh" and "2.Apps-to-Install.sh".</p>
+    <p>This project contains two .sh files: "1.Setup.sh" and "2.Apps-to-Install.sh".</p>
     <p>This means that you must first run the 1st file and then the 2nd.</p>
 
 <!-- Prerequisites -->
