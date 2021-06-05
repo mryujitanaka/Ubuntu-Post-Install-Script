@@ -100,7 +100,8 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 <!-- Contact -->
 <h2><strong>&#128421; Contact</strong></h2>
-<p>Although my personal website is not ready yet, you can speak to me directly through this email: contact@yujisremarks.com</p>
+<p>&#128231; contact@yujisremarks.com</p>
+<p>&#127760; <a href="https://linktr.ee/vyujitanaka">interwebs</a></p>
 
 <!-- Acknowledgements-->
 <h2><strong>&#129392; Acknowledgements</strong></h2>
