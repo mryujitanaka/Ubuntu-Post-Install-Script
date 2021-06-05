@@ -31,4 +31,5 @@ sudo apt clean
 # End of Script
 
 # Display Installation Complete Message
-echo "All good now :) Please, restart the computer, backup your system using Timeshift (if you installed it) and then run the 2nd Script to install all your Apps."
+echo "All good now :)" 
+echo "Please, restart the computer, backup your system using Timeshift (if you installed it) and then run the 2nd Script to install all your Apps."
