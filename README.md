@@ -21,7 +21,7 @@
 
 <!-- Getting Started -->
 <h2><strong>&#x1F3C1 Getting Started</strong></h2>
-    <p>This project contains two .sh files: "1.Setup.sh" and "2.Apps-to-Install.sh".</p>
+    <p>This project contains two .sh files: <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/1.Setup.sh">1.Setup.sh</a> and <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/2.Apps-to-Install.sh">2.Apps-to-Install.sh</a>.</p>
     <p>This means that you must first run the 1st file and then the 2nd.</p>
 
 <!-- Prerequisites -->
