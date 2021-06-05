@@ -79,7 +79,7 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 <!-- License -->
 <h2><strong>&#9878; License</strong></h2>
-Distributed under the GPLv3 License. For more information, click [here](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/LICENSE).
+<p>Distributed under the GPLv3 License. For more information, click <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/LICENSE">here</a>.<p>
 <!-- License Logos -->
 <p align = "left">
     <tr>
