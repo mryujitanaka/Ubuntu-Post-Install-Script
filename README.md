@@ -62,7 +62,7 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 <!-- Contributing -->
 <h2><strong>&#128200;&#129309; Contributing</strong></h2>
-Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy! If you found any errors in this project, click [here](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/issues).
+<p>Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy! If you found any errors in this project, click <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/issues">here</a>.</p>
 
 <!-- To Do -->
 <h2><strong>&#128221; To Do</strong></h2>
