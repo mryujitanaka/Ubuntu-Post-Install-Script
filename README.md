@@ -100,12 +100,14 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 <!-- Contact -->
 <h2><strong>&#128421; Contact</strong></h2>
-Although my personal website is not ready yet, you can speak to me directly through this email: contact@yujisremarks.com
+<p>Although my personal website is not ready yet, you can speak to me directly through this email: contact@yujisremarks.com</p>
 
 <!-- Acknowledgements-->
 <h2><strong>&#129392; Acknowledgements</strong></h2>
-* [gabrielworkstation](https://github.com/Diolinux/gabrielworkstation)
-* [Ubuntu18-setup](https://github.com/ChrisTitusTech/Ubuntu18-setup)
-* [Erro ao baixar programas via Shell Script pelo terminal no Ubuntu](https://plus.diolinux.com.br/t/erro-ao-baixar-programas-via-shell-script-pelo-terminal-no-ubuntu/27328)
-* [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+    <ul>
+        <li><a href="https://github.com/Diolinux/gabrielworkstation">gabrielworkstation</a></li>
+        <li><a href="https://github.com/ChrisTitusTech/Ubuntu18-setup">Ubuntu18-setup</a></li>
+        <li><a href="https://plus.diolinux.com.br/t/erro-ao-baixar-programas-via-shell-script-pelo-terminal-no-ubuntu/27328">Erro ao baixar programas via Shell Script pelo terminal no Ubuntu</a></li>
+        <li><a href="https://github.com/ikatyang/emoji-cheat-sheet">emoji-cheat-sheet</a></li>
+        <li><a href="https://github.com/othneildrew/Best-README-Template">Best-README-Template</a></li>
+    </ul>
