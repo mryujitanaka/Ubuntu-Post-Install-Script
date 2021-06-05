@@ -67,7 +67,7 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 <!-- To Do -->
 <h2><strong>&#128221; To Do</strong></h2>
 <p>Add the programs below to the script to be downloaded:</p>
-<p>&#9725; BleachBit</p>
+<p>&#9723; BleachBit</p>
 <p>&#9725; Dropbox</p>
 <p>&#9725; GoogleChrome</p>
 <p>&#9725; LibreOfficeExtensions - LanguageTool</p>
