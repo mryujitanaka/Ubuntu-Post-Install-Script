@@ -76,6 +76,8 @@ flatpak uninstall --unused -y
 # Some Other Settings
 ## Permanently enable Do Not Disturb (No Notifications)
 gsettings set org.gnome.desktop.notifications show-banners false
+## Permanently disable Bluetooth
+sudo systemctl disable bluetooth.service
 ## Enable Hidden Startup Programs
 sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
 
