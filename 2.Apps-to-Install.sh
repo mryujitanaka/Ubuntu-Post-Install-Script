@@ -1,6 +1,8 @@
 #!/bin/bash
 
-## Apps to Install ##
+###################
+# Apps to Install #
+###################
 
 # System Update
 sudo apt update
@@ -19,7 +21,6 @@ sudo add-apt-repository ppa:git-core/ppa -y
 sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y
 ## Adding KeePassXC
 sudo add-apt-repository ppa:phoerious/keepassxc -y
-# If you want to install OBS Studio on your PC, disable the comments (###) that are in front of the lines that start with sudo, and add after the line "#### Installing the Programs" obs-studio to be installed.
 ## Adding OBS Studio
 ### sudo add-apt-repository ppa:obsproject/obs-studio -y
 ### System Update
@@ -35,8 +36,6 @@ sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-# The GitHub Desktop PPA is not working to add to the system at this time. Try going to the developer's repository and download the latest version compatible with your OS.
-# If you decide to try to install GitHub Desktop anyway, remove the comments (###) that are in front of the lines that start with wget and sudo, and add github-desktop after the line "#### Installing the Programs".
 ## Adding GitHub Desktop - The Linux Fork
 ### wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
 ### sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
@@ -45,8 +44,6 @@ sudo apt update -qq
 #### Installing the Programs
 sudo apt install -y java-common java-11-amazon-corretto-jdk brave-browser
 
-# If your system is compatible with Snap technology, disable commenting (###) to install IntelliJ IDEA.
-# Snap Apps
 ## IntelliJ IDEA
 ### sudo snap install intellij-idea-community --classic
 

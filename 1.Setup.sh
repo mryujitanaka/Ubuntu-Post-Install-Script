@@ -1,6 +1,8 @@
 #!/bin/bash
 
-## Ubuntu & Pop!_OS Setup ##
+###########################
+# Ubuntu & Pop!_OS Setup #
+##########################
 
 # Uninstall Bloatware Apps
 sudo apt --purge remove -y yelp* gnome-logs seahorse gnome-contacts geary libreoffice* gnome-weather ibus-mozc mozc-utils-gui gucharmap simple-scan popsicle popsicle-gtk totem*
@@ -10,11 +12,10 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt dist-upgrade -y
 
-# Activate the lines below by removing the comments (###) that are in front of the lines that start with sudo, if you want Timeshift to be installed.
-## System Backup
-### sudo apt-add-repository ppa:teejee2008/ppa -y
-### sudo apt update
-### sudo apt install -y timeshift
+# System Backup
+## sudo apt-add-repository ppa:teejee2008/ppa -y
+## sudo apt update
+## sudo apt install -y timeshift
 
 # System Clean Up
 sudo apt install -f
@@ -22,11 +23,10 @@ sudo apt autoremove -y
 sudo apt autoclean
 sudo apt clean
 
-# Activate the lines below by removing the comments (###) that are in front of the lines that start with sudo and flatpak remote-add, if you want Flatpak to be installed on your PC. Check beforehand if your Operating System already supports Flatpak.
-## Flatpak Support
-### sudo apt install -y flatpak
-### sudo apt install -y gnome-software-plugin-flatpak
-### flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+# Flatpak Support
+## sudo apt install -y flatpak
+## sudo apt install -y gnome-software-plugin-flatpak
+## flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # End of Script
 
