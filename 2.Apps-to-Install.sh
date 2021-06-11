@@ -63,8 +63,6 @@ flatpak install flathub org.gimp.GIMP -y
 flatpak install flathub org.gnome.meld -y
 ## Audacity
 flatpak install flathub org.audacityteam.Audacity -y
-## Visual Studio Code
-flatpak install flathub com.visualstudio.code -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
