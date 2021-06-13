@@ -42,7 +42,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 ### System Update
 sudo apt update -qq
 #### Installing the Programs
-sudo apt install -y java-common java-11-amazon-corretto-jdk brave-browser
+sudo apt install -y java-common java-11-amazon-corretto-jdk default-jre brave-browser
 
 ## IntelliJ IDEA
 ### sudo snap install intellij-idea-community --classic
