@@ -81,8 +81,8 @@ sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
 # Finishing Things Up
 ## System Update and Upgrade
 sudo apt update 
-sudo apt upgrade -y
-sudo apt dist-upgrade -y
+sudo apt upgrade --allow-downgrades -y
+sudo apt full-upgrade --allow-downgrades -y
 ## System Clean Up
 sudo apt install -f
 sudo apt autoremove -y

@@ -9,8 +9,8 @@ sudo apt --purge remove -y yelp* gnome-logs seahorse gnome-contacts geary libreo
 
 # System Update and Upgrade
 sudo apt update
-sudo apt upgrade -y
-sudo apt dist-upgrade -y
+sudo apt upgrade --allow-downgrades -y
+sudo apt full-upgrade --allow-downgrades -y
 
 # System Backup
 ## sudo apt-add-repository ppa:teejee2008/ppa -y
