@@ -11,7 +11,7 @@ sudo apt update
 sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg ttf-mscorefonts-installer flameshot adb grub-customizer vlc
 # Open Collaboration Services (ocs-url) Support
 sudo apt install -y libqt5svg5 qml-module-qtquick-controls
-sudo dpkg -i /path/to/ocs-url*.deb 
+sudo dpkg -i /path/to/ocs-url*.deb
 # Other apps:
 ## clamav clamav-daemon libclamunrar9
 
