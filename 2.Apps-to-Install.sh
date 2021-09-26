@@ -8,7 +8,10 @@
 sudo apt update
 
 # Ubuntu & Pop!_OS Apps
-sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg ttf-mscorefonts-installer flameshot adb
+sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg ttf-mscorefonts-installer flameshot adb vlc
+# Open Collaboration Services (ocs-url) Support
+sudo apt install -y libqt5svg5 qml-module-qtquick-controls
+sudo dpkg -i /path/to/ocs-url*.deb 
 # Other apps:
 ## clamav clamav-daemon libclamunrar9 grub-customizer
 
@@ -32,19 +35,18 @@ sudo apt install -y papirus-icon-theme qbittorrent git cryptomator keepassxc
 
 # PPA's Apps from Other Sources
 ## Adding Amazon Corretto 11
-wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
-sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
+### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
+### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 ## Adding Brave Browser
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-## Adding GitHub Desktop - The Linux Fork
-### wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null
-### sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 ### System Update
 sudo apt update -qq
+#### Will not be installed
+##### sudo apt install -y java-common java-11-amazon-corretto-jdk default-jre
 #### Installing the Programs
-sudo apt install -y java-common java-11-amazon-corretto-jdk default-jre brave-browser
+sudo apt install -y brave-browser
 
 ## IntelliJ IDEA
 ### sudo snap install intellij-idea-community --classic
@@ -53,8 +55,6 @@ sudo apt install -y java-common java-11-amazon-corretto-jdk default-jre brave-br
 flatpak update -y
 
 # Flatpak Apps
-## VLC
-flatpak install flathub org.videolan.VLC -y
 ## AnyDesk
 flatpak install flathub com.anydesk.Anydesk -y
 ## Tor Browser
