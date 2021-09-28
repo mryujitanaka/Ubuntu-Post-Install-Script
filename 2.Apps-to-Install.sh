@@ -8,12 +8,32 @@
 sudo apt update
 
 # Ubuntu & Pop!_OS Apps
-sudo apt install -y gnome-tweaks gparted synaptic gufw hardinfo dconf-editor baobab autokey-gtk virtualbox neofetch htop net-tools ffmpeg ttf-mscorefonts-installer flameshot adb grub-customizer vlc
+sudo apt install -y gnome-tweaks
+sudo apt install -y gparted
+sudo apt install -y synaptic
+sudo apt install -y gufw
+sudo apt install -y hardinfo
+sudo apt install -y dconf-editor
+sudo apt install -y baobab
+sudo apt install -y autokey-gtk
+sudo apt install -y virtualbox
+sudo apt install -y neofetch
+sudo apt install -y htop
+sudo apt install -y net-tools
+sudo apt install -y ffmpeg
+sudo apt install -y ttf-mscorefonts-installer
+sudo apt install -y flameshot
+sudo apt install -y adb
+sudo apt install -y grub-customizer
+sudo apt install -y vlc
 # Open Collaboration Services (ocs-url) Support
-sudo apt install -y libqt5svg5 qml-module-qtquick-controls
+sudo apt install -y libqt5svg5
+sudo apt install -y qml-module-qtquick-controls
 sudo dpkg -i /path/to/ocs-url*.deb
 # Other apps:
-## clamav clamav-daemon libclamunrar9
+## sudo apt install -y clamav
+## sudo apt install -y clamav-daemon
+## sudo apt install -y libclamunrar9
 
 # PPA's Apps from Launchpad
 ## Adding Papirus Icons
@@ -31,7 +51,11 @@ sudo add-apt-repository ppa:phoerious/keepassxc -y
 ### System Update
 sudo apt update -qq
 #### Installing the Programs
-sudo apt install -y papirus-icon-theme qbittorrent git cryptomator keepassxc
+sudo apt install -y papirus-icon-theme
+sudo apt install -y qbittorrent
+sudo apt install -y git
+sudo apt install -y cryptomator
+sudo apt install -y keepassxc
 
 # PPA's Apps from Other Sources
 ## Adding Amazon Corretto 11
@@ -44,7 +68,9 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 ### System Update
 sudo apt update -qq
 #### Will not be installed
-##### sudo apt install -y java-common java-11-amazon-corretto-jdk default-jre
+##### sudo apt install -y java-common
+##### sudo apt install -y java-11-amazon-corretto-jdk
+##### sudo apt install -y default-jre
 #### Installing the Programs
 sudo apt install -y brave-browser
 
