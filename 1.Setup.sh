@@ -5,7 +5,43 @@
 ##########################
 
 # Uninstall Bloatware Apps
-sudo apt --purge remove -y yelp* gnome-logs seahorse gnome-contacts geary libreoffice* gnome-weather ibus-mozc mozc-utils-gui gucharmap simple-scan popsicle popsicle-gtk totem* sticky redshift* drawing hexchat* thunderbird* transmission* transmission-gtk* transmission-common* webapp-manager celluloid hypnotix rhythmbox* librhythmbox-core10* rhythmbox-data mintbackup mintreport
+sudo apt --purge remove -y yelp*
+sudo apt --purge remove -y gnome-logs
+sudo apt --purge remove -y seahorse
+sudo apt --purge remove -y gnome-contacts
+sudo apt --purge remove -y geary
+sudo apt --purge remove -y libreoffice*
+sudo apt --purge remove -y gnome-weather
+sudo apt --purge remove -y ibus-mozc
+sudo apt --purge remove -y mozc-utils-gui
+sudo apt --purge remove -y gucharmap
+sudo apt --purge remove -y simple-scan
+sudo apt --purge remove -y popsicle
+sudo apt --purge remove -y popsicle-gtk
+sudo apt --purge remove -y totem*
+sudo apt --purge remove -y lm-sensors*
+sudo apt --purge remove -y xfburn
+sudo apt --purge remove -y xsane*
+sudo apt --purge remove -y hv3
+sudo apt --purge remove -y exfalso
+sudo apt --purge remove -y parole
+sudo apt --purge remove -y quodlibet
+sudo apt --purge remove -y xterm
+sudo apt --purge remove -y redshift*
+sudo apt --purge remove -y drawing
+sudo apt --purge remove -y hexchat*
+sudo apt --purge remove -y thunderbird*
+sudo apt --purge remove -y transmission*
+sudo apt --purge remove -y transmission-gtk*
+sudo apt --purge remove -y transmission-common*
+sudo apt --purge remove -y webapp-manager
+sudo apt --purge remove -y celluloid
+sudo apt --purge remove -y hypnotix
+sudo apt --purge remove -y rhythmbox*
+sudo apt --purge remove -y librhythmbox-core10*
+sudo apt --purge remove -y rhythmbox-data
+sudo apt --purge remove -y mintbackup
+sudo apt --purge remove -y mintreport
 
 # System Update and Upgrade
 sudo apt update
