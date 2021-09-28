@@ -5,7 +5,7 @@
 ##########################
 
 # Uninstall Bloatware Apps
-sudo apt --purge remove -y yelp* gnome-logs seahorse gnome-contacts geary libreoffice* gnome-weather ibus-mozc mozc-utils-gui gucharmap simple-scan popsicle popsicle-gtk totem*
+sudo apt --purge remove -y yelp* gnome-logs seahorse gnome-contacts geary libreoffice* gnome-weather ibus-mozc mozc-utils-gui gucharmap simple-scan popsicle popsicle-gtk totem* sticky redshift* drawing hexchat* thunderbird* transmission* transmission-gtk* transmission-common* webapp-manager celluloid hypnotix rhythmbox* librhythmbox-core10* rhythmbox-data mintbackup mintreport
 
 # System Update and Upgrade
 sudo apt update
