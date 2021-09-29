@@ -7,7 +7,7 @@
 # System Update
 sudo apt update
 
-# Ubuntu & Pop!_OS Apps
+# Ubuntu, Pop!_OS & Linux Mint XFCE Apps
 sudo apt install -y gnome-tweaks
 sudo apt install -y gparted
 sudo apt install -y synaptic
