@@ -29,7 +29,6 @@ sudo apt install -y vlc
 # Open Collaboration Services (ocs-url) Support
 sudo apt install -y libqt5svg5
 sudo apt install -y qml-module-qtquick-controls
-sudo dpkg -i /path/to/ocs-url*.deb
 # Other apps:
 ## sudo apt install -y clamav
 ## sudo apt install -y clamav-daemon
