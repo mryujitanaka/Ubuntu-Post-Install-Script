@@ -27,7 +27,7 @@
 <!-- Prerequisites -->
 <h3>Prerequisites</h3>
     <ul>
-        <li>Have a computer with Ubuntu or Pop!_OS distribution installed;</li>
+        <li>Have a computer with Ubuntu based distribution installed;</li>
         <li>Have basic knowledge of Linux;</li>
         <li>Basic familiarity with the Linux terminal;</li>
         <li>Internet access.</li>
