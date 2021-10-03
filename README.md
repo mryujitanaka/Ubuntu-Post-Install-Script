@@ -1,6 +1,6 @@
 <!-- Heading -->
 <h1 align="center">Ubuntu Post Install Script</h1>
-    <p align="center">My personal <em>Ubuntu (and Pop!_OS) post install script</em> that I use to update packages and install my favorite programs &#x1F913&#x1F596</p>
+    <p align="center">My personal <em>Ubuntu based OS post install script</em> that I use to update packages and install my favorite programs &#x1F913&#x1F596</p>
 <br>
 
 ---
