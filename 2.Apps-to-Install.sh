@@ -26,9 +26,6 @@ sudo apt install -y flameshot
 sudo apt install -y adb
 sudo apt install -y grub-customizer
 sudo apt install -y vlc
-# Open Collaboration Services (ocs-url) Support
-sudo apt install -y libqt5svg5
-sudo apt install -y qml-module-qtquick-controls
 # Other apps:
 ## sudo apt install -y clamav
 ## sudo apt install -y clamav-daemon
