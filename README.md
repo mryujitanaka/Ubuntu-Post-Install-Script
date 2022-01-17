@@ -10,7 +10,7 @@
 <!-- About The Project -->
 <h2><strong>&#x1F9D0 About the Project</strong></h2>
     <p>This project was created specifically to meet my needs after installing Ubuntu based OS on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for myself. So I thought: "why not share it with the world?".</p>
-    <p>I bet you must have already wasted a lot of time downloading all your programs again after formatting your PC, right? You need to download a more updated program and so on... YUCK!</p>
+    <p>I bet you must have already wasted a lot of time downloading all your programs again after formatting your PC, right? You need to manually download a more updated program and so on... YUCK!</p>
     <p>No more! Automate your processes and optimize your time! Let my script do all the work for you!</p>
 
 <!-- Built With -->
@@ -21,8 +21,8 @@
 
 <!-- Getting Started -->
 <h2><strong>&#x1F3C1 Getting Started</strong></h2>
-    <p>This project contains two .sh files: <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/1.Setup.sh">1.Setup.sh</a> and <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/2.Apps-to-Install.sh">2.Apps-to-Install.sh</a>.</p>
-    <p>This means that you must first run the 1st file and then the 2nd.</p>
+    <p>This project contains 3 .sh files: <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/1.Setup.sh">1.Setup.sh</a>, <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/2.Apps-to-Install.sh">2.Apps-to-Install.sh</a> and <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/3.SystemUpdateUpgrade.sh">3.SystemUpdateUpgrade.sh</a>.</p>
+    <p>This means that you must first run the file 1, then the file 2 and finally the file 3.</p>
 
 <!-- Prerequisites -->
 <h3>Prerequisites</h3>
@@ -35,6 +35,7 @@
 
 <!-- Usage Examples -->
 ### Usage
+### Alternative 1: 
 &#128073; First, [download](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/archive/refs/heads/master.zip) the files.
 
 &#128073; Then extract the .sh files.
@@ -43,11 +44,13 @@
 
 &#9888; If you don't know how to run a .sh file on the terminal, click [here](https://askubuntu.com/questions/38661/how-do-i-run-sh-scripts).
 
-&#128073; When the script is finished, restart your computer.
+&#128073; When the 1.Setup.sh script is finished, restart your computer.
 
 &#128073; After restarting your computer, run the 2.Apps-to-Install.sh script.
 
 &#128073; When the 2nd script is finished, restart your PC again.
+
+&#9888; You may be wondering: "what about the third script?". Well, it can be used whenever you want to update your packages, without installing new programs on your system. The 3.SystemUpdateUpgrade.sh script works more or less like a Windows Update, but YOU are in control!
 
 &#127881; That's it! Now just test the programs that were automatically downloaded to your computer!
 
@@ -60,9 +63,11 @@ Before running the scripts, I strongly recommend that you study them and observe
 
 I am not responsible for possible errors that may occur on your computer. Keep in mind that you are fully responsible for your actions from the moment you download any files or clone this repository.
 
+The tests performed successfully were done on Ubuntu-based operating systems, like Pop_OS! and Linux Mint XFCE all in version 20.X LTS.
+
 <!-- Contributing -->
 <h2><strong>&#128200;&#129309; Contributing</strong></h2>
-<p>Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy! If you found any errors in this project, click <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/issues">here</a>.</p>
+<p>Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy! If you found any errors in this project or simply would like to make suggestions for improvements , click <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/issues">here</a>.</p>
 
 <!-- To Do -->
 <h2><strong>&#128221; To Do</strong></h2>
@@ -100,8 +105,6 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 <!-- Contact -->
 <h2><strong>&#128421; Contact</strong></h2>
-<p>&#128231; contact@yujisremarks.com</p>
-<p>&#127760; <a href="https://linktr.ee/vyujitanaka">interwebs</a></p>
 
 <!-- Acknowledgements-->
 <h2><strong>&#129392; Acknowledgements</strong></h2>

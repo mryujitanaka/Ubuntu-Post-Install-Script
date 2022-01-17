@@ -1,13 +1,11 @@
 #!/bin/bash
 
-###################
-# Apps to Install #
-###################
+# Apps to Install Script
 
 # System Update
 sudo apt update
 
-# Ubuntu, Pop!_OS & Linux Mint XFCE Apps
+# Apps
 sudo apt install -y gnome-tweaks
 sudo apt install -y gparted
 sudo apt install -y synaptic
@@ -64,15 +62,11 @@ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://b
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 ### System Update
 sudo apt update -qq
-#### Will not be installed
-##### sudo apt install -y java-common
-##### sudo apt install -y java-11-amazon-corretto-jdk
-##### sudo apt install -y default-jre
-#### Installing the Programs
+#### sudo apt install -y java-common
+#### sudo apt install -y java-11-amazon-corretto-jdk
+#### sudo apt install -y default-jre
+### Installing the Programs
 sudo apt install -y brave-browser
-
-## IntelliJ IDEA
-### sudo snap install intellij-idea-community --classic
 
 # Flatpak Update
 flatpak update -y
@@ -118,4 +112,4 @@ sudo apt clean
 
 # Display Installation Complete Message
 echo "All done :)" 
-echo "Please, restart the computer, clean up your system using BleachBit (if you want) and then restart the computer again."
+echo "Please, restart the computer, clean up your system using BleachBit (if you want to) and then restart the computer again."

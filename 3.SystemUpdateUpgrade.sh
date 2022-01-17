@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# System Update and Upgrade Script
+
 # System Update and Upgrade
 sudo apt update
 sudo apt upgrade --allow-downgrades -y
@@ -18,3 +22,4 @@ sudo apt clean
 
 # End of Script
 echo "All good now :)"
+echo "Please, restart the computer."

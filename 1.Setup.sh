@@ -1,8 +1,6 @@
 #!/bin/bash
 
-###########################
-# Ubuntu & Pop!_OS Setup #
-##########################
+# Setup Script
 
 # Uninstall Bloatware Apps
 sudo apt --purge remove -y yelp*
@@ -68,4 +66,4 @@ sudo apt clean
 
 # Display Installation Complete Message
 echo "All good now :)" 
-echo "Please, restart the computer, backup your system using Timeshift (if you installed it) and then run the 2nd Script to install all your Apps."
+echo "Please, restart the computer, backup your system using Timeshift (if you installed it and want to) and then run the 2nd Script to install all your Apps."
