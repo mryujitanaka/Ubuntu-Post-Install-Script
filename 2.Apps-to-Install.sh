@@ -25,6 +25,8 @@ sudo apt install -y adb
 sudo apt install -y grub-customizer
 sudo apt install -y scrcpy
 sudo apt install -y vlc
+sudo apt install -y numlockx
+
 # Other apps:
 ## sudo apt install -y clamav
 ## sudo apt install -y clamav-daemon
@@ -99,7 +101,7 @@ sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
 
 # Finishing Things Up
 ## System Update and Upgrade
-sudo apt update 
+sudo apt update
 sudo apt upgrade --allow-downgrades -y
 sudo apt full-upgrade --allow-downgrades -y
 ## System Clean Up
