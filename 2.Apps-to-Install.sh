@@ -6,12 +6,10 @@
 sudo apt update
 
 # Apps
-sudo apt install -y gnome-tweaks
 sudo apt install -y gparted
 sudo apt install -y synaptic
 sudo apt install -y gufw
 sudo apt install -y hardinfo
-sudo apt install -y dconf-editor
 sudo apt install -y baobab
 sudo apt install -y autokey-gtk
 sudo apt install -y virtualbox
@@ -26,7 +24,10 @@ sudo apt install -y grub-customizer
 sudo apt install -y scrcpy
 sudo apt install -y vlc
 sudo apt install -y numlockx
-## If your DE is not Gnome, download the package below. Otherwise, use the KDE-Connect browser extension
+## If your DE is GNOME, then download the packages below.
+### sudo apt install -y gnome-tweaks
+### sudo apt install -y dconf-editor
+## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension
 ### sudo apt install -y kdeconnect
 
 # Other apps:
