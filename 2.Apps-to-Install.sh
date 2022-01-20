@@ -26,6 +26,8 @@ sudo apt install -y grub-customizer
 sudo apt install -y scrcpy
 sudo apt install -y vlc
 sudo apt install -y numlockx
+## If your DE is not Gnome, download the package below. Otherwise, use the KDE-Connect browser extension
+### sudo apt install -y kdeconnect
 
 # Other apps:
 ## sudo apt install -y clamav
@@ -98,6 +100,8 @@ gsettings set org.gnome.desktop.notifications show-banners false
 sudo systemctl disable bluetooth.service
 ## Enable Hidden Startup Programs
 sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
+## Disable UTC and use Local Time in your Linux distro if necessary
+### timedatectl set-local-rtc 1 --adjust-system-clock
 
 # Finishing Things Up
 ## System Update and Upgrade
