@@ -89,6 +89,8 @@ flatpak install flathub org.gnome.meld -y
 flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
 flatpak install flathub org.filezillaproject.Filezilla -y
+## MarkText
+flatpak install flathub com.github.marktext.marktext -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
