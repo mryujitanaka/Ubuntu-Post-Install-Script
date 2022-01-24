@@ -89,6 +89,8 @@ flatpak install flathub org.gnome.meld -y
 flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
 flatpak install flathub org.filezillaproject.Filezilla -y
+## Discord
+flatpak install flathub com.discordapp.Discord -y
 ## MarkText
 flatpak install flathub com.github.marktext.marktext -y
 
