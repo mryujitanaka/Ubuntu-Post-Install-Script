@@ -24,11 +24,11 @@ sudo apt install -y grub-customizer
 sudo apt install -y scrcpy
 sudo apt install -y vlc
 sudo apt install -y numlockx
+## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension
+sudo apt install -y kdeconnect
 ## If your DE is GNOME, then download the packages below.
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
-## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension
-### sudo apt install -y kdeconnect
 
 # Other apps:
 ## sudo apt install -y clamav
@@ -61,6 +61,11 @@ sudo apt install -y keepassxc
 ## Adding Amazon Corretto 11
 ### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 ### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
+## Node.js v17.x
+### curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+## Adding yarn
+### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ## Adding Brave Browser
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -70,6 +75,8 @@ sudo apt update -qq
 #### sudo apt install -y java-common
 #### sudo apt install -y java-11-amazon-corretto-jdk
 #### sudo apt install -y default-jre
+#### sudo apt install -y nodejs
+#### sudo apt install -y yarn
 ### Installing the Programs
 sudo apt install -y brave-browser
 
@@ -91,8 +98,6 @@ flatpak install flathub org.audacityteam.Audacity -y
 flatpak install flathub org.filezillaproject.Filezilla -y
 ## Discord
 flatpak install flathub com.discordapp.Discord -y
-## MarkText
-flatpak install flathub com.github.marktext.marktext -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
