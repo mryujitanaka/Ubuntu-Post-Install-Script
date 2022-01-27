@@ -23,6 +23,7 @@
 <h2><strong>&#x1F3C1 Getting Started</strong></h2>
     <p>This project contains 3 .sh files: <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/1.Setup.sh">1.Setup.sh</a>, <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/2.Apps-to-Install.sh">2.Apps-to-Install.sh</a> and <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/3.SystemUpdateUpgrade.sh">3.SystemUpdateUpgrade.sh</a>.</p>
     <p>This means that you must first run the file 1, then the file 2 and finally the file 3.</p>
+    <p><strong>ATTENTION!</strong> Before you run the scripts on your system, especially the first one (1.Setup.sh), make sure your terminal has <em>Unlimited Scroolback</em> enabled. With this function enabled, you will be able to fully view the entire script output history by scrolling your sidebar up.</p>
 
 <!-- Prerequisites -->
 <h3>Prerequisites</h3>
@@ -50,7 +51,7 @@
 
 &#128073; When the 2nd script is finished, restart your PC again.
 
-&#9888; You may be wondering: "what about the third script?". Well, it can be used whenever you want to update your packages, without installing new programs on your system. The 3.SystemUpdateUpgrade.sh script works more or less like a Windows Update, but YOU are in control!
+&#9888; You may be wondering: "what about the third script?". Well, it can be used whenever you want to update your packages, without installing new programs on your system. The 3.SystemUpdateUpgrade.sh script works more or less like a Windows Update, but <strong>YOU</strong> are in control!
 
 &#127881; That's it! Now just test the programs that were automatically downloaded to your computer!
 
