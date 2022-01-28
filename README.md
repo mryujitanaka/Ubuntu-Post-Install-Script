@@ -68,13 +68,6 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 
 <!-- Contributing -->
 <h2><strong>&#128200;&#129309; Contributing</strong></h2>
-<p>My script is based in four freedoms:</p>
-<ul> 
-    <li>The 1st: To run the program for any purpose.</li>
-    <li>The 2nd: To study how the program works and change it to make it do what you wish.</li>
-    <li>The 3rd: To redistribute.</li>
-    <li>The 4th: To distribute copies of your modified versions to others.</li>
-</ul>
 <p>Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy! If you found any errors in this project or simply would like to make suggestions for improvements , click <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/issues">here</a>.</p>
 
 <!-- To Do -->
@@ -92,6 +85,13 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 
 <!-- License -->
 <h2><strong>&#9878; License</strong></h2>
+<p>My script is based in four freedoms:</p>
+<ul> 
+    <li>The 1st: To run the program for any purpose.</li>
+    <li>The 2nd: To study how the program works and change it to make it do what you wish.</li>
+    <li>The 3rd: To redistribute.</li>
+    <li>The 4th: To distribute copies of your modified versions to others.</li>
+</ul>
 <p>Distributed under the GPLv3 License. For more information, click <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/LICENSE">here</a>.<p>
 <!-- License Logos -->
 <p align = "left">
