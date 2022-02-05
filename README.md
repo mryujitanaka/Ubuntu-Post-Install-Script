@@ -35,8 +35,11 @@
     </ul>
 
 <!-- Usage Examples -->
+
 ### Usage
-### Alternative 1: 
+
+### Alternative 1:
+
 &#128073; First, [download](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/archive/refs/heads/master.zip) the files.
 
 &#128073; Then extract the .sh files.
@@ -56,6 +59,7 @@
 &#127881; That's it! Now just test the programs that were automatically downloaded to your computer!
 
 ### Notes
+
 I recommend you run the scripts after you have freshly installed your ubuntu-based operating system.
 
 The scripts were created specifically to meet my needs. So, if you want to change them to suit yours and/or share them with others, you can according to the [license](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script#license) of this project.
