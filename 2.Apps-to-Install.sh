@@ -98,6 +98,8 @@ flatpak install flathub org.audacityteam.Audacity -y
 flatpak install flathub org.filezillaproject.Filezilla -y
 ## Discord
 flatpak install flathub com.discordapp.Discord -y
+## Zoom
+flatpak install flathub us.zoom.Zoom -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
