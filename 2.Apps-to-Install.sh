@@ -26,6 +26,8 @@ sudo apt install -y vlc
 sudo apt install -y numlockx
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension
 sudo apt install -y kdeconnect
+## If you install OBS Studio, download the package below.
+### sudo apt install -y v4l2loopback-dkms
 ## If your DE is GNOME, then download the packages below.
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
@@ -56,6 +58,7 @@ sudo apt install -y qbittorrent
 sudo apt install -y git
 sudo apt install -y cryptomator
 sudo apt install -y keepassxc
+### sudo apt install -y obs-studio
 
 # PPA's Apps from Other Sources
 ## Adding Amazon Corretto 11
