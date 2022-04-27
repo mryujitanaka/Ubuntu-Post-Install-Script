@@ -116,7 +116,7 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 <!-- Contact -->
 <h2><strong>&#128421; Contact</strong></h2>
 
-<p>&#128226; <a href="https://mryujitanaka.com/">mryujitanaka.com</a>mryujitanaka.com</p>
+<p>&#128226; <a href="https://mryujitanaka.com/">mryujitanaka.com</a></p>
 
 <!-- Acknowledgements-->
 <h2><strong>&#129392; Acknowledgements</strong></h2>
