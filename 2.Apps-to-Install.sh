@@ -27,8 +27,8 @@ sudo apt install -y numlockx
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension
 sudo apt install -y kdeconnect
 ## If you install OBS Studio, download the package below.
-### sudo apt install -y v4l2loopback-dkms
-## If your DE is GNOME, then download the packages below.
+sudo apt install -y v4l2loopback-dkms
+## If your DE is GNOME, then download the packages below (if you want to).
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
 
@@ -49,7 +49,7 @@ sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y
 ## Adding KeePassXC
 sudo add-apt-repository ppa:phoerious/keepassxc -y
 ## Adding OBS Studio
-### sudo add-apt-repository ppa:obsproject/obs-studio -y
+sudo add-apt-repository ppa:obsproject/obs-studio -y
 ### System Update
 sudo apt update -qq
 #### Installing the Programs
@@ -58,7 +58,7 @@ sudo apt install -y qbittorrent
 sudo apt install -y git
 sudo apt install -y cryptomator
 sudo apt install -y keepassxc
-### sudo apt install -y obs-studio
+sudo apt install -y obs-studio
 
 # PPA's Apps from Other Sources
 ## Adding Amazon Corretto 11
@@ -108,13 +108,13 @@ flatpak install flathub us.zoom.Zoom -y
 flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 
-# Some Other Settings
+# Some Other Settings for Gnome DE distros
 ## Permanently enable Do Not Disturb (No Notifications)
-gsettings set org.gnome.desktop.notifications show-banners false
+### gsettings set org.gnome.desktop.notifications show-banners false
 ## Permanently disable Bluetooth
-sudo systemctl disable bluetooth.service
+### sudo systemctl disable bluetooth.service
 ## Enable Hidden Startup Programs
-sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
+### sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
 ## Disable UTC and use Local Time in your Linux distro if necessary
 ### timedatectl set-local-rtc 1 --adjust-system-clock
 
