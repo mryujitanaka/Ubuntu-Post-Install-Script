@@ -40,6 +40,14 @@ sudo apt --purge remove -y librhythmbox-core10*
 sudo apt --purge remove -y rhythmbox-data
 sudo apt --purge remove -y mintbackup
 sudo apt --purge remove -y mintreport
+sudo apt --purge remove -y aisleriot
+sudo apt --purge remove -y gnome-mahjongg
+sudo apt --purge remove -y gnome-mines
+sudo apt --purge remove -y quadrapassel
+sudo apt --purge remove -y gnome-sudoku
+sudo apt --purge remove -y cheese*
+sudo apt --purge remove -y pitivi
+sudo apt --purge remove -y gnome-sound-recorder
 
 # System Update and Upgrade
 sudo apt update
