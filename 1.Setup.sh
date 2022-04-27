@@ -48,6 +48,7 @@ sudo apt --purge remove -y gnome-sudoku
 sudo apt --purge remove -y cheese*
 sudo apt --purge remove -y pitivi
 sudo apt --purge remove -y gnome-sound-recorder
+sudo apt --purge remove -y remmina*
 
 # System Update and Upgrade
 sudo apt update
