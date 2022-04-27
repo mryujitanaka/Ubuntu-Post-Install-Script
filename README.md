@@ -38,8 +38,6 @@
 
 ### Usage
 
-### Alternative 1:
-
 &#128073; First, [download](https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/archive/refs/heads/master.zip) the files.
 
 &#128073; Then extract the .sh files.
