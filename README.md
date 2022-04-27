@@ -116,6 +116,8 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 <!-- Contact -->
 <h2><strong>&#128421; Contact</strong></h2>
 
+<p>&#128226; mryujitanaka.com</p>
+
 <!-- Acknowledgements-->
 <h2><strong>&#129392; Acknowledgements</strong></h2>
     <ul>
