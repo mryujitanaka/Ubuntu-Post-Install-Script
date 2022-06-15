@@ -50,6 +50,11 @@ sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y
 sudo add-apt-repository ppa:phoerious/keepassxc -y
 ## Adding OBS Studio
 sudo add-apt-repository ppa:obsproject/obs-studio -y
+## Adding Apache
+sudo add-apt-repository ppa:ondrej/apache2 -y
+## Adding PHP
+sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
+
 ### System Update
 sudo apt update -qq
 #### Installing the Programs
@@ -59,6 +64,8 @@ sudo apt install -y git
 sudo apt install -y cryptomator
 sudo apt install -y keepassxc
 sudo apt install -y obs-studio
+sudo apt install -y apache2
+sudo apt install -y php8.1
 
 # PPA's Apps from Other Sources
 ## Adding Amazon Corretto 11
