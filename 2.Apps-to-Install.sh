@@ -30,6 +30,9 @@ sudo apt install -y kdeconnect
 sudo apt install -y v4l2loopback-dkms
 ## To change XFCE Lock Screen Wallpaper:
 sudo apt install -y lightdm-gtk-greeter-settings
+## To use LibreOffice and extensions like LanguageTool:
+sudo apt install -y java-common
+sudo apt install -y default-jre
 ## If your DE is GNOME, then download the packages below (if you want to).
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
@@ -84,9 +87,7 @@ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://b
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 ### System Update
 sudo apt update -qq
-#### sudo apt install -y java-common
 #### sudo apt install -y java-11-amazon-corretto-jdk
-#### sudo apt install -y default-jre
 #### sudo apt install -y nodejs
 #### sudo apt install -y yarn
 ### Installing the Programs
