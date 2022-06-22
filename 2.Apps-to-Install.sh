@@ -28,6 +28,8 @@ sudo apt install -y numlockx
 sudo apt install -y kdeconnect
 ## If you install OBS Studio, download the package below.
 sudo apt install -y v4l2loopback-dkms
+## To change XFCE Lock Screen Wallpaper:
+sudo apt install -y lightdm-gtk-greeter-settings
 ## If your DE is GNOME, then download the packages below (if you want to).
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
