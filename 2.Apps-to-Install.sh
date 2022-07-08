@@ -113,6 +113,8 @@ flatpak install flathub org.filezillaproject.Filezilla -y
 flatpak install flathub com.discordapp.Discord -y
 ## Zoom
 flatpak install flathub us.zoom.Zoom -y
+## Skype
+flatpak install flathub com.skype.Client -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
