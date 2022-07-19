@@ -24,6 +24,7 @@ sudo apt install -y grub-customizer
 sudo apt install -y scrcpy
 sudo apt install -y vlc
 sudo apt install -y numlockx
+sudo apt install -y inetutils-traceroute
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension
 sudo apt install -y kdeconnect
 ## If you install OBS Studio, download the package below.
