@@ -116,6 +116,8 @@ flatpak install flathub com.discordapp.Discord -y
 flatpak install flathub us.zoom.Zoom -y
 ## Skype
 flatpak install flathub com.skype.Client -y
+## Todoist
+flatpak install flathub com.todoist.Todoist -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
