@@ -57,9 +57,9 @@ sudo add-apt-repository ppa:phoerious/keepassxc -y
 ## Adding OBS Studio
 sudo add-apt-repository ppa:obsproject/obs-studio -y
 ## Adding Apache
-sudo add-apt-repository ppa:ondrej/apache2 -y
+### sudo add-apt-repository ppa:ondrej/apache2 -y
 ## Adding PHP
-sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
+### sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
 
 ### System Update
 sudo apt update -qq
@@ -70,15 +70,15 @@ sudo apt install -y git
 sudo apt install -y cryptomator
 sudo apt install -y keepassxc
 sudo apt install -y obs-studio
-sudo apt install -y apache2
-sudo apt install -y php8.1
+##### sudo apt install -y apache2
+##### sudo apt install -y php8.1
 
 # PPA's Apps from Other Sources
 ## Adding Amazon Corretto 11
 ### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 ### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
-## Node.js v17.x
-### curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+## Node.js v18.x
+### curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ## Adding yarn
 ### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
