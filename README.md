@@ -66,7 +66,7 @@ Before running the scripts, I strongly recommend that you study them and observe
 
 I am not responsible for possible errors that may occur on your computer. Keep in mind that you are fully responsible for your actions from the moment you download any files or clone this repository.
 
-The tests performed successfully were done on Ubuntu-based operating systems, like Pop_OS! and Linux Mint XFCE all in version 20.X LTS.
+The tests performed successfully were done on Ubuntu-based operating systems, like Pop_OS! 20.X LTS, Linux Mint XFCE 20.X LTS and Zorin OS 16.1 Lite.
 
 <!-- Contributing -->
 <h2><strong>&#128200;&#129309; Contributing</strong></h2>
