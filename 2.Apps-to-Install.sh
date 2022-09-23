@@ -125,6 +125,24 @@ flatpak install flathub com.todoist.Todoist -y
 flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 
+# Nix Package Manager
+curl -L https://nixos.org/nix/install | sh
+
+## BleachBit
+nix-env -iA nixpkgs.bleachbit
+## Dropbox
+nix-env -iA nixpkgs.dropbox
+## GitHubDesktop
+nix-env -iA nixpkgs.github-desktop
+## GoogleChrome
+nix-env -iA nixpkgs.google-chrome
+## LanguageTool
+nix-env -iA nixpkgs.languagetool
+## OCS-URL
+nix-env -iA nixpkgs.ocs-url
+## VSCode
+nix-env -iA nixpkgs.vscode
+
 # Some Other Settings for Gnome DE distros
 ## Permanently enable Do Not Disturb (No Notifications)
 ### gsettings set org.gnome.desktop.notifications show-banners false
