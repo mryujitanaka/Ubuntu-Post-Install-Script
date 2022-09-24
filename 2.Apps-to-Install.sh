@@ -25,7 +25,7 @@ sudo apt install -y scrcpy
 sudo apt install -y vlc
 sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
-## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension
+## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
 ## If you install OBS Studio, download the package below.
 sudo apt install -y v4l2loopback-dkms
@@ -125,23 +125,52 @@ flatpak install flathub com.todoist.Todoist -y
 flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 
+# wget Apps
+## BleachBit
+wget "https://download.bleachbit.org/bleachbit_4.4.2-0_all_ubuntu2004.deb"
+## GitHubDesktop
+wget "https://github.com/shiftkey/desktop/releases/download/release-3.0.6-linux1/GitHubDesktop-linux-3.0.6-linux1.deb"
+## GitKraken
+### wget "https://release.axocdn.com/linux/gitkraken-amd64.deb"
+## GoogleChrome
+wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+## VSCode
+wget "https://az764295.vo.msecnd.net/stable/74b1f979648cc44d385a2286793c226e611f59e7/code_1.71.2-1663191218_amd64.deb"
+## WordPress
+wget "https://wordpress.org/latest.zip"
+## XtremeDownloadManager
+wget "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz"
+
+### Installing the wget Programs
+sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb
+sudo dpkg -i GitHubDesktop-linux-3.0.6-linux1.deb
+#### sudo dpkg -i gitkraken-amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo dpkg -i code_1.71.2-1663191218_amd64.deb
+
 # Nix Package Manager
-curl -L https://nixos.org/nix/install | sh
+## curl -L https://nixos.org/nix/install | sh
+
+# Nix Package Manager System Update
+## Replace "legolas" with your username.
+### . /home/legolas/.nix-profile/etc/profile.d/nix.sh
 
 ## BleachBit
-nix-env -iA nixpkgs.bleachbit
+### nix-env -iA nixpkgs.bleachbit
 ## Dropbox
-nix-env -iA nixpkgs.dropbox
+### nix-env -iA nixpkgs.dropbox
 ## GitHubDesktop
-nix-env -iA nixpkgs.github-desktop
+### nix-env -iA nixpkgs.github-desktop
 ## GoogleChrome
-nix-env -iA nixpkgs.google-chrome
+### nix-env -iA nixpkgs.google-chrome
 ## LanguageTool
-nix-env -iA nixpkgs.languagetool
+### nix-env -iA nixpkgs.languagetool
 ## OCS-URL
-nix-env -iA nixpkgs.ocs-url
+### nix-env -iA nixpkgs.ocs-url
 ## VSCode
-nix-env -iA nixpkgs.vscode
+### nix-env -iA nixpkgs.vscode
+## GitKraken
+### nix-env -iA nixpkgs.gitkraken
 
 # Some Other Settings for Gnome DE distros
 ## Permanently enable Do Not Disturb (No Notifications)
