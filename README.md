@@ -23,7 +23,7 @@
 <h2><strong>&#x1F3C1 Getting Started</strong></h2>
     <p>This project contains 3 .sh files: <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/1.Setup.sh">1.Setup.sh</a>, <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/2.Apps-to-Install.sh">2.Apps-to-Install.sh</a> and <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/3.SystemUpdateUpgrade.sh">3.SystemUpdateUpgrade.sh</a>.</p>
     <p>This means that you must first run the file 1, then the file 2 and finally the file 3.</p>
-    <p><strong>ATTENTION!</strong> Before you run the scripts on your system, especially the first one (1.Setup.sh), make sure your terminal has <em>Unlimited Scroolback</em> enabled. With this function enabled, you will be able to fully view the entire script output history by scrolling your sidebar up.</p>
+    <p><strong>ATTENTION!</strong> Before you run the scripts on your system, especially the first one (1.Setup.sh), make sure your terminal has <em>Unlimited Scroolback</em> enabled. With this function enabled, you will be able to fully view the entire script output history by scrolling your terminal sidebar up.</p>
 
 <!-- Prerequisites -->
 <h3>Prerequisites</h3>
@@ -75,25 +75,23 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 <!-- To Do -->
 <h2><strong>&#128221; To Do</strong></h2>
 <p>Add the programs below to the script to be downloaded:</p>
-<p>&#9723; BleachBit</p>
 <p>&#9723; Dropbox</p>
-<p>&#9723; GoogleChrome</p>
-<p>&#9723; LibreOfficeExtensions - LanguageTool</p>
+<p>&#9723; LibreOffice</p>
+<p>&#9723; Local by Flywheel</p>
+<p>&#9723; OCS-URL</p>
 <p>&#9723; Sweet-Ambar-Blue Theme</p>
 <p>&#9723; Sweet-Dark Theme</p>
-<p>&#9723; WordPress</p>
-<p>&#9723; XAMPP</p>
-<p>&#9723; XtremeDownloadManager</p>
 
 <!-- License -->
 <h2><strong>&#9878; License</strong></h2>
-<p>My script is based in four freedoms:</p>
+<p>Above the license, my script is based (and inspired by the <a href="https://mediatemple.net/blog/web-development-tech/wordpress-philosophy-four-freedoms/">WordPress Philosophy</a>) in four freedoms:</p>
 <ul> 
     <li>The 1st: To run the program for any purpose.</li>
     <li>The 2nd: To study how the program works and change it to make it do what you wish.</li>
     <li>The 3rd: To redistribute.</li>
     <li>The 4th: To distribute copies of your modified versions to others.</li>
 </ul>
+<br>
 <p>Distributed under the GPLv3 License. For more information, click <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/LICENSE">here</a>.<p>
 <!-- License Logos -->
 <p align = "left">
