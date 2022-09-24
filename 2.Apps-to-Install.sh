@@ -127,26 +127,23 @@ flatpak uninstall --unused -y
 
 # wget Apps
 ## BleachBit
-wget "https://download.bleachbit.org/bleachbit_4.4.2-0_all_ubuntu2004.deb"
+wget -c "https://download.bleachbit.org/bleachbit_4.4.2-0_all_ubuntu2004.deb"
 ## GitHubDesktop
-wget "https://github.com/shiftkey/desktop/releases/download/release-3.0.6-linux1/GitHubDesktop-linux-3.0.6-linux1.deb"
-## GitKraken
-### wget "https://release.axocdn.com/linux/gitkraken-amd64.deb"
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.0.6-linux1/GitHubDesktop-linux-3.0.6-linux1.deb"
 ## GoogleChrome
-wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## VSCode
-wget "https://az764295.vo.msecnd.net/stable/74b1f979648cc44d385a2286793c226e611f59e7/code_1.71.2-1663191218_amd64.deb"
+wget -c "https://az764295.vo.msecnd.net/stable/74b1f979648cc44d385a2286793c226e611f59e7/code_1.71.2-1663191218_amd64.deb"
 ## WordPress
-wget "https://wordpress.org/latest.zip"
+wget -c "https://wordpress.org/latest.zip"
 ## XtremeDownloadManager
-wget "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz"
+wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz"
+## GitKraken
+### wget -c "https://release.axocdn.com/linux/gitkraken-amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb
-sudo dpkg -i GitHubDesktop-linux-3.0.6-linux1.deb
-#### sudo dpkg -i gitkraken-amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-sudo dpkg -i code_1.71.2-1663191218_amd64.deb
+sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb GitHubDesktop-linux-3.0.6-linux1.deb google-chrome-stable_current_amd64.deb code_1.71.2-1663191218_amd64.deb
+#### gitkraken-amd64.deb
 
 # Nix Package Manager
 ## curl -L https://nixos.org/nix/install | sh
