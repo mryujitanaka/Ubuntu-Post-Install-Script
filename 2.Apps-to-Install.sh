@@ -134,6 +134,10 @@ wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.0.6-lin
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## VSCode
 wget -c "https://az764295.vo.msecnd.net/stable/74b1f979648cc44d385a2286793c226e611f59e7/code_1.71.2-1663191218_amd64.deb"
+## LibreOffice
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.4.1/deb/x86_64/LibreOffice_7.4.1_Linux_x86-64_deb.tar.gz"
+## LibreOffice LangPack
+wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/7.4.1/deb/x86_64/LibreOffice_7.4.1_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
 ## WordPress
 wget -c "https://wordpress.org/latest.zip"
 ## XtremeDownloadManager
