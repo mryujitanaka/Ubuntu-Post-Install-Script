@@ -76,7 +76,6 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 <h2><strong>&#128221; To Do</strong></h2>
 <p>Add the programs below to the script to be downloaded:</p>
 <p>&#9723; Dropbox</p>
-<p>&#9723; LibreOffice</p>
 <p>&#9723; Local by Flywheel</p>
 <p>&#9723; OCS-URL</p>
 <p>&#9723; Sweet-Ambar-Blue Theme</p>
