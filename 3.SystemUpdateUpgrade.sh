@@ -15,7 +15,7 @@ flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 
 # Nix Package Manager Update
-nix-env -u
+## nix-env -u
 
 # System Clean Up
 sudo apt install -f
