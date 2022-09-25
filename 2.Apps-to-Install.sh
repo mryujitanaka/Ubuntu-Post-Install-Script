@@ -113,11 +113,11 @@ flatpak install flathub org.filezillaproject.Filezilla -y
 ## Discord
 flatpak install flathub com.discordapp.Discord -y
 ## Zoom
-flatpak install flathub us.zoom.Zoom -y
+### flatpak install flathub us.zoom.Zoom -y
 ## Microsoft Skype
 flatpak install flathub com.skype.Client -y
 ## Microsoft Teams
-flatpak install flathub com.microsoft.Teams -y
+### flatpak install flathub com.microsoft.Teams -y
 ## Todoist
 flatpak install flathub com.todoist.Todoist -y
 
