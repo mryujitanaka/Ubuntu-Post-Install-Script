@@ -44,21 +44,21 @@ sudo apt install -y default-jre
 ## sudo apt install -y libclamunrar9
 
 # PPA's Apps from Launchpad
-## Adding Papirus Icons
+## Papirus Icons
 sudo add-apt-repository ppa:papirus/papirus -y
-## Adding qBittorrent
+## qBittorrent
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
-## Adding Git
+## Git
 sudo add-apt-repository ppa:git-core/ppa -y
-## Adding Cryptomator
+## Cryptomator
 sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y
-## Adding KeePassXC
+## KeePassXC
 sudo add-apt-repository ppa:phoerious/keepassxc -y
-## Adding OBS Studio
+## OBS Studio
 sudo add-apt-repository ppa:obsproject/obs-studio -y
-## Adding Apache
+## Apache
 ### sudo add-apt-repository ppa:ondrej/apache2 -y
-## Adding PHP
+## PHP
 ### sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
 
 ### System Update
@@ -74,15 +74,15 @@ sudo apt install -y obs-studio
 ##### sudo apt install -y php8.1
 
 # PPA's Apps from Other Sources
-## Adding Amazon Corretto 11
+## Amazon Corretto 11
 ### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 ### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 ## Node.js v18.x
 ### curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-## Adding yarn
+## yarn
 ### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-## Adding Brave Browser
+## Brave Browser
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
