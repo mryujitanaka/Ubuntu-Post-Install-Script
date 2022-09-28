@@ -120,6 +120,8 @@ flatpak install flathub com.skype.Client -y
 ### flatpak install flathub com.microsoft.Teams -y
 ## Todoist
 flatpak install flathub com.todoist.Todoist -y
+## Slack
+flatpak install flathub com.slack.Slack -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
@@ -134,6 +136,8 @@ wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.0.6-lin
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## VSCode
 wget -c "https://az764295.vo.msecnd.net/stable/74b1f979648cc44d385a2286793c226e611f59e7/code_1.71.2-1663191218_amd64.deb"
+## bottom
+wget -c "https://github.com/ClementTsang/bottom/releases/download/0.6.8/bottom_0.6.8_amd64.deb"
 ## LibreOffice
 wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.4.1/deb/x86_64/LibreOffice_7.4.1_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack
@@ -146,7 +150,7 @@ wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.
 ### wget -c "https://release.axocdn.com/linux/gitkraken-amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb GitHubDesktop-linux-3.0.6-linux1.deb google-chrome-stable_current_amd64.deb code_1.71.2-1663191218_amd64.deb
+sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb GitHubDesktop-linux-3.0.6-linux1.deb google-chrome-stable_current_amd64.deb code_1.71.2-1663191218_amd64.deb bottom_0.6.8_amd64.deb
 #### gitkraken-amd64.deb
 
 # Nix Package Manager
