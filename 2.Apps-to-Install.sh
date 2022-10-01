@@ -122,6 +122,8 @@ flatpak install flathub com.skype.Client -y
 flatpak install flathub com.todoist.Todoist -y
 ## Slack
 flatpak install flathub com.slack.Slack -y
+## Chromium
+flatpak install flathub org.chromium.Chromium -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
