@@ -31,7 +31,7 @@ sudo apt install -y kdeconnect
 sudo apt install -y v4l2loopback-dkms
 ## To change XFCE Lock Screen Wallpaper:
 sudo apt install -y lightdm-gtk-greeter-settings
-## To use LibreOffice, extensions like LanguageTool or any other Java based application:
+## To use LibreOffice, extensions like LanguageTool and/or any other Java based application:
 sudo apt install -y java-common
 sudo apt install -y default-jre
 ## If your DE is GNOME, then download the packages below (if you want to).
