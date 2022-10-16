@@ -192,6 +192,7 @@ sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb GitHubDesktop-linux-3.0.6-linu
 # Finishing Things Up
 ## System Update and Upgrade
 sudo apt update
+sudo apt install --fix-missing -y
 sudo apt upgrade --allow-downgrades -y
 sudo apt full-upgrade --allow-downgrades -y
 ## System Clean Up
