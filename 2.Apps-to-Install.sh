@@ -25,6 +25,7 @@ sudo apt install -y scrcpy
 sudo apt install -y vlc
 sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
+sudo apt install -y imwheel
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
 ## If you install OBS Studio, download the package below.
@@ -132,24 +133,24 @@ flatpak uninstall --unused -y
 # wget Apps
 ## BleachBit
 wget -c "https://download.bleachbit.org/bleachbit_4.4.2-0_all_ubuntu2004.deb"
-## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.0.6-linux1/GitHubDesktop-linux-3.0.6-linux1.deb"
-## GoogleChrome
-wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-## VSCode
-wget -c "https://az764295.vo.msecnd.net/stable/74b1f979648cc44d385a2286793c226e611f59e7/code_1.71.2-1663191218_amd64.deb"
 ## bottom
 wget -c "https://github.com/ClementTsang/bottom/releases/download/0.6.8/bottom_0.6.8_amd64.deb"
+## GitHubDesktop
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb"
+## GitKraken
+### wget -c "https://release.axocdn.com/linux/gitkraken-amd64.deb"
+## GoogleChrome
+wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
-wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.4.1/deb/x86_64/LibreOffice_7.4.1_Linux_x86-64_deb.tar.gz"
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.4.2/deb/x86_64/LibreOffice_7.4.2_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack
-wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/7.4.1/deb/x86_64/LibreOffice_7.4.1_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.4.2/deb/x86_64/LibreOffice_7.4.2_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
+## VSCode
+wget -c "https://az764295.vo.msecnd.net/stable/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/code_1.73.0-1667318785_amd64.deb"
 ## WordPress
 wget -c "https://wordpress.org/latest.zip"
 ## XtremeDownloadManager
 wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz"
-## GitKraken
-### wget -c "https://release.axocdn.com/linux/gitkraken-amd64.deb"
 
 ### Installing the wget Programs
 sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb GitHubDesktop-linux-3.0.6-linux1.deb google-chrome-stable_current_amd64.deb code_1.71.2-1663191218_amd64.deb bottom_0.6.8_amd64.deb
