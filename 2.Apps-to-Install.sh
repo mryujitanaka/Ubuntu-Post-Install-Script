@@ -153,7 +153,7 @@ wget -c "https://wordpress.org/latest.zip"
 wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb GitHubDesktop-linux-3.0.6-linux1.deb google-chrome-stable_current_amd64.deb code_1.71.2-1663191218_amd64.deb bottom_0.6.8_amd64.deb
+sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.6.8_amd64.deb GitHubDesktop-linux-3.1.1-linux1.deb google-chrome-stable_current_amd64.deb code_1.73.0-1667318785_amd64.deb
 #### gitkraken-amd64.deb
 
 # Nix Package Manager
