@@ -35,6 +35,9 @@ sudo apt install -y lightdm-gtk-greeter-settings
 ## To use LibreOffice, extensions like LanguageTool and/or any other Java based application:
 sudo apt install -y java-common
 sudo apt install -y default-jre
+## Testing:
+### sudo apt install -y openjdk-17-jre
+### sudo apt install -y openjdk-17-jre-headless
 ## If your DE is GNOME, then download the packages below (if you want to).
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
