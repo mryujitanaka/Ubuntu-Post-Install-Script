@@ -82,7 +82,7 @@ sudo apt install -y obs-studio
 ### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 ### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 ## Node.js LTS (v18.x)
-### curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
+### curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 ## yarn
 ### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
