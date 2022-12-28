@@ -26,6 +26,7 @@ sudo apt install -y vlc
 sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
 sudo apt install -y imwheel
+sudo apt install -y tldr
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
 ## If you install OBS Studio, download the package below.
