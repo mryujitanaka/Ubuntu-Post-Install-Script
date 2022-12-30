@@ -7,6 +7,7 @@ sudo apt update
 sudo apt install --fix-missing -y
 sudo apt upgrade --allow-downgrades -y
 sudo apt full-upgrade --allow-downgrades -y
+sudo npm install -g npm@latest
 
 # Flatpak Update
 flatpak update -y
