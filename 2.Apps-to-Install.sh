@@ -83,7 +83,7 @@ sudo apt install -y obs-studio
 ### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 ### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 ## Node.js LTS (v18.x)
-### curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 ## yarn
 ### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
@@ -93,11 +93,15 @@ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://b
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 ### System Update
 sudo apt update -qq
+### PPA's Apps from Other Sources installation
 #### sudo apt install -y java-11-amazon-corretto-jdk
-#### sudo apt install -y nodejs
+sudo apt install -y nodejs
 #### sudo apt install -y yarn
-### Installing the Programs
 sudo apt install -y brave-browser
+
+### If Node.js was installed, probably npm was installed along with it. So, consider updating npm to the latest version:
+sudo npm config set fund false --location=global
+sudo npm install -g npm@latest
 
 # Flatpak Update
 flatpak update -y
@@ -159,30 +163,6 @@ wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.
 ### Installing the wget Programs
 sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.6.8_amd64.deb GitHubDesktop-linux-3.1.1-linux1.deb google-chrome-stable_current_amd64.deb code_1.73.0-1667318785_amd64.deb
 #### gitkraken-amd64.deb
-
-# Nix Package Manager
-## curl -L https://nixos.org/nix/install | sh
-
-# Nix Package Manager System Update
-## Replace "legolas" with your username.
-### . /home/legolas/.nix-profile/etc/profile.d/nix.sh
-
-## BleachBit
-### nix-env -iA nixpkgs.bleachbit
-## Dropbox
-### nix-env -iA nixpkgs.dropbox
-## GitHubDesktop
-### nix-env -iA nixpkgs.github-desktop
-## GoogleChrome
-### nix-env -iA nixpkgs.google-chrome
-## LanguageTool
-### nix-env -iA nixpkgs.languagetool
-## OCS-URL
-### nix-env -iA nixpkgs.ocs-url
-## VSCode
-### nix-env -iA nixpkgs.vscode
-## GitKraken
-### nix-env -iA nixpkgs.gitkraken
 
 # Some Other Settings for Gnome DE distros
 ## Permanently enable Do Not Disturb (No Notifications)
