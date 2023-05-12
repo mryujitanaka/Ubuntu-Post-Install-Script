@@ -144,26 +144,24 @@ flatpak uninstall --unused -y
 ## BleachBit
 wget -c "https://download.bleachbit.org/bleachbit_4.4.2-0_all_ubuntu2004.deb"
 ## bottom
-wget -c "https://github.com/ClementTsang/bottom/releases/download/0.6.8/bottom_0.6.8_amd64.deb"
+wget -c "https://github.com/ClementTsang/bottom/releases/download/0.9.0/bottom_0.9.0_amd64.deb"
 ## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb"
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.2.1-linux1/GitHubDesktop-linux-3.2.1-linux1.deb"
 ## GitKraken
 ### wget -c "https://release.axocdn.com/linux/gitkraken-amd64.deb"
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
-wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.4.2/deb/x86_64/LibreOffice_7.4.2_Linux_x86-64_deb.tar.gz"
+wget -c "https://mirror.turbozoneinternet.net.br/tdf/libreoffice/stable/7.5.3/deb/x86_64/LibreOffice_7.5.3_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack
-wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.4.2/deb/x86_64/LibreOffice_7.4.2_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
+wget -c "https://tdf.ufms.br/tdf/libreoffice/stable/7.5.3/deb/x86_64/LibreOffice_7.5.3_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
 ## VSCode
-wget -c "https://az764295.vo.msecnd.net/stable/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/code_1.73.0-1667318785_amd64.deb"
+wget -c "https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb"
 ## WordPress
 wget -c "https://wordpress.org/latest.zip"
-## XtremeDownloadManager
-wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.6.8_amd64.deb GitHubDesktop-linux-3.1.1-linux1.deb google-chrome-stable_current_amd64.deb code_1.73.0-1667318785_amd64.deb
+sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.9.0_amd64.deb GitHubDesktop-linux-3.2.1-linux1.deb google-chrome-stable_current_amd64.deb code_1.78.2-1683731010_amd64.deb
 #### gitkraken-amd64.deb
 
 # Some Other Settings for Gnome DE distros
