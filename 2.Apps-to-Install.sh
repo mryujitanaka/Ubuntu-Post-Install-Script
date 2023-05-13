@@ -158,7 +158,7 @@ wget -c "https://tdf.ufms.br/tdf/libreoffice/stable/7.5.3/deb/x86_64/LibreOffice
 ## VSCode
 wget -c "https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb"
 ## WordPress
-wget -c "https://wordpress.org/latest.zip"
+### wget -c "https://wordpress.org/latest.zip"
 
 ### Installing the wget Programs
 sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.9.0_amd64.deb GitHubDesktop-linux-3.2.1-linux1.deb google-chrome-stable_current_amd64.deb code_1.78.2-1683731010_amd64.deb
