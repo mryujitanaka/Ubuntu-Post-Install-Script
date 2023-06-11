@@ -27,6 +27,8 @@ sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
 sudo apt install -y imwheel
 sudo apt install -y tldr
+## For Laptops only:
+### sudo apt install -y tlp
 ## If you are going to install Cryptomator, you might need to install this package:
 sudo apt install -y fuse3
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
@@ -122,7 +124,7 @@ flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
 flatpak install flathub org.filezillaproject.Filezilla -y
 ## Discord
-flatpak install flathub com.discordapp.Discord -y
+### flatpak install flathub com.discordapp.Discord -y
 ## Zoom
 ### flatpak install flathub us.zoom.Zoom -y
 ## Microsoft Skype
@@ -130,11 +132,13 @@ flatpak install flathub com.discordapp.Discord -y
 ## Microsoft Teams
 ### flatpak install flathub com.microsoft.Teams -y
 ## Todoist
-flatpak install flathub com.todoist.Todoist -y
+### flatpak install flathub com.todoist.Todoist -y
 ## Slack
 ### flatpak install flathub com.slack.Slack -y
 ## Chromium
 ### flatpak install flathub org.chromium.Chromium -y
+## TLPUI (if the package "tlp" was installed)
+### flatpak install flathub com.github.d4nj1.tlpui -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
