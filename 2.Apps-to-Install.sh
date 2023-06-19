@@ -51,6 +51,9 @@ sudo apt install -y default-jre
 ## sudo apt install -y clamav
 ## sudo apt install -y clamav-daemon
 ## sudo apt install -y libclamunrar9
+## sudo apt install -y clamtk
+## sudo apt install -y chkrootkit
+## sudo apt install -y rkhunter
 
 # PPA's Apps from Launchpad
 ## Papirus Icons
