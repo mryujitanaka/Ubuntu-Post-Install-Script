@@ -24,7 +24,6 @@ sudo apt install -y scrcpy
 sudo apt install -y vlc
 sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
-sudo apt install -y imwheel
 sudo apt install -y tldr
 ## For Laptops only:
 ### sudo apt install -y tlp
