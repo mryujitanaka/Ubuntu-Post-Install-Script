@@ -43,7 +43,7 @@ sudo apt install -y default-jre
 ## Testing:
 ### sudo apt install -y openjdk-17-jre
 ### sudo apt install -y openjdk-17-jre-headless
-## If your DE is GNOME, then download the packages below (if you want to).
+## If your DE is GNOME, then download the packages below.
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
 
