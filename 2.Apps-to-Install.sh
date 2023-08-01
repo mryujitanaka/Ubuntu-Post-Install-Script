@@ -159,18 +159,18 @@ wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.2.7-lin
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
-wget -c "https://mirror.turbozoneinternet.net.br/tdf/libreoffice/stable/7.5.3/deb/x86_64/LibreOffice_7.5.3_Linux_x86-64_deb.tar.gz"
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.5.5/deb/x86_64/LibreOffice_7.5.5_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack
-wget -c "https://tdf.ufms.br/tdf/libreoffice/stable/7.5.3/deb/x86_64/LibreOffice_7.5.3_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
+wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/7.5.5/deb/x86_64/LibreOffice_7.5.5_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
 ## VSCode
-wget -c "https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb"
+wget -c "https://az764295.vo.msecnd.net/stable/2ccd690cbff1569e4a83d7c43d45101f817401dc/code_1.80.2-1690491597_amd64.deb"
 ## WordPress
 ### wget -c "https://wordpress.org/latest.zip"
 ## Angry IP Scanner
 wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.9.0_amd64.deb GitHubDesktop-linux-3.2.1-linux1.deb google-chrome-stable_current_amd64.deb code_1.78.2-1683731010_amd64.deb
+sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.9.3_amd64.deb GitHubDesktop-linux-amd64-3.2.7-linux2.deb google-chrome-stable_current_amd64.deb code_1.80.2-1690491597_amd64.deb ipscan_3.9.1_amd64.deb
 #### gitkraken-amd64.deb
 
 # Some Other Settings for Gnome DE distros
