@@ -98,6 +98,9 @@ curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+## AnyDesk
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
 ### System Update
 sudo apt update -qq
 ### PPA's Apps from Other Sources installation
@@ -105,6 +108,7 @@ sudo apt update -qq
 sudo apt install -y nodejs
 #### sudo apt install -y yarn
 sudo apt install -y brave-browser
+sudo apt install -y anydesk
 
 ### If Node.js was installed, probably npm was installed along with it. So, consider updating npm to the latest version:
 sudo npm config set fund false --location=global
@@ -114,8 +118,6 @@ sudo npm install -g npm@latest
 flatpak update -y
 
 # Flatpak Apps
-## AnyDesk
-flatpak install flathub com.anydesk.Anydesk -y
 ## Tor Browser
 flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 ## GIMP
