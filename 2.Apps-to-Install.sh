@@ -142,8 +142,6 @@ flatpak install flathub org.filezillaproject.Filezilla -y
 ### flatpak install flathub com.slack.Slack -y
 ## Chromium
 ### flatpak install flathub org.chromium.Chromium -y
-## TLPUI (if the package "tlp" was installed)
-### flatpak install flathub com.github.d4nj1.tlpui -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
