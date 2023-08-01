@@ -35,7 +35,7 @@ sudo apt install -y fuse3
 sudo apt install -y kdeconnect
 ## If you install OBS Studio, download the package below.
 sudo apt install -y v4l2loopback-dkms
-## To change XFCE Lock Screen Wallpaper:
+## If you want to change the XFCE Lock Screen Wallpaper, install this package:
 sudo apt install -y lightdm-gtk-greeter-settings
 ## To use LibreOffice, extensions like LanguageTool and/or any other Java based application:
 sudo apt install -y java-common
