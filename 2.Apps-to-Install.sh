@@ -153,7 +153,7 @@ wget -c "https://download.bleachbit.org/bleachbit_4.4.2-0_all_ubuntu2004.deb"
 ## bottom
 wget -c "https://github.com/ClementTsang/bottom/releases/download/0.9.3/bottom_0.9.3_amd64.deb"
 ## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.2.1-linux1/GitHubDesktop-linux-3.2.1-linux1.deb"
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.2.7-linux2/GitHubDesktop-linux-amd64-3.2.7-linux2.deb"
 ## GitKraken
 ### wget -c "https://release.axocdn.com/linux/gitkraken-amd64.deb"
 ## GoogleChrome
