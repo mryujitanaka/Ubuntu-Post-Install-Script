@@ -25,8 +25,6 @@ sudo apt install -y vlc
 sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
 sudo apt install -y tldr
-## For Laptops only:
-### sudo apt install -y tlp
 ## If you are going to install Cryptomator, you might need to install this package:
 sudo apt install -y fuse3
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
