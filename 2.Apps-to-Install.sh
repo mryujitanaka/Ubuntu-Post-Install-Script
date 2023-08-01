@@ -16,7 +16,6 @@ sudo apt install -y virtualbox
 sudo apt install -y neofetch
 sudo apt install -y htop
 sudo apt install -y net-tools
-sudo apt install -y ffmpeg
 sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y flameshot
 sudo apt install -y adb
@@ -33,8 +32,9 @@ sudo apt install -y tldr
 sudo apt install -y fuse3
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
-## If you install OBS Studio, download the package below.
+## If you are going to install OBS Studio, download the packages below.
 sudo apt install -y v4l2loopback-dkms
+sudo apt install -y ffmpeg
 ## If you want to change the XFCE Lock Screen Wallpaper, install this package:
 sudo apt install -y lightdm-gtk-greeter-settings
 ## To use LibreOffice, extensions like LanguageTool and/or any other Java based application:
