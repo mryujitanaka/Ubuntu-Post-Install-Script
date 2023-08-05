@@ -140,6 +140,8 @@ flatpak install flathub org.filezillaproject.Filezilla -y
 ### flatpak install flathub com.slack.Slack -y
 ## Chromium
 ### flatpak install flathub org.chromium.Chromium -y
+## Firefox
+### flatpak install flathub org.mozilla.firefox -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
