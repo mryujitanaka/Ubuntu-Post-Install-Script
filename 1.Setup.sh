@@ -51,6 +51,7 @@ sudo apt --purge remove -y gnome-sound-recorder
 sudo apt --purge remove -y remmina*
 sudo apt --purge remove -y gimp*
 sudo apt --purge remove -y zorin-windows-app-support-installation-shortcut
+sudo apt --purge remove -y firefox-esr
 
 # System Update and Upgrade
 sudo apt update
