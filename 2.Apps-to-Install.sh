@@ -142,6 +142,8 @@ flatpak install flathub org.filezillaproject.Filezilla -y
 ### flatpak install flathub org.chromium.Chromium -y
 ## Firefox
 ### flatpak install flathub org.mozilla.firefox -y
+## LibreOffice
+### flatpak install flathub org.libreoffice.LibreOffice -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
