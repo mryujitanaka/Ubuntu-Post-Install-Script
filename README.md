@@ -7,7 +7,7 @@
 <br>
 
 <h2><strong>&#9888 Attention!</strong></h2>
-<p>While this project is fully compatible with Ubuntu-based OSes, I'm currently using <em>Zorin-OS 16.3 Lite</em>. So, all the updates that I've been implementing have been made based on my needs using my system. Therefor, you may find something that you don't like, or that you don't need, or need to update. If any of these cases are yours, feel free to modify the code as per your requirements as per the <a href="https://github.com/mryujitanaka/Ubuntu-Post-Install-Script#-license">license</a> of this project.<p>
+<p>While this project is fully compatible with Ubuntu-based OSes, I'm currently using <em>Zorin OS 16.3 Lite</em>. So, all the updates that I've been implementing have been made based on my needs using my system. Therefor, you may find something that you don't like, or that you don't need, or need to update. If any of these cases are yours, feel free to modify the code as per your requirements as per the <a href="https://github.com/mryujitanaka/Ubuntu-Post-Install-Script#-license">license</a> of this project.<p>
 
 <!-- About The Project -->
 <h2><strong>&#x1F9D0 About the Project</strong></h2>
@@ -68,7 +68,7 @@ Before running the scripts, I strongly recommend that you study them and observe
 
 I am not responsible for possible errors that may occur on your computer. Keep in mind that you are fully responsible for your actions from the moment you download any files or clone this repository.
 
-The tests performed successfully were done on Ubuntu-based operating systems, like Pop_OS! 20.X LTS, Linux Mint XFCE 20.X LTS and Zorin OS 16.2 Lite.
+The tests performed successfully were done on Ubuntu-based operating systems, like * *Pop_OS! 20.X LTS* *, _Linux Mint XFCE 20.X LTS_ and _Zorin OS 16.3 Lite_.
 
 <!-- Contributing -->
 <h2><strong>&#128200;&#129309; Contributing</strong></h2>
