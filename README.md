@@ -78,11 +78,13 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 <!-- To Do -->
 <h2><strong>&#128221; To Do</strong></h2>
 <p>Add the programs below to the script to be downloaded:</p>
-<p>&#9723; Dropbox</p>
-<p>&#9723; Local by Flywheel</p>
-<p>&#9723; OCS-URL</p>
-<p>&#9723; Sweet-Ambar-Blue Theme</p>
-<p>&#9723; Sweet-Dark Theme</p>
+<ul>
+    <li>Dropbox</li>
+    <li>Local by Flywheel</li>
+    <li>OCS-URL</li>
+    <li>Sweet-Ambar-Blue Theme</li>
+    <li>Sweet-Dark Theme</li>
+</ul>
 
 <!-- License -->
 <h2><strong>&#9878; License</strong></h2>
