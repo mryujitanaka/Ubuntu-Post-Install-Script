@@ -168,7 +168,7 @@ wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/7.5.5/deb/x86_64/LibreOffic
 wget -c "https://az764295.vo.msecnd.net/stable/2ccd690cbff1569e4a83d7c43d45101f817401dc/code_1.80.2-1690491597_amd64.deb"
 ## WordPress
 ### wget -c "https://wordpress.org/latest.zip"
-## Local (WordPress Local Server)
+## Local by Flywheel (WordPress Local Server)
 ### wget -c "https://cdn.localwp.com/releases-stable/7.1.2+6410/local-7.1.2-linux.deb"
 ### or:
 ### wget -c "https://cdn.localwp.com/stable/latest/deb"
