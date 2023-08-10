@@ -45,7 +45,7 @@
 
 &#9888; If you don't know how to run a .sh file on the terminal, click [here](https://askubuntu.com/questions/38661/how-do-i-run-sh-scripts).
 
-&#128073; When the 1.Setup.sh script is finished, restart your computer.
+&#128073; When the <strong>1.Setup.sh</strong> script is finished, restart your computer.
 
 &#128073; After restarting your computer, run the 2.Apps-to-Install.sh script.
 
