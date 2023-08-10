@@ -51,7 +51,7 @@
 
 &#128073; When the 2nd script is finished, restart your PC again.
 
-&#9888; You may be wondering: "what about the third script?". Well, it can be used whenever you want to update your packages, without installing new programs on your system. The 3.SystemUpdateUpgrade.sh script works more or less like a Windows Update, but <strong>YOU</strong> are in control!
+&#9888; You may be wondering: "what about the third script?". Well, it can be used whenever you want to update your packages, without installing new programs on your system. The **3.SystemUpdateUpgrade.sh** script works more or less like a Windows Update, but <strong>YOU</strong> are in control!
 
 &#127881; That's it! Now just test the programs that were automatically downloaded to your computer!
 
