@@ -21,7 +21,7 @@
 <!-- Getting Started -->
 <h2><strong>&#x1F3C1 Getting Started</strong></h2>
     <p>This project contains 3 .sh files: <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/1.Setup.sh">1.Setup.sh</a>, <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/2.Apps-to-Install.sh">2.Apps-to-Install.sh</a> and <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/3.SystemUpdateUpgrade.sh">3.SystemUpdateUpgrade.sh</a>.</p>
-    <p>This means that you must first run the file 1, then the file 2 and finally the file 3.</p>
+    <p>This means that you must first run the <em>file 1</em>, then the <em>file 2</em> and finally the <em>file 3</em>.</p>
     <p><strong>ATTENTION!</strong> Before you run the scripts on your system, especially the first one (1.Setup.sh), make sure your terminal has <em>Unlimited Scroolback</em> enabled. With this function enabled, you will be able to fully view the entire script output history by scrolling your terminal sidebar up.</p>
 
 <!-- Prerequisites -->
