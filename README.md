@@ -77,7 +77,7 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 
 <!-- To Do -->
 <h2><strong>&#128221; To Do</strong></h2>
-<p>Add the programs below to the script to be downloaded:</p>
+<p>Add the programs below to the <em>2.Apps-to-Install.sh</em> script to be downloaded:</p>
 <ul>
     <li>Dropbox</li>
     <li>Local by Flywheel</li>
