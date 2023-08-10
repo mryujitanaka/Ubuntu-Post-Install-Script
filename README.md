@@ -72,9 +72,7 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 
 <!-- Contributing -->
 <h2><strong>&#128200;&#129309; Contributing</strong></h2>
-<p>Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy!
-
-click .</p>
+<p>Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy!</p>
 <p>If you find a bug in the source code, you can help me by submitting a <a href="https://github.com/mryujitanaka/Ubuntu-Post-Install-Script/issues">Bug Report</a>. Even better, you can submit a <a href="https://github.com/mryujitanaka/Ubuntu-Post-Install-Script/pulls">Pull Request</a> with a fix.</p>
 
 <!-- To Do -->
