@@ -1,6 +1,7 @@
 <!-- Heading -->
 <h1 align="center">Ubuntu Post Install Script</h1>
     <p align="center"><em>Ubuntu-based OS post install script</em> to uninstall, install and/or update packages. &#x1F913&#x1F596</p>
+
 ---
 
 <br>
