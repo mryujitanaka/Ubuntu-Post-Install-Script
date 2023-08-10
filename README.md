@@ -8,7 +8,7 @@
 
 <!-- About The Project -->
 <h2><strong>&#x1F9D0 About the Project</strong></h2>
-    <p>This project was created specifically to meet my needs after installing Ubuntu based OS on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for myself. So I thought: "why not share it with the world?".</p>
+    <p>This project was created specifically to meet my needs after installing an Ubuntu-based OS on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for myself. So I thought: "why not share it with the world?".</p>
     <p>I bet you must have already wasted a lot of time downloading all your programs again after formatting your PC, right? You need to manually download a more updated program and so on... YUCK!</p>
     <p>No more! Automate your processes and optimize your time! Let my script do all the work for you!</p>
 
