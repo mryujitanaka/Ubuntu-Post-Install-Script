@@ -6,6 +6,10 @@
 
 <br>
 
+## &#9888;Attention!
+
+While this project is fully compatible with Ubuntu-based OSes, I'm currently using Zorin-OS 16.3 Lite. So, all the updates that I've been implementing have been made based on my needs using my system. Therefor, you may find something that you don't like, or that you don't need, or need to update. If any of these cases are yours, feel free to modify the code as per your requirements as per the [license](https://github.com/mryujitanaka/Ubuntu-Post-Install-Script#-license) of this project.
+
 <!-- About The Project -->
 <h2><strong>&#x1F9D0 About the Project</strong></h2>
     <p>This project was created specifically to meet my needs after installing an Ubuntu-based OS on my computer. However, since the script I created was so good (at least for me), I decided that it was not fair to keep it just for myself. So I thought: "why not share it with the world?".</p>
