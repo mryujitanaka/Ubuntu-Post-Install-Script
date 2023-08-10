@@ -21,7 +21,7 @@
 <!-- Getting Started -->
 <h2><strong>&#x1F3C1 Getting Started</strong></h2>
     <p>This project contains 3 .sh files: <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/1.Setup.sh">1.Setup.sh</a>, <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/2.Apps-to-Install.sh">2.Apps-to-Install.sh</a> and <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/3.SystemUpdateUpgrade.sh">3.SystemUpdateUpgrade.sh</a>.</p>
-    <p>This means that you must first run the <em>file 1</em>, then the <em>file 2</em> and finally the <em>file 3</em>.</p>
+    <p>This means that you must first run the <em>1.Setup.sh</em> script, then the <em>2.Apps-to-Install.sh</em> script and finally the <em>3.SystemUpdateUpgrade.sh</em> script.</p>
     <p><strong>ATTENTION!</strong> Before you run the scripts on your system, especially the first one (1.Setup.sh), make sure your terminal has <em>Unlimited Scroolback</em> enabled. With this function enabled, you will be able to fully view the entire script output history by scrolling your terminal sidebar up.</p>
 
 <!-- Prerequisites -->
@@ -45,9 +45,9 @@
 
 &#9888; If you don't know how to run a .sh file on the terminal, click [here](https://askubuntu.com/questions/38661/how-do-i-run-sh-scripts).
 
-&#128073; When the <strong>1.Setup.sh</strong> script is finished, restart your computer.
+&#128073; When the **1.Setup.sh** script is finished, restart your computer.
 
-&#128073; After restarting your computer, run the 2.Apps-to-Install.sh script.
+&#128073; After restarting your computer, run the **2.Apps-to-Install.sh** script.
 
 &#128073; When the 2nd script is finished, restart your PC again.
 
