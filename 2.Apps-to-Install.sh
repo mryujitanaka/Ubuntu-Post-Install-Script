@@ -161,11 +161,11 @@ wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.2.7-lin
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
-wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.5.5/deb/x86_64/LibreOffice_7.5.5_Linux_x86-64_deb.tar.gz"
+wget -c "https://download.documentfoundation.org/libreoffice/stable/7.6.2/deb/x86_64/LibreOffice_7.6.2_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack
-wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/7.5.5/deb/x86_64/LibreOffice_7.5.5_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
+wget -c "https://download.documentfoundation.org/libreoffice/stable/7.6.2/deb/x86_64/LibreOffice_7.6.2_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
 ## VSCode
-wget -c "https://az764295.vo.msecnd.net/stable/2ccd690cbff1569e4a83d7c43d45101f817401dc/code_1.80.2-1690491597_amd64.deb"
+wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
 ## WordPress
 ### wget -c "https://wordpress.org/latest.zip"
 ## Local by Flywheel (WordPress Local Server)
