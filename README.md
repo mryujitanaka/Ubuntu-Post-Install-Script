@@ -80,7 +80,6 @@ The tests performed successfully were done on Ubuntu-based operating systems, li
 <p>Add the programs below to the <em>2.Apps-to-Install.sh</em> script to be downloaded:</p>
 <ul>
     <li>Dropbox</li>
-    <li>Local by Flywheel</li>
     <li>OCS-URL</li>
     <li>Sweet-Ambar-Blue Theme</li>
     <li>Sweet-Dark Theme</li>
