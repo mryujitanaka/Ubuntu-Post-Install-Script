@@ -144,6 +144,8 @@ flatpak install flathub org.filezillaproject.Filezilla -y
 ### flatpak install flathub org.mozilla.firefox -y
 ## LibreOffice
 ### flatpak install flathub org.libreoffice.LibreOffice -y
+## Motrix
+### flatpak install flathub net.agalwood.Motrix -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
@@ -174,9 +176,11 @@ wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x6
 ### wget -c "https://cdn.localwp.com/stable/latest/deb"
 ## Angry IP Scanner
 wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
+## XDM
+wget -c "https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.3-linux2.deb google-chrome-stable_current_amd64.deb code_1.83.1-1696982868_amd64.deb ipscan_3.9.1_amd64.deb
+sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.3-linux2.deb google-chrome-stable_current_amd64.deb code_1.83.1-1696982868_amd64.deb ipscan_3.9.1_amd64.deb xdman_gtk_8.0.29_amd64.deb
 #### gitkraken-amd64.deb local-8.0.0-linux.deb
 
 # Some Other Settings for Gnome DE distros
