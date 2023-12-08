@@ -70,6 +70,8 @@ sudo add-apt-repository ppa:obsproject/obs-studio -y
 ### sudo add-apt-repository ppa:ondrej/apache2 -y
 ## PHP
 ### sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
+## Brightness Controller
+sudo add-apt-repository ppa:apandada1/brightness-controller -y
 
 ### System Update
 sudo apt update -qq
@@ -82,6 +84,7 @@ sudo apt install -y keepassxc
 sudo apt install -y obs-studio
 ##### sudo apt install -y apache2
 ##### sudo apt install -y php8.1
+sudo apt install -y brightness-controller
 
 # PPA's Apps from Other Sources
 ## Amazon Corretto 11
