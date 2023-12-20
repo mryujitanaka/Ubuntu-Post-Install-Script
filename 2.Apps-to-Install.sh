@@ -123,8 +123,8 @@ flatpak update -y
 flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 ## GIMP
 flatpak install flathub org.gimp.GIMP -y
-## Meld
-flatpak install flathub org.gnome.meld -y
+## Meld (Discontinued)
+### flatpak install flathub org.gnome.meld -y
 ## Audacity
 flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
@@ -156,21 +156,21 @@ flatpak uninstall --unused -y
 
 # wget Apps
 ## BleachBit
-wget -c "https://download.bleachbit.org/bleachbit_4.4.2-0_all_ubuntu2004.deb"
+wget -c "https://download.bleachbit.org/bleachbit_4.6.0-0_all_ubuntu2004.deb"
 ## bottom
 wget -c "https://github.com/ClementTsang/bottom/releases/download/0.9.6/bottom_0.9.6_amd64.deb"
 ## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.3.3-linux2/GitHubDesktop-linux-amd64-3.3.3-linux2.deb"
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.3.6-linux2/GitHubDesktop-linux-amd64-3.3.6-linux2.deb"
 ## GitKraken
 ### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
-wget -c "https://download.documentfoundation.org/libreoffice/stable/7.6.2/deb/x86_64/LibreOffice_7.6.2_Linux_x86-64_deb.tar.gz"
-## LibreOffice LangPack
-wget -c "https://download.documentfoundation.org/libreoffice/stable/7.6.2/deb/x86_64/LibreOffice_7.6.2_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/7.6.4/deb/x86_64/LibreOffice_7.6.4_Linux_x86-64_deb.tar.gz"
+## LibreOffice LangPack for pt-BR
+wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/7.6.4/deb/x86_64/LibreOffice_7.6.4_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
 ## VSCode
-wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/code_1.85.1-1702462158_amd64.deb"
 ## WordPress
 ### wget -c "https://wordpress.org/latest.zip"
 ## Local by Flywheel (WordPress Local Server)
@@ -180,11 +180,11 @@ wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x6
 ## Angry IP Scanner
 wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
 ## XDM
-wget -c "https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb"
+### wget -c "https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.3-linux2.deb google-chrome-stable_current_amd64.deb code_1.83.1-1696982868_amd64.deb ipscan_3.9.1_amd64.deb xdman_gtk_8.0.29_amd64.deb
-#### gitkraken-amd64.deb local-8.0.0-linux.deb
+sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.6-linux2.deb google-chrome-stable_current_amd64.deb code_1.85.1-1702462158_amd64.deb ipscan_3.9.1_amd64.deb
+#### gitkraken-amd64.deb local-8.0.0-linux.deb xdman_gtk_8.0.29_amd64.deb
 
 # Some Other Settings for Gnome DE distros
 ## Permanently enable Do Not Disturb (No Notifications)
