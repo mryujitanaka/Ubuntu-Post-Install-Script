@@ -121,8 +121,8 @@ sudo apt install -y brave-browser
 sudo apt install -y anydesk
 
 ### If Node.js was installed, probably npm was installed along with it. So, consider updating npm to the latest version:
-sudo npm config set fund false --location=global
-sudo npm install -g npm@latest
+#### sudo npm config set fund false --location=global
+#### sudo npm install -g npm@latest
 
 # Flatpak Update
 flatpak update -y
