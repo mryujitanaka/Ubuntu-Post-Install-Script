@@ -71,7 +71,7 @@ sudo add-apt-repository ppa:obsproject/obs-studio -y
 ## PHP
 ### sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
 ## Brightness Controller
-sudo add-apt-repository ppa:apandada1/brightness-controller -y
+### sudo add-apt-repository ppa:apandada1/brightness-controller -y
 
 ### System Update
 sudo apt update -qq
@@ -84,14 +84,23 @@ sudo apt install -y keepassxc
 sudo apt install -y obs-studio
 ##### sudo apt install -y apache2
 ##### sudo apt install -y php8.1
-sudo apt install -y brightness-controller
+##### sudo apt install -y brightness-controller
 
 # PPA's Apps from Other Sources
 ## Amazon Corretto 11
 ### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 ### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
-## Node.js LTS (v18.x)
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+## Node.js LTS (v20.x) - https://github.com/nodesource/distributions#installation-instructions
+### curl -SLO https://deb.nodesource.com/nsolid_setup_deb.sh
+### chmod 500 nsolid_setup_deb.sh
+### ./nsolid_setup_deb.sh 20
+################################################################################################# or
+## Node.js LTS (v20.x) - https://github.com/nodesource/distributions#installation-scripts
+### sudo apt install -y ca-certificates curl gnupg
+### sudo mkdir -p /etc/apt/keyrings
+### curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+### NODE_MAJOR=20
+### echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
 ## yarn
 ### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
