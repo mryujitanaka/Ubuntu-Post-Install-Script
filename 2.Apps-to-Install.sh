@@ -11,7 +11,7 @@ sudo apt install -y synaptic
 sudo apt install -y gufw
 sudo apt install -y hardinfo
 sudo apt install -y baobab
-sudo apt install -y autokey-gtk
+## sudo apt install -y autokey-gtk
 sudo apt install -y virtualbox
 sudo apt install -y neofetch
 sudo apt install -y htop
@@ -72,6 +72,8 @@ sudo add-apt-repository ppa:obsproject/obs-studio -y
 ### sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
 ## Brightness Controller
 ### sudo add-apt-repository ppa:apandada1/brightness-controller -y
+## Python 3.12.x
+sudo add-apt-repository ppa:deadsnakes/ppa -y
 
 ### System Update
 sudo apt update -qq
@@ -85,6 +87,7 @@ sudo apt install -y obs-studio
 ##### sudo apt install -y apache2
 ##### sudo apt install -y php8.1
 ##### sudo apt install -y brightness-controller
+sudo apt install -y python3.12 libpython3.12
 
 # PPA's Apps from Other Sources
 ## Amazon Corretto 11
@@ -194,6 +197,13 @@ wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_
 ### Installing the wget Programs
 sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.6-linux2.deb google-chrome-stable_current_amd64.deb code_1.85.1-1702462158_amd64.deb ipscan_3.9.1_amd64.deb
 #### gitkraken-amd64.deb local-8.0.0-linux.deb xdman_gtk_8.0.29_amd64.deb
+
+## AutoKey Installation
+wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-common_0.96.0_all.deb"
+wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-gtk_0.96.0_all.deb"
+sudo dpkg -i autokey-common_0.96.0_all.deb autokey-gtk_0.96.0_all.deb
+sudo apt --fix-broken install -y
+sudo dpkg -i autokey-common_0.96.0_all.deb autokey-gtk_0.96.0_all.deb
 
 # Some Other Settings for Gnome DE distros
 ## Permanently enable Do Not Disturb (No Notifications)
