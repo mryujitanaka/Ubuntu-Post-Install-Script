@@ -93,17 +93,8 @@ sudo apt install -y python3.12 libpython3.12
 ## Amazon Corretto 11
 ### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
 ### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
-## Node.js LTS (v20.x) - https://github.com/nodesource/distributions#installation-instructions
-### curl -SLO https://deb.nodesource.com/nsolid_setup_deb.sh
-### chmod 500 nsolid_setup_deb.sh
-### ./nsolid_setup_deb.sh 20
-################################################################################################# or
-## Node.js LTS (v20.x) - https://github.com/nodesource/distributions#installation-scripts
-### sudo apt install -y ca-certificates curl gnupg
-### sudo mkdir -p /etc/apt/keyrings
-### curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
-### NODE_MAJOR=20
-### echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+## Node.js LTS (v20.10.x) - https://github.com/nodesource/distributions#using-ubuntu-1
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
 ## yarn
 ### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
@@ -118,7 +109,7 @@ echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-st
 sudo apt update -qq
 ### PPA's Apps from Other Sources installation
 #### sudo apt install -y java-11-amazon-corretto-jdk
-#### sudo apt install -y nodejs
+sudo apt install -y nodejs
 #### sudo apt install -y yarn
 sudo apt install -y brave-browser
 sudo apt install -y anydesk
