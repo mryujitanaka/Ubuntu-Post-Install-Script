@@ -52,6 +52,7 @@ sudo apt --purge remove -y remmina*
 sudo apt --purge remove -y gimp*
 sudo apt --purge remove -y zorin-windows-app-support-installation-shortcut
 sudo apt --purge remove -y firefox-esr
+sudo apt --purge remove -y gnome-todo
 
 # System Update and Upgrade
 sudo apt update
