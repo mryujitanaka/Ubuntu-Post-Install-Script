@@ -27,6 +27,8 @@ sudo apt install -y inetutils-traceroute
 sudo apt install -y tldr
 ## If you are going to install Cryptomator, you might need to install this package:
 sudo apt install -y fuse3
+## If you are going to install VirtualBox, you might need to install this packages:
+sudo apt install -y virtualbox-guest-x11 virtualbox-guest-utils virtualbox-guest-dkms
 ## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
 ## If you are going to install OBS Studio, download the packages below.
