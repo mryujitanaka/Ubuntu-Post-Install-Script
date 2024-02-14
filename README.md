@@ -70,6 +70,38 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 The tests performed successfully were done on Ubuntu-based operating systems, like *Pop_OS! 20.X LTS*, _Linux Mint XFCE 20.X LTS_ and _Zorin OS 16.3 Lite_.
 
+### Zorin OS 16.3 Lite Notes
+
+If you installed Zorin OS, and received an error like this:
+
+```
+These runtimes in installation 'system' are pinned and won't be removed; see flatpak-pin(1):
+  runtime/org.gtk.Gtk3theme.ZorinBlue-Dark/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinBlue-Light/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinGreen-Dark/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinGreen-Light/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinGrey-Dark/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinGrey-Light/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinOrange-Dark/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinOrange-Light/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinPurple-Dark/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinPurple-Light/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinRed-Dark/x86_64/3.22
+  runtime/org.gtk.Gtk3theme.ZorinRed-Light/x86_64/3.22
+  ```
+  
+So, you can check these two links. Maybe they will help you:
+
+* [Reddit](https://www.reddit.com/r/flatpak/comments/zx1ilh/how_to_remove_pinned_packages/?rdt=42094)
+* [Ask Ubuntu](https://askubuntu.com/questions/1488710/how-to-unpin-and-remove-specific-flatpak-packages)
+
+In my case, what worked to resolve this error was to do the following:
+
+1) In the terminal, type: `flatpak pin --remove <...>`.
+2) Where `<...>` would be the flatpak package you want to remove, such as `runtime/org.gtk.Gtk3theme.ZorinBlue-Dark/x86_64/3.22`.
+3) After pressing ENTER, type your password.
+4) If it didn't work for you, I advise you to access the Zorin OS Forum or the Ubuntu-based Linux distribution you are using, and post your question there.
+
 <!-- Contributing -->
 <h2><strong>&#128200;&#129309; Contributing</strong></h2>
 <p>Improvements are always welcome, but they are only possible if you contribute in some way. Do not be shy!</p>
