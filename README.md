@@ -46,7 +46,7 @@
 
 &#128073; After extracting the .sh files, first run the 1.Setup.sh script on your terminal.
 
-#65039; If you don't know how to run a .sh file on the terminal, click [here](https://askubuntu.com/questions/38661/how-do-i-run-sh-scripts).
+&#65039; If you don't know how to run a .sh file on the terminal, click [here](https://askubuntu.com/questions/38661/how-do-i-run-sh-scripts).
 
 &#128073; When the **1.Setup.sh** script is finished, restart your computer.
 
@@ -54,7 +54,7 @@
 
 &#128073; When the 2nd script is finished, restart your PC again.
 
-#65039; You may be wondering: "what about the third script?". Well, it can be used whenever you want to update your packages, without installing new programs on your system. The **3.SystemUpdateUpgrade.sh** script works more or less like a Windows Update, but **YOU** are in control!
+&#65039; You may be wondering: "what about the third script?". Well, it can be used whenever you want to update your packages, without installing new programs on your system. The **3.SystemUpdateUpgrade.sh** script works more or less like a Windows Update, but **YOU** are in control!
 
 &#127881; That's it! Now enjoy the programs that were automatically downloaded to your computer!
 
