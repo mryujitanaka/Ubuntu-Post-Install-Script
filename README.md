@@ -70,7 +70,7 @@ I am not responsible for possible errors that may occur on your computer. Keep i
 
 The tests performed successfully were done on Ubuntu-based operating systems, like *Pop_OS! 20.X LTS*, _Linux Mint XFCE 20.X LTS_ and _Zorin OS 16.3 Lite_.
 
-### Zorin OS 16.3 Lite Notes
+### _Zorin OS 16.3 Lite_ Notes
 
 If you installed Zorin OS, and received an error like this:
 
