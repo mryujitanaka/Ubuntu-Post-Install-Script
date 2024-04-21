@@ -36,10 +36,7 @@ sudo apt install -y v4l2loopback-dkms
 sudo apt install -y ffmpeg
 ## If you want to change the XFCE Lock Screen Wallpaper, install this package:
 sudo apt install -y lightdm-gtk-greeter-settings
-## To use LibreOffice extensions like LanguageTool and/or any other Java based application:
-### sudo apt install -y openjdk-17-jre
-### sudo apt install -y openjdk-17-jre-headless
-### sudo apt install -y openjdk-17-jre-zero
+## To use LibreOffice extensions and/or any other Java based application:
 sudo apt install -y openjdk-21-jre
 sudo apt install -y openjdk-21-jre-headless
 sudo apt install -y openjdk-21-jre-zero
