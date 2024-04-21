@@ -169,11 +169,11 @@ wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.3.12-li
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
-wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/24.2.0/deb/x86_64/LibreOffice_24.2.0_Linux_x86-64_deb.tar.gz"
+wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/24.2.2/deb/x86_64/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack for pt-BR
-wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/24.2.0/deb/x86_64/LibreOffice_24.2.0_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.2.2/deb/x86_64/LibreOffice_24.2.2_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
 ## VSCode
-wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/31c37ee8f63491495ac49e43b8544550fbae4533/code_1.86.1-1707298119_amd64.deb"
+wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/e170252f762678dec6ca2cc69aba1570769a5d39/code_1.88.1-1712771838_amd64.deb"
 ## WordPress
 ### wget -c "https://wordpress.org/latest.zip"
 ## Local by Flywheel (WordPress Local Server)
@@ -181,13 +181,13 @@ wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/31c3
 ### or:
 ### wget -c "https://cdn.localwp.com/stable/latest/deb"
 ## Angry IP Scanner
-wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
+### wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
 ## XDM
 ### wget -c "https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.12-linux2.deb google-chrome-stable_current_amd64.deb code_1.86.1-1707298119_amd64.deb ipscan_3.9.1_amd64.deb
-#### gitkraken-amd64.deb local-8.0.0-linux.deb xdman_gtk_8.0.29_amd64.deb
+sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.12-linux2.deb google-chrome-stable_current_amd64.deb code_1.88.1-1712771838_amd64.deb
+#### gitkraken-amd64.deb local-8.0.0-linux.deb xdman_gtk_8.0.29_amd64.deb ipscan_3.9.1_amd64.deb
 
 ## AutoKey Installation
 wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-common_0.96.0_all.deb"
