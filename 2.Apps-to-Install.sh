@@ -163,7 +163,7 @@ wget -c "https://download.bleachbit.org/bleachbit_4.6.0-0_all_ubuntu2004.deb"
 ## bottom
 wget -c "https://github.com/ClementTsang/bottom/releases/download/0.9.6/bottom_0.9.6_amd64.deb"
 ## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.3.8-linux2/GitHubDesktop-linux-amd64-3.3.8-linux2.deb"
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.3.12-linux2/GitHubDesktop-linux-amd64-3.3.12-linux2.deb"
 ## GitKraken
 ### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
 ## GoogleChrome
@@ -186,7 +186,7 @@ wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_
 ### wget -c "https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.8-linux2.deb google-chrome-stable_current_amd64.deb code_1.86.1-1707298119_amd64.deb ipscan_3.9.1_amd64.deb
+sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.12-linux2.deb google-chrome-stable_current_amd64.deb code_1.86.1-1707298119_amd64.deb ipscan_3.9.1_amd64.deb
 #### gitkraken-amd64.deb local-8.0.0-linux.deb xdman_gtk_8.0.29_amd64.deb
 
 ## AutoKey Installation
