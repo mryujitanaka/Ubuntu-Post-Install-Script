@@ -53,6 +53,8 @@ sudo apt install -y openjdk-21-jre-zero
 ## sudo apt install -y rkhunter
 
 # PPA's Apps from Launchpad
+## Fastfetch
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
 ## Papirus Icons
 sudo add-apt-repository ppa:papirus/papirus -y
 ## qBittorrent
@@ -77,6 +79,7 @@ sudo add-apt-repository ppa:obsproject/obs-studio -y
 ### System Update
 sudo apt update -qq
 #### Installing the Programs
+sudo apt install -y fastfetch
 sudo apt install -y papirus-icon-theme
 sudo apt install -y qbittorrent
 sudo apt install -y git
