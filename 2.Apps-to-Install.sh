@@ -110,11 +110,11 @@ echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-st
 ### System Update
 sudo apt update -qq
 ### PPA's Apps from Other Sources installation
-#### sudo apt install -y java-11-amazon-corretto-jdk
 sudo apt install -y nodejs
-#### sudo apt install -y yarn
 sudo apt install -y brave-browser
 sudo apt install -y anydesk
+#### sudo apt install -y java-11-amazon-corretto-jdk
+#### sudo apt install -y yarn
 
 ### If Node.js was installed, probably npm was installed along with it. So, consider updating npm to the latest version:
 #### sudo npm config set fund false --location=global
