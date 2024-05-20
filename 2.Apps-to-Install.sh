@@ -180,8 +180,6 @@ wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/e170
 ### wget -c "https://wordpress.org/latest.zip"
 ## Local by Flywheel (WordPress Local Server)
 ### wget -c "https://cdn.localwp.com/stable/latest/deb"
-### or:
-### wget -c "https://cdn.localwp.com/stable/latest/deb"
 ## Angry IP Scanner
 ### wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
 ## XDM
