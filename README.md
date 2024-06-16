@@ -117,7 +117,7 @@ In my case, what worked to resolve these errors was to do the following:
 
 <!-- License -->
 <h2><strong>&#9878; License</strong></h2>
-<p>Above the license, this project is based in four freedoms (inspired by the <a href="https://mediatemple.net/blog/web-development-tech/wordpress-philosophy-four-freedoms/">WordPress Philosophy</a>):</p>
+<p>Above the license, this project is based in four freedoms (inspired by the <a href="https://wordpress.org/about/philosophy/#:~:text=The%20freedom%20to%20run%20the,your%20modified%20versions%20to%20others.">WordPress Philosophy</a>):</p>
 <ul> 
     <li>The 1st: To run the program for any purpose.</li>
     <li>The 2nd: To study how the program works and change it to make it do what you wish.</li>
