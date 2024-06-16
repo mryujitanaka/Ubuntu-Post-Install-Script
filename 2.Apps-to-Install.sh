@@ -128,8 +128,6 @@ flatpak update -y
 flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 ## GIMP
 flatpak install flathub org.gimp.GIMP -y
-## Meld (Discontinued)
-### flatpak install flathub org.gnome.meld -y
 ## Audacity
 flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
@@ -154,6 +152,8 @@ flatpak install flathub org.filezillaproject.Filezilla -y
 ### flatpak install flathub org.libreoffice.LibreOffice -y
 ## Motrix
 ### flatpak install flathub net.agalwood.Motrix -y
+## Meld (Discontinued)
+### flatpak install flathub org.gnome.meld -y
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
