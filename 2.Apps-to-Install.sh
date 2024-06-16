@@ -166,8 +166,6 @@ wget -c "https://download.bleachbit.org/bleachbit_4.6.0-0_all_ubuntu2004.deb"
 wget -c "https://github.com/ClementTsang/bottom/releases/download/0.9.6/bottom_0.9.6_amd64.deb"
 ## GitHubDesktop
 wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.3.12-linux2/GitHubDesktop-linux-amd64-3.3.12-linux2.deb"
-## GitKraken
-### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
@@ -176,6 +174,8 @@ wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/24.2.2/deb/x86_64/LibreOffi
 wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.2.2/deb/x86_64/LibreOffice_24.2.2_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
 ## VSCode
 wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/e170252f762678dec6ca2cc69aba1570769a5d39/code_1.88.1-1712771838_amd64.deb"
+## GitKraken
+### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
 ## WordPress
 ### wget -c "https://wordpress.org/latest.zip"
 ## Local by Flywheel (WordPress Local Server)
