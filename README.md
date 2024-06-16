@@ -7,7 +7,7 @@
 <br>
 
 <h2><strong>&#9888 Attention!</strong></h2>
-<p>While this project is fully compatible with Ubuntu-based OSes, I'm currently using <em>Zorin OS 16.3 Lite</em>. So, all the updates that I've been implementing have been made based on my needs using my system. Therefore, you may find something that you don't like, or that you don't need, or need to update. If any of these cases are yours, feel free to modify the code as per your requirements as per the <a href="https://github.com/mryujitanaka/Ubuntu-Post-Install-Script#-license">license</a> of this project.<p>
+<p>While this project is fully compatible with Ubuntu-based OSes, I'm currently using <em>Zorin OS 17.1 Lite</em>. So, all the updates that I've been implementing have been made based on my needs using this system. Therefore, you may find something that you don't like, or that you don't need, or need to update. If any of these cases are yours, feel free to modify the code as per your requirements as per the <a href="https://github.com/mryujitanaka/Ubuntu-Post-Install-Script#-license">license</a> of this project.<p>
 
 <!-- About The Project -->
 <h2><strong>&#x1F9D0 About the Project</strong></h2>
