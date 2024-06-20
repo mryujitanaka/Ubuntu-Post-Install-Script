@@ -36,9 +36,18 @@ sudo apt install -y ffmpeg
 ## If you want to change the XFCE Lock Screen Wallpaper, install this package:
 sudo apt install -y lightdm-gtk-greeter-settings
 ## To use LibreOffice extensions and/or any other Java based application:
-sudo apt install -y openjdk-21-jre
-sudo apt install -y openjdk-21-jre-headless
-sudo apt install -y openjdk-21-jre-zero
+## JRE/JDK 17
+sudo apt install -y openjdk-17-jdk
+sudo apt install -y openjdk-17-jdk-headless
+sudo apt install -y openjdk-17-jre
+sudo apt install -y openjdk-17-jre-headless
+sudo apt install -y openjdk-17-jre-zero
+## JRE/JDK 21
+### sudo apt install -y openjdk-21-jdk
+### sudo apt install -y openjdk-21-jdk-headless
+### sudo apt install -y openjdk-21-jre
+### sudo apt install -y openjdk-21-jre-headless
+### sudo apt install -y openjdk-21-jre-zero
 
 ## If your DE is GNOME, then download the packages below.
 ### sudo apt install -y gnome-tweaks
