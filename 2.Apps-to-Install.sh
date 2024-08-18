@@ -17,7 +17,6 @@ sudo apt install -y net-tools
 sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y flameshot
 sudo apt install -y adb
-sudo apt install -y grub-customizer
 sudo apt install -y scrcpy
 sudo apt install -y vlc
 sudo apt install -y numlockx
