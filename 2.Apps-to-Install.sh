@@ -26,7 +26,7 @@ sudo apt install -y tldr
 sudo apt install -y fuse3
 ## If you are going to install VirtualBox, you might need to install this packages:
 sudo apt install -y virtualbox-guest-x11 virtualbox-guest-utils virtualbox-guest-dkms
-## If your DE is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
+## If your DE (Desktop Environment) is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
 ## If you are going to install OBS Studio, download the packages below.
 sudo apt install -y v4l2loopback-dkms
