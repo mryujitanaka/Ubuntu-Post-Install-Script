@@ -80,8 +80,6 @@ sudo add-apt-repository ppa:obsproject/obs-studio -y
 ### sudo add-apt-repository ppa:ondrej/apache2 -y
 ## PHP
 ### sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
-## Brightness Controller
-### sudo add-apt-repository ppa:apandada1/brightness-controller -y
 ## Python 3.12.x
 ### sudo add-apt-repository ppa:deadsnakes/ppa -y
 
@@ -97,7 +95,6 @@ sudo apt install -y keepassxc
 sudo apt install -y obs-studio
 ##### sudo apt install -y apache2
 ##### sudo apt install -y php8.1
-##### sudo apt install -y brightness-controller
 ##### sudo apt install -y python3.12 libpython3.12
 
 # PPA's Apps from Other Sources
