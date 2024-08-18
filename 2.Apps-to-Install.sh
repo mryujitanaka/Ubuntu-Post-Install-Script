@@ -62,6 +62,8 @@ sudo apt install -y openjdk-17-jre-zero
 # PPA's Apps from Launchpad
 ## Fastfetch
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
+## Grub Customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
 ## Papirus Icons
 sudo add-apt-repository ppa:papirus/papirus -y
 ## qBittorrent
@@ -85,6 +87,7 @@ sudo add-apt-repository ppa:obsproject/obs-studio -y
 sudo apt update -qq
 #### Installing the Programs
 sudo apt install -y fastfetch
+sudo apt install -y grub-customizer
 sudo apt install -y papirus-icon-theme
 sudo apt install -y qbittorrent
 sudo apt install -y git
