@@ -219,4 +219,4 @@ sudo apt clean
 
 # Display Installation Complete Message
 echo "All done :)" 
-echo "Please, restart the computer, clean up your system using BleachBit (if you want to) and then restart the computer again."
+echo "Restart your computer, clean up your system using BleachBit (if you want to) and then restart the computer again."
