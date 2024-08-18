@@ -11,7 +11,6 @@ sudo apt install -y synaptic
 sudo apt install -y gufw
 sudo apt install -y hardinfo
 sudo apt install -y baobab
-## sudo apt install -y autokey-gtk
 sudo apt install -y virtualbox
 sudo apt install -y htop
 sudo apt install -y net-tools
