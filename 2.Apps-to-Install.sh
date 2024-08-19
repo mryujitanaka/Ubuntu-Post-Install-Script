@@ -139,8 +139,6 @@ flatpak install flathub org.gimp.GIMP -y
 flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
 flatpak install flathub org.filezillaproject.Filezilla -y
-## Varia
-flatpak install flathub io.github.giantpinkrobots.varia -y
 ## Discord
 ### flatpak install flathub com.discordapp.Discord -y
 ## Zoom
