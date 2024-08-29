@@ -11,7 +11,7 @@ sudo apt install -y synaptic
 sudo apt install -y gufw
 sudo apt install -y hardinfo
 sudo apt install -y baobab
-sudo apt install -y virtualbox
+## sudo apt install -y virtualbox
 sudo apt install -y htop
 sudo apt install -y net-tools
 sudo apt install -y ttf-mscorefonts-installer
@@ -24,8 +24,10 @@ sudo apt install -y inetutils-traceroute
 sudo apt install -y tldr
 ## If you are going to install Cryptomator, you might need to install this package:
 sudo apt install -y fuse3
-## If you are going to install VirtualBox, you might need to install this packages:
-sudo apt install -y virtualbox-guest-x11 virtualbox-guest-utils virtualbox-guest-dkms
+## If you are going to install VirtualBox, you might need to install this packages. But, in order for these packages to be installed on your PC, make sure that in the "Software & Updates" settings the "Download from" option is selected as "Main server". After that, make sure that you have enabled the Universe Repository; if not, you can do so by selecting the "Community-maintained free and open-source software (universe)" option. Finally, press the "Close" button.
+### sudo apt install -y virtualbox-guest-x11 virtualbox-guest-utils virtualbox-guest-dkms
+sudo apt install -y libqt5help5 libqt5opengl5
+
 ## If your DE (Desktop Environment) is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
 ## If you are going to install OBS Studio, download the packages below.
@@ -173,6 +175,9 @@ wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/24.2.2/deb/x86_64/LibreOffi
 wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.2.2/deb/x86_64/LibreOffice_24.2.2_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
 ## VSCode
 wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/e170252f762678dec6ca2cc69aba1570769a5d39/code_1.88.1-1712771838_amd64.deb"
+## VirtualBox & VirtualBox Extension Pack
+wget -c "https://download.virtualbox.org/virtualbox/7.0.20/virtualbox-7.0_7.0.20-163906~Ubuntu~jammy_amd64.deb"
+wget -c "https://download.virtualbox.org/virtualbox/7.0.20/Oracle_VM_VirtualBox_Extension_Pack-7.0.20.vbox-extpack"
 ## GitKraken
 ### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
 ## WordPress
@@ -185,7 +190,7 @@ wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/e170
 ### wget -c "https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.12-linux2.deb google-chrome-stable_current_amd64.deb code_1.88.1-1712771838_amd64.deb
+sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.12-linux2.deb google-chrome-stable_current_amd64.deb code_1.88.1-1712771838_amd64.deb virtualbox-7.0_7.0.20-163906~Ubuntu~jammy_amd64.deb
 #### gitkraken-amd64.deb local-8.0.0-linux.deb xdman_gtk_8.0.29_amd64.deb ipscan_3.9.1_amd64.deb
 
 ## AutoKey Installation
