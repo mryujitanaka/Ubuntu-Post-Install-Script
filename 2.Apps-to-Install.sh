@@ -141,6 +141,8 @@ flatpak install flathub org.gimp.GIMP -y
 flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
 flatpak install flathub org.filezillaproject.Filezilla -y
+## Okular
+flatpak install flathub org.kde.okular -y
 ## Discord
 ### flatpak install flathub com.discordapp.Discord -y
 ## Zoom
