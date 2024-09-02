@@ -164,19 +164,19 @@ flatpak uninstall --unused -y
 
 # wget Apps
 ## BleachBit
-wget -c "https://download.bleachbit.org/bleachbit_4.6.0-0_all_ubuntu2004.deb"
+wget -c "https://download.bleachbit.org/bleachbit_4.6.0-0_all_ubuntu2204.deb"
 ## bottom
-wget -c "https://github.com/ClementTsang/bottom/releases/download/0.9.6/bottom_0.9.6_amd64.deb"
+wget -c "https://github.com/ClementTsang/bottom/releases/download/0.10.2/bottom_0.10.2-1_amd64.deb"
 ## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.3.12-linux2/GitHubDesktop-linux-amd64-3.3.12-linux2.deb"
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.3-linux1/GitHubDesktop-linux-amd64-3.4.3-linux1.deb"
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
-wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/24.2.2/deb/x86_64/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz"
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.8.0/deb/x86_64/LibreOffice_24.8.0_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack for pt-BR
-wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.2.2/deb/x86_64/LibreOffice_24.2.2_Linux_x86-64_deb_langpack_pt-BR.tar.gz"
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.8.0/deb/x86_64/LibreOffice_24.8.0_Linux_x86-64_deb_helppack_pt-BR.tar.gz"
 ## VSCode
-wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/e170252f762678dec6ca2cc69aba1570769a5d39/code_1.88.1-1712771838_amd64.deb"
+wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/code_1.92.2-1723660989_amd64.deb"
 ## VirtualBox & VirtualBox Extension Pack
 wget -c "https://download.virtualbox.org/virtualbox/7.0.20/virtualbox-7.0_7.0.20-163906~Ubuntu~jammy_amd64.deb"
 wget -c "https://download.virtualbox.org/virtualbox/7.0.20/Oracle_VM_VirtualBox_Extension_Pack-7.0.20.vbox-extpack"
@@ -188,12 +188,10 @@ wget -c "https://download.virtualbox.org/virtualbox/7.0.20/Oracle_VM_VirtualBox_
 ### wget -c "https://cdn.localwp.com/stable/latest/deb"
 ## Angry IP Scanner
 ### wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
-## XDM
-### wget -c "https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2004.deb bottom_0.9.6_amd64.deb GitHubDesktop-linux-amd64-3.3.12-linux2.deb google-chrome-stable_current_amd64.deb code_1.88.1-1712771838_amd64.deb virtualbox-7.0_7.0.20-163906~Ubuntu~jammy_amd64.deb
-#### gitkraken-amd64.deb local-8.0.0-linux.deb xdman_gtk_8.0.29_amd64.deb ipscan_3.9.1_amd64.deb
+sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2204.deb bottom_0.10.2-1_amd64.deb GitHubDesktop-linux-amd64-3.4.3-linux1.deb google-chrome-stable_current_amd64.deb code_1.92.2-1723660989_amd64.deb virtualbox-7.0_7.0.20-163906~Ubuntu~jammy_amd64.deb
+#### gitkraken-amd64.deb local-8.0.0-linux.deb ipscan_3.9.1_amd64.deb
 
 ## AutoKey Installation
 wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-common_0.96.0_all.deb"
