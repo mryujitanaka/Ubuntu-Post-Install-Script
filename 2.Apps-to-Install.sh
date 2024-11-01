@@ -49,6 +49,10 @@ sudo apt install -y openjdk-17-jre-zero
 ### sudo apt install -y openjdk-21-jre-headless
 ### sudo apt install -y openjdk-21-jre-zero
 ## JRE/JDK 21 from AdoptOpenJDK Eclipse Temurin
+### sudo apt install -y wget apt-transport-https gpg
+### wget -qO - https://packages.adoptium.net/artifactory/api/gpg/key/public | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/adoptium.gpg > /dev/null
+### echo "deb https://packages.adoptium.net/artifactory/deb $(awk -F= '/^VERSION_CODENAME/{print$2}' /etc/os-release) main" | sudo tee /etc/apt/sources.list.d/adoptium.list
+### sudo apt update
 ### sudo apt install -y temurin-21-jdk
 
 ## If your DE is GNOME, then download the packages below.
