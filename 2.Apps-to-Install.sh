@@ -169,9 +169,15 @@ flatpak install flathub org.kde.okular -y
 flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 
+# Snap Update
+sudo snap refresh -y
+
 # Snap Apps
 ## Eclipse IDE
 sudo snap install eclipse --classic
+
+# Snap Clean Up
+sudo rm -rf /var/lib/snapd/cache/*
 
 # wget Apps
 ## BleachBit
