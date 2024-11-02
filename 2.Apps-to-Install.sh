@@ -169,6 +169,10 @@ flatpak install flathub org.kde.okular -y
 flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 
+# Snap Apps
+## Eclipse IDE
+sudo snap install eclipse --classic
+
 # wget Apps
 ## BleachBit
 wget -c "https://download.bleachbit.org/bleachbit_4.6.0-0_all_ubuntu2204.deb"
