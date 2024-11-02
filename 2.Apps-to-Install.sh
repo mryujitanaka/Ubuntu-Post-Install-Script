@@ -171,7 +171,7 @@ flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 
 # Snap Update
-sudo snap refresh -y
+sudo snap refresh
 
 # Snap Apps
 ## Eclipse IDE
