@@ -11,7 +11,6 @@ sudo apt install -y synaptic
 sudo apt install -y gufw
 sudo apt install -y hardinfo
 sudo apt install -y baobab
-## sudo apt install -y virtualbox
 sudo apt install -y htop
 sudo apt install -y net-tools
 sudo apt install -y ttf-mscorefonts-installer
@@ -195,8 +194,8 @@ wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.8.0/deb/x86_64/LibreOf
 ## VSCode
 wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/code_1.92.2-1723660989_amd64.deb"
 ## VirtualBox & VirtualBox Extension Pack
-wget -c "https://download.virtualbox.org/virtualbox/7.0.20/virtualbox-7.0_7.0.20-163906~Ubuntu~jammy_amd64.deb"
-wget -c "https://download.virtualbox.org/virtualbox/7.0.20/Oracle_VM_VirtualBox_Extension_Pack-7.0.20.vbox-extpack"
+wget -c "https://download.virtualbox.org/virtualbox/7.1.4/virtualbox-7.1_7.1.4-165100~Ubuntu~jammy_amd64.deb"
+wget -c "https://download.virtualbox.org/virtualbox/7.1.4/Oracle_VirtualBox_Extension_Pack-7.1.4.vbox-extpack"
 ## GitKraken
 ### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
 ## WordPress
@@ -207,7 +206,7 @@ wget -c "https://download.virtualbox.org/virtualbox/7.0.20/Oracle_VM_VirtualBox_
 ### wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2204.deb bottom_0.10.2-1_amd64.deb GitHubDesktop-linux-amd64-3.4.3-linux1.deb google-chrome-stable_current_amd64.deb code_1.92.2-1723660989_amd64.deb virtualbox-7.0_7.0.20-163906~Ubuntu~jammy_amd64.deb
+sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2204.deb bottom_0.10.2-1_amd64.deb GitHubDesktop-linux-amd64-3.4.3-linux1.deb google-chrome-stable_current_amd64.deb code_1.92.2-1723660989_amd64.deb virtualbox-7.1_7.1.4-165100~Ubuntu~jammy_amd64.deb
 #### gitkraken-amd64.deb local-8.0.0-linux.deb ipscan_3.9.1_amd64.deb
 
 ## AutoKey Installation
