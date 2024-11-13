@@ -25,8 +25,7 @@ sudo apt install -y tldr
 ## If you are going to install Cryptomator, you might need to install this package:
 sudo apt install -y fuse3
 ## If you are going to install VirtualBox, you might need to install this packages. But, in order for these packages to be installed on your PC, make sure that in the "Software & Updates" settings the "Download from" option is selected as "Main server". After that, make sure that you have enabled the Universe Repository; if not, you can do so by selecting the "Community-maintained free and open-source software (universe)" option. Finally, press the "Close" button.
-### sudo apt install -y virtualbox-guest-x11 virtualbox-guest-utils virtualbox-guest-dkms
-sudo apt install -y libqt5help5 libqt5opengl5
+sudo apt install -y libqt5help5 libqt5opengl5 libxcb-cursor0
 
 ## If your DE (Desktop Environment) is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
