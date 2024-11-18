@@ -99,9 +99,6 @@ sudo apt install -y obs-studio
 ##### sudo apt install -y python3.12 libpython3.12
 
 # PPA's Apps from Other Sources
-## Amazon Corretto 11
-### wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add -
-### sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
 ## Node.js LTS (v20.10.x) - https://github.com/nodesource/distributions#using-ubuntu-1
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
 ## yarn
@@ -120,7 +117,6 @@ sudo apt update -qq
 sudo apt install -y nodejs
 sudo apt install -y brave-browser
 sudo apt install -y anydesk
-#### sudo apt install -y java-11-amazon-corretto-jdk
 #### sudo apt install -y yarn
 
 ### If Node.js was installed, probably npm was installed along with it. So, consider updating npm to the latest version:
