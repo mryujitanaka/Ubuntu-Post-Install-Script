@@ -100,7 +100,7 @@ sudo apt install -y obs-studio
 
 # PPA's Apps from Other Sources
 ## Node.js LTS (v20.10.x) - https://github.com/nodesource/distributions#using-ubuntu-1
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
+### curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
 ## yarn
 ### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
