@@ -180,6 +180,10 @@ wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/fee1
 ## VirtualBox & VirtualBox Extension Pack
 wget -c "https://download.virtualbox.org/virtualbox/7.1.4/virtualbox-7.1_7.1.4-165100~Ubuntu~jammy_amd64.deb"
 wget -c "https://download.virtualbox.org/virtualbox/7.1.4/Oracle_VirtualBox_Extension_Pack-7.1.4.vbox-extpack"
+## JDK - IBM Semuru Runtime Open Edition (Java 21 LTS)
+wget -c "https://objects.githubusercontent.com/github-production-release-asset-2e65be/695265943/7545f6af-79a1-42b3-b6dc-0aa57bfe981d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241118T144040Z&X-Amz-Expires=300&X-Amz-Signature=fccf93a0e7a049a9c5a14111930e8455857cd8283c6c896e053d11b98b27aa1f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dibm-semeru-open-jdk_x64_linux_21.0.4_7_openj9-0.46.1.tar.gz&response-content-type=application%2Foctet-stream"
+## JRE - IBM Semuru Runtime Open Edition (Java 21 LTS)
+wget -c "https://objects.githubusercontent.com/github-production-release-asset-2e65be/695265943/404b777e-5a3e-4324-a263-c651fc92d6ba?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241118T144242Z&X-Amz-Expires=300&X-Amz-Signature=cf4150f76411673366bfa3f6474aacb52fea64fe0c6119a91a00354c2ff02a6c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dibm-semeru-open-jre_x64_linux_21.0.4_7_openj9-0.46.1.tar.gz&response-content-type=application%2Foctet-stream"
 ## GitKraken
 ### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
 ## WordPress
