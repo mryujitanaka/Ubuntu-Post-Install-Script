@@ -101,9 +101,6 @@ sudo apt install -y obs-studio
 # PPA's Apps from Other Sources
 ## Node.js LTS (v20.10.x) - https://github.com/nodesource/distributions#using-ubuntu-1
 ### curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
-## yarn
-### curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-### echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ## Brave Browser
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -117,7 +114,6 @@ sudo apt update -qq
 sudo apt install -y nodejs
 sudo apt install -y brave-browser
 sudo apt install -y anydesk
-#### sudo apt install -y yarn
 
 ### If Node.js was installed, probably npm was installed along with it. So, consider updating npm to the latest version:
 #### sudo npm config set fund false --location=global
