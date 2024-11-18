@@ -16,6 +16,12 @@ flatpak update -y
 flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 
+# Snap Update
+sudo snap refresh
+
+# Snap Clean Up
+sudo rm -rf /var/lib/snapd/cache/*
+
 # System Clean Up
 sudo apt install -f
 sudo apt autoremove -y
