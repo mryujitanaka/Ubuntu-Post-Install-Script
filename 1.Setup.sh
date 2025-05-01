@@ -58,6 +58,29 @@ sudo apt --purge remove -y brasero
 sudo apt --purge remove -y brasero-cdrkit
 sudo apt --purge remove -y libbrasero-media3-1
 sudo apt --purge remove -y nautilus-extension-brasero
+sudo apt --purge remove -y evolution-common
+sudo apt --purge remove -y evolution
+sudo apt --purge remove -y evolution-plugin-bogofilter
+sudo apt --purge remove -y evolution-plugin-pstimport
+sudo apt --purge remove -y evolution-plugins
+sudo apt --purge remove -y libevolution
+sudo apt --purge remove -y evolution-ews
+sudo apt --purge remove -y evolution-data-server
+sudo apt --purge remove -y libfolks-eds26
+sudo apt --purge remove -y evolution-data-server-common
+sudo apt --purge remove -y libcamel-1.2-63
+sudo apt --purge remove -y gir1.2-folks-0.7
+sudo apt --purge remove -y gir1.2-camel-1.2
+sudo apt --purge remove -y gir1.2-ebookcontacts-1.2
+sudo apt --purge remove -y gir1.2-edataserver-1.2
+sudo apt --purge remove -y libebackend-1.2-10
+sudo apt --purge remove -y libebook-1.2-20
+sudo apt --purge remove -y libebook-contacts-1.2-3
+sudo apt --purge remove -y libecal-2.0-1
+sudo apt --purge remove -y libedata-book-1.2-26
+sudo apt --purge remove -y libedata-cal-2.0-1
+sudo apt --purge remove -y libedataserver-1.2-26
+sudo apt --purge remove -y libedataserverui-1.2-3
 
 # System Update and Upgrade
 sudo apt update
