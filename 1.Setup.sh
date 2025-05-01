@@ -53,6 +53,11 @@ sudo apt --purge remove -y gimp*
 sudo apt --purge remove -y zorin-windows-app-support-installation-shortcut
 sudo apt --purge remove -y firefox-esr
 sudo apt --purge remove -y gnome-todo
+sudo apt --purge remove -y brasero-common
+sudo apt --purge remove -y brasero
+sudo apt --purge remove -y brasero-cdrkit
+sudo apt --purge remove -y libbrasero-media3-1
+sudo apt --purge remove -y nautilus-extension-brasero
 
 # System Update and Upgrade
 sudo apt update
