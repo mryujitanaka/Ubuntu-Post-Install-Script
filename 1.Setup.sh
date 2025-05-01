@@ -81,6 +81,7 @@ sudo apt --purge remove -y libedata-book-1.2-26
 sudo apt --purge remove -y libedata-cal-2.0-1
 sudo apt --purge remove -y libedataserver-1.2-26
 sudo apt --purge remove -y libedataserverui-1.2-3
+sudo apt --purge remove -y gnome-photos
 
 # System Update and Upgrade
 sudo apt update
