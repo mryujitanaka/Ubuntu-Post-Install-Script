@@ -89,7 +89,7 @@ You can check the two links below in order to fix the error:
 * [Reddit](https://www.reddit.com/r/flatpak/comments/zx1ilh/how_to_remove_pinned_packages/?rdt=42094)
 * [Ask Ubuntu](https://askubuntu.com/questions/1488710/how-to-unpin-and-remove-specific-flatpak-packages)
 
-In my case, what worked to resolve these errors was to do the following:
+In my case, what worked to resolve the error was to do the following:
 
 1. In the terminal, type: `flatpak pin --remove <...>`.
 2. Where `<...>` would be the flatpak package you want to remove, such as `runtime/org.gtk.Gtk3theme.ZorinBlue-Dark/x86_64/3.22`.
