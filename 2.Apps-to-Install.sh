@@ -171,26 +171,27 @@ sudo rm -rf /var/lib/snapd/cache/*
 
 # wget Apps
 ## BleachBit
-wget -c "https://download.bleachbit.org/bleachbit_4.6.0-0_all_ubuntu2204.deb"
+wget -c "https://download.bleachbit.org/bleachbit_5.0.0-0_all_ubuntu2204.deb"
 ## bottom
 wget -c "https://github.com/ClementTsang/bottom/releases/download/0.10.2/bottom_0.10.2-1_amd64.deb"
 ## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.3-linux1/GitHubDesktop-linux-amd64-3.4.3-linux1.deb"
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
-wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.8.0/deb/x86_64/LibreOffice_24.8.0_Linux_x86-64_deb.tar.gz"
+wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/25.2.3/deb/x86_64/LibreOffice_25.2.3_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack for pt-BR
-wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/24.8.0/deb/x86_64/LibreOffice_24.8.0_Linux_x86-64_deb_helppack_pt-BR.tar.gz"
+wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/25.2.3/rpm/x86_64/LibreOffice_25.2.3_Linux_x86-64_rpm_helppack_pt-BR.tar.gz"
 ## VSCode
-wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/code_1.92.2-1723660989_amd64.deb"
-## VirtualBox & VirtualBox Extension Pack
-wget -c "https://download.virtualbox.org/virtualbox/7.1.4/virtualbox-7.1_7.1.4-165100~Ubuntu~jammy_amd64.deb"
-wget -c "https://download.virtualbox.org/virtualbox/7.1.4/Oracle_VirtualBox_Extension_Pack-7.1.4.vbox-extpack"
+wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/17baf841131aa23349f217ca7c570c76ee87b957/code_1.99.3-1744761595_amd64.deb"
+## VirtualBox
+wget -c "https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb"
+## VirtualBox Extension Pack
+wget -c "https://download.virtualbox.org/virtualbox/7.1.8/Oracle_VirtualBox_Extension_Pack-7.1.8.vbox-extpack"
 ## JDK - IBM Semuru Runtime Open Edition (Java 21 LTS)
-wget -c "https://objects.githubusercontent.com/github-production-release-asset-2e65be/695265943/7545f6af-79a1-42b3-b6dc-0aa57bfe981d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241118T144040Z&X-Amz-Expires=300&X-Amz-Signature=fccf93a0e7a049a9c5a14111930e8455857cd8283c6c896e053d11b98b27aa1f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dibm-semeru-open-jdk_x64_linux_21.0.4_7_openj9-0.46.1.tar.gz&response-content-type=application%2Foctet-stream"
+### wget -c "https://objects.githubusercontent.com/github-production-release-asset-2e65be/695265943/7545f6af-79a1-42b3-b6dc-0aa57bfe981d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241118T144040Z&X-Amz-Expires=300&X-Amz-Signature=fccf93a0e7a049a9c5a14111930e8455857cd8283c6c896e053d11b98b27aa1f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dibm-semeru-open-jdk_x64_linux_21.0.4_7_openj9-0.46.1.tar.gz&response-content-type=application%2Foctet-stream"
 ## JRE - IBM Semuru Runtime Open Edition (Java 21 LTS)
-wget -c "https://objects.githubusercontent.com/github-production-release-asset-2e65be/695265943/404b777e-5a3e-4324-a263-c651fc92d6ba?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241118T144242Z&X-Amz-Expires=300&X-Amz-Signature=cf4150f76411673366bfa3f6474aacb52fea64fe0c6119a91a00354c2ff02a6c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dibm-semeru-open-jre_x64_linux_21.0.4_7_openj9-0.46.1.tar.gz&response-content-type=application%2Foctet-stream"
+### wget -c "https://objects.githubusercontent.com/github-production-release-asset-2e65be/695265943/404b777e-5a3e-4324-a263-c651fc92d6ba?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241118T144242Z&X-Amz-Expires=300&X-Amz-Signature=cf4150f76411673366bfa3f6474aacb52fea64fe0c6119a91a00354c2ff02a6c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dibm-semeru-open-jre_x64_linux_21.0.4_7_openj9-0.46.1.tar.gz&response-content-type=application%2Foctet-stream"
 ## GitKraken
 ### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
 ## WordPress
@@ -201,15 +202,15 @@ wget -c "https://objects.githubusercontent.com/github-production-release-asset-2
 ### wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_4.6.0-0_all_ubuntu2204.deb bottom_0.10.2-1_amd64.deb GitHubDesktop-linux-amd64-3.4.3-linux1.deb google-chrome-stable_current_amd64.deb code_1.92.2-1723660989_amd64.deb virtualbox-7.1_7.1.4-165100~Ubuntu~jammy_amd64.deb
+sudo dpkg -i bleachbit_5.0.0-0_all_ubuntu2204.deb bottom_0.10.2-1_amd64.deb GitHubDesktop-linux-amd64-3.4.9-linux1.deb google-chrome-stable_current_amd64.deb code_1.99.3-1744761595_amd64.deb virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb
 #### gitkraken-amd64.deb local-8.0.0-linux.deb ipscan_3.9.1_amd64.deb
 
 ## AutoKey Installation
-wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-common_0.96.0_all.deb"
-wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-gtk_0.96.0_all.deb"
-sudo dpkg -i autokey-common_0.96.0_all.deb autokey-gtk_0.96.0_all.deb
-sudo apt --fix-broken install -y
-sudo dpkg -i autokey-common_0.96.0_all.deb autokey-gtk_0.96.0_all.deb
+### wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-common_0.96.0_all.deb"
+### wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-gtk_0.96.0_all.deb"
+### sudo dpkg -i autokey-common_0.96.0_all.deb autokey-gtk_0.96.0_all.deb
+### sudo apt --fix-broken install -y
+### sudo dpkg -i autokey-common_0.96.0_all.deb autokey-gtk_0.96.0_all.deb
 
 # Some Other Settings for Gnome DE distros
 ## Permanently enable Do Not Disturb (No Notifications)
