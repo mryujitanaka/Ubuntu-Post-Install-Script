@@ -115,10 +115,10 @@ In my case, what worked to resolve the error was to do the following:
 <h2><strong>&#9878; License</strong></h2>
 <p>Above the license, this project is based in four freedoms (inspired by the <a href="https://wordpress.org/about/philosophy/#:~:text=The%20freedom%20to%20run%20the,your%20modified%20versions%20to%20others.">WordPress Philosophy</a>):</p>
 <ul> 
-    <li>1st: To run the program for any purpose.</li>
-    <li>2nd: To study how the program works and change it to make it do what you wish.</li>
-    <li>3rd: To redistribute.</li>
-    <li>4th: To distribute copies of your modified versions to others.</li>
+    <li>The freedom to run the program, for any purpose.</li>
+    <li>The freedom to study how the program works, and change it to make it do what you wish.</li>
+    <li>The freedom to redistribute.</li>
+    <li>The freedom to distribute copies of your modified versions to others.</li>
 </ul>
 <br>
 <p>Distributed under the GPLv3 License. For more information, click <a href="https://github.com/vyujitanaka/Ubuntu-Post-Install-Script/blob/master/LICENSE">here</a>.<p>
