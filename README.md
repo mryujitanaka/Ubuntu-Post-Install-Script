@@ -94,7 +94,7 @@ In my case, what worked to resolve the error was to do the following:
 1. In the terminal, type: `flatpak pin --remove <...>`.
 2. Where `<...>` would be the flatpak package you want to remove, such as `runtime/org.gtk.Gtk3theme.ZorinBlue-Dark/x86_64/3.22`.
 3. After pressing ENTER, type your password.
-4. If it didn't work for you, I advise you to access the [Zorin OS Forum](https://forum.zorin.com/) or the Ubuntu-based Linux distribution you are using, and post your question there.
+4. If it didn't work for you, I advise you to access the [Zorin OS Forum](https://forum.zorin.com/) and post your question there.
 
 <!-- Contributing -->
 <h2><strong>&#128200;&#129309; Contributing</strong></h2>
