@@ -12,7 +12,7 @@
 <!-- About The Project -->
 <h2><strong>&#x1F9D0 About the Project</strong></h2>
     <p>I bet you must have already wasted a lot of time downloading all your programs again after formatting your PC, right? You need to manually download a more updated program and so on... YUCK!</p>
-    <p>No more! Automate your processes and optimize your time! Let <strong>Ubuntu Post Install Script</strong> do all the work for you!</p>
+    <p>No more! Automate your processes and optimize your time! Debloat your fresh installed system with <strong>Ubuntu Post Install Script</strong>!</p>
 
 <!-- Built With -->
 <h2><strong>&#x1F6E0 Built With</strong></h2>
