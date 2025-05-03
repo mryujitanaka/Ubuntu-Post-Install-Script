@@ -64,7 +64,7 @@
 * Before running the scripts, I strongly recommend that you study them and observe what they will update/install on your computer.
 * I am not responsible for possible errors that may occur on your computer. Keep in mind that you are fully responsible for your actions from the moment you download any files or clone this repository.
 
-### _Zorin OS 17.1 Lite_ Notes
+### _Zorin OS 17.3 Lite_ Notes
 
 If you installed Zorin OS, and received an error like this:
 
