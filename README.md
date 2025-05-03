@@ -84,7 +84,7 @@ These runtimes in installation 'system' are pinned and won't be removed; see fla
   runtime/org.gtk.Gtk3theme.ZorinRed-Light/x86_64/3.22
   ```
   
-So, you can check the two links below in order to fix these errors:
+You can check the two links below in order to fix the error:
 
 * [Reddit](https://www.reddit.com/r/flatpak/comments/zx1ilh/how_to_remove_pinned_packages/?rdt=42094)
 * [Ask Ubuntu](https://askubuntu.com/questions/1488710/how-to-unpin-and-remove-specific-flatpak-packages)
