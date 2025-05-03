@@ -135,11 +135,11 @@ flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 ## GIMP
 flatpak install flathub org.gimp.GIMP -y
 ## Audacity
-flatpak install flathub org.audacityteam.Audacity -y
+### flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
-flatpak install flathub org.filezillaproject.Filezilla -y
+### flatpak install flathub org.filezillaproject.Filezilla -y
 ## Okular
-flatpak install flathub org.kde.okular -y
+### flatpak install flathub org.kde.okular -y
 ## Discord
 ### flatpak install flathub com.discordapp.Discord -y
 ## Zoom
@@ -164,7 +164,7 @@ sudo snap refresh
 
 # Snap Apps
 ## Eclipse IDE
-sudo snap install eclipse --classic
+### sudo snap install eclipse --classic
 
 # Snap Clean Up
 sudo rm -rf /var/lib/snapd/cache/*
