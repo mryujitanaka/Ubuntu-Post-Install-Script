@@ -128,6 +128,8 @@ flatpak update -y
 flatpak install flathub org.torproject.torbrowser-launcher -y
 ## GIMP
 flatpak install flathub org.gimp.GIMP -y
+## OBS Studio
+flatpak install flathub com.obsproject.Studio -y
 ## Audacity
 ### flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
