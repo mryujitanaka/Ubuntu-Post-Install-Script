@@ -131,7 +131,7 @@ flatpak update -y
 
 # Flatpak Apps
 ## Tor Browser
-flatpak flatpak install flathub org.torproject.torbrowser-launcher -y
+flatpak install flathub org.torproject.torbrowser-launcher -y
 ## GIMP
 flatpak install flathub org.gimp.GIMP -y
 ## Audacity
