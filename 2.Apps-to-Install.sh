@@ -181,7 +181,7 @@ wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 ## LibreOffice
 wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/25.2.3/deb/x86_64/LibreOffice_25.2.3_Linux_x86-64_deb.tar.gz"
 ## LibreOffice LangPack for pt-BR
-wget -c "https://mirror.uepg.br/tdf/libreoffice/stable/25.2.3/rpm/x86_64/LibreOffice_25.2.3_Linux_x86-64_rpm_helppack_pt-BR.tar.gz"
+wget -c "https://tdf.c3sl.ufpr.br/libreoffice/stable/25.2.3/deb/x86_64/LibreOffice_25.2.3_Linux_x86-64_deb_helppack_pt-BR.tar.gz"
 ## VSCode
 wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/17baf841131aa23349f217ca7c570c76ee87b957/code_1.99.3-1744761595_amd64.deb"
 ## VirtualBox
