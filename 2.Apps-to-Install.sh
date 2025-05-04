@@ -28,9 +28,6 @@ sudo apt install -y libqt5help5 libqt5opengl5 libxcb-cursor0
 
 ## If your DE (Desktop Environment) is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
-## If you are going to install OBS Studio, download the packages below.
-sudo apt install -y v4l2loopback-dkms
-sudo apt install -y ffmpeg
 ## If you want to change the XFCE Lock Screen Wallpaper, install this package:
 sudo apt install -y lightdm-gtk-greeter-settings
 ## To use Java based applications like LibreOffice extensions and/or develop java apps, install the JRE or JDK packages below.
@@ -74,8 +71,6 @@ sudo add-apt-repository ppa:git-core/ppa -y
 sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y
 ## KeePassXC
 sudo add-apt-repository ppa:phoerious/keepassxc -y
-## OBS Studio
-sudo add-apt-repository ppa:obsproject/obs-studio -y
 ## Apache
 ### sudo add-apt-repository ppa:ondrej/apache2 -y
 ## PHP
@@ -93,7 +88,6 @@ sudo apt install -y qbittorrent
 sudo apt install -y git
 sudo apt install -y cryptomator
 sudo apt install -y keepassxc
-sudo apt install -y obs-studio
 ##### sudo apt install -y apache2
 ##### sudo apt install -y php8.1
 ##### sudo apt install -y python3.12 libpython3.12
