@@ -161,6 +161,8 @@ sudo snap refresh
 # Snap Apps
 ## Eclipse IDE
 ### sudo snap install eclipse --classic
+## IntelliJ IDEA Community Edition
+sudo snap install intellij-idea-community --classic
 
 # Snap Clean Up
 sudo rm -rf /var/lib/snapd/cache/*
