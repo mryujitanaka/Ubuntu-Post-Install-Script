@@ -21,22 +21,20 @@ sudo apt install -y vlc
 sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
 sudo apt install -y tldr
+
 ## If you are going to install Cryptomator, you might need to install this package:
 sudo apt install -y fuse3
+
 ## If you are going to install VirtualBox, you might need to install this packages. But, in order for these packages to be installed on your PC, make sure that in the "Software & Updates" settings the "Download from" option is selected as "Main server". After that, make sure that you have enabled the Universe Repository; if not, you can do so by selecting the "Community-maintained free and open-source software (universe)" option. Finally, press the "Close" button.
 sudo apt install -y libqt5help5 libqt5opengl5 libxcb-cursor0
 
 ## If your DE (Desktop Environment) is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
+
 ## If you want to change the XFCE Lock Screen Wallpaper, install this package:
 sudo apt install -y lightdm-gtk-greeter-settings
+
 ## To use Java based applications like LibreOffice extensions and/or develop java apps, install the JRE or JDK packages below.
-## JRE/JDK 17 from OpenJDK
-### sudo apt install -y openjdk-17-jdk
-### sudo apt install -y openjdk-17-jdk-headless
-### sudo apt install -y openjdk-17-jre
-### sudo apt install -y openjdk-17-jre-headless
-### sudo apt install -y openjdk-17-jre-zero
 ## JRE/JDK 21 from OpenJDK
 ### sudo apt install -y openjdk-21-jdk
 ### sudo apt install -y openjdk-21-jdk-headless
