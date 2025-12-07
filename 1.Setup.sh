@@ -8,7 +8,7 @@ sudo apt --purge remove -y gnome-logs
 sudo apt --purge remove -y seahorse
 sudo apt --purge remove -y gnome-contacts
 sudo apt --purge remove -y geary
-sudo apt --purge remove -y libreoffice*
+## sudo apt --purge remove -y libreoffice*
 sudo apt --purge remove -y gnome-weather
 sudo apt --purge remove -y ibus-mozc
 sudo apt --purge remove -y mozc-utils-gui
