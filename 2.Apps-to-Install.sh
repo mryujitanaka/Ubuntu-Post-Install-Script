@@ -21,6 +21,7 @@ sudo apt install -y vlc
 sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
 sudo apt install -y tldr
+sudo apt install -y virt-manager
 
 ## If you are going to install Cryptomator, you might need to install this package:
 sudo apt install -y fuse3
