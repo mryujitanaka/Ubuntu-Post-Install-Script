@@ -11,7 +11,6 @@ sudo apt install -y synaptic
 sudo apt install -y gufw
 sudo apt install -y hardinfo
 sudo apt install -y baobab
-sudo apt install -y htop
 sudo apt install -y net-tools
 sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y flameshot
@@ -158,8 +157,8 @@ flatpak uninstall --unused -y
 sudo snap refresh
 
 # Snap Apps
-## Eclipse IDE
-sudo snap install eclipse --classic
+## htop
+sudo snap install htop
 ## IntelliJ IDEA Community Edition
 sudo snap install intellij-idea-community --classic
 
