@@ -21,31 +21,24 @@ sudo apt install -y inetutils-traceroute
 sudo apt install -y tldr
 sudo apt install -y virt-manager
 
-## If you are going to install Cryptomator, you might need to install this package:
+## Cryptomator dependecies
 sudo apt install -y fuse3
 
-## If you are going to install VirtualBox, you might need to install this packages. But, in order for these packages to be installed on your PC, make sure that in the "Software & Updates" settings the "Download from" option is selected as "Main server". After that, make sure that you have enabled the Universe Repository; if not, you can do so by selecting the "Community-maintained free and open-source software (universe)" option. Finally, press the "Close" button.
+## VirtualBox dependecies
+## In order for these packages to be installed, make sure that in the "Software & Updates" settings the "Download from" option is selected as "Main server". After that, make sure that you have enabled the Universe Repository; if not, you can do so by selecting the "Community-maintained free and open-source software (universe)" option. Finally, press the "Close" button.
 sudo apt install -y libqt5help5 libqt5opengl5 libxcb-cursor0
 
 ## If your DE (Desktop Environment) is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
 sudo apt install -y kdeconnect
 
-## If you want to change the XFCE Lock Screen Wallpaper, install this package:
+## Change the XFCE Lock Screen Wallpaper
 sudo apt install -y lightdm-gtk-greeter-settings
 
-## To use Java based applications like LibreOffice extensions and/or develop java apps, install the JRE or JDK packages below.
-## JRE/JDK 21 from OpenJDK
-### sudo apt install -y openjdk-21-jdk
-### sudo apt install -y openjdk-21-jdk-headless
-### sudo apt install -y openjdk-21-jre
-### sudo apt install -y openjdk-21-jre-headless
-### sudo apt install -y openjdk-21-jre-zero
-
-## If your DE is GNOME, then download the packages below.
+## GNOME DE packages
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
 
-# Other apps:
+# Security
 ## sudo apt install -y clamav
 ## sudo apt install -y clamav-daemon
 ## sudo apt install -y libclamunrar9
