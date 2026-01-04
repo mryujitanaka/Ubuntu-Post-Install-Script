@@ -16,7 +16,6 @@ sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y flameshot
 sudo apt install -y adb
 sudo apt install -y scrcpy
-sudo apt install -y vlc
 sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
 sudo apt install -y tldr
@@ -157,10 +156,9 @@ flatpak uninstall --unused -y
 sudo snap refresh
 
 # Snap Apps
-## htop
 sudo snap install htop
-## IntelliJ IDEA Community Edition
 sudo snap install intellij-idea-community --classic
+sudo snap install vlc
 
 # Snap Clean Up
 sudo rm -rf /var/lib/snapd/cache/*
