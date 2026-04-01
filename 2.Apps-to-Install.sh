@@ -29,7 +29,7 @@ sudo apt install -y fuse3
 sudo apt install -y libqt5help5 libqt5opengl5 libxcb-cursor0
 
 ## If your DE (Desktop Environment) is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
-sudo apt install -y kdeconnect
+### sudo apt install -y kdeconnect
 
 ## Change the XFCE Lock Screen Wallpaper
 sudo apt install -y lightdm-gtk-greeter-settings
