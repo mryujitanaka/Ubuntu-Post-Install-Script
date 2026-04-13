@@ -9,7 +9,6 @@ sudo apt update
 sudo apt install -y gparted
 sudo apt install -y synaptic
 sudo apt install -y gufw
-sudo apt install -y hardinfo
 sudo apt install -y baobab
 sudo apt install -y net-tools
 sudo apt install -y ttf-mscorefonts-installer
@@ -134,8 +133,6 @@ flatpak install flathub com.obsproject.Studio -y
 ### flatpak install flathub com.skype.Client -y
 ## Microsoft Teams
 ### flatpak install flathub com.github.IsmaelMartinez.teams_for_linux -y
-## Todoist
-### flatpak install flathub com.todoist.Todoist -y
 ## Slack
 ### flatpak install flathub com.slack.Slack -y
 ## Chromium
@@ -157,6 +154,8 @@ sudo snap install vlc
 sudo rm -rf /var/lib/snapd/cache/*
 
 # wget Apps
+## hardinfo2
+wget -c "https://release-assets.githubusercontent.com/github-production-release-asset/754780099/01dbea68-ad28-493a-8f10-7b9bf1b1f278?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-13T15%3A18%3A30Z&rscd=attachment%3B+filename%3Dhardinfo2_2.2.15-Ubuntu-22.04_amd64.deb&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-13T14%3A18%3A02Z&ske=2026-04-13T15%3A18%3A30Z&sks=b&skv=2018-11-09&sig=R2H631rhCHL00siAPZqqoswZaNJB%2Ff%2F1kH2a9%2BUuCiM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NjA5MDE5OSwibmJmIjoxNzc2MDg5ODk5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.9hMXk7y85FqnchZe5550kMpdnpVmw3c9DXNll_HoBh4&response-content-disposition=attachment%3B%20filename%3Dhardinfo2_2.2.15-Ubuntu-22.04_amd64.deb&response-content-type=application%2Foctet-stream"
 ## BleachBit
 wget -c "https://download.bleachbit.org/bleachbit_5.0.0-0_all_ubuntu2204.deb"
 ## bottom
