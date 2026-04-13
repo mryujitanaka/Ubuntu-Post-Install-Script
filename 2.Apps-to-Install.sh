@@ -8,7 +8,6 @@ sudo apt update
 # Apps
 sudo apt install -y synaptic
 sudo apt install -y ttf-mscorefonts-installer
-sudo apt install -y flameshot
 sudo apt install -y adb
 sudo apt install -y scrcpy
 sudo apt install -y numlockx
@@ -146,12 +145,14 @@ sudo snap refresh
 # Snap Apps
 ## htop
 sudo snap install htop
+## net-tools
+sudo snap install net-tools-snap --edge
+## Flameshot
+sudo snap install flameshot
 ## IntelliJ IDEA Community
 sudo snap install intellij-idea-community --classic
 ## VLC
 sudo snap install vlc
-## net-tools
-sudo snap install net-tools-snap --edge
 
 # Snap Clean Up
 sudo rm -rf /var/lib/snapd/cache/*
