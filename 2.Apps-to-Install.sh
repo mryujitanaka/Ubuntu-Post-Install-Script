@@ -7,7 +7,6 @@ sudo apt update
 
 # Apps
 sudo apt install -y synaptic
-sudo apt install -y net-tools
 sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y flameshot
 sudo apt install -y adb
@@ -145,9 +144,14 @@ flatpak uninstall --unused -y
 sudo snap refresh
 
 # Snap Apps
+## htop
 sudo snap install htop
+## IntelliJ IDEA Community
 sudo snap install intellij-idea-community --classic
+## VLC
 sudo snap install vlc
+## net-tools
+sudo snap install net-tools-snap --edge
 
 # Snap Clean Up
 sudo rm -rf /var/lib/snapd/cache/*
