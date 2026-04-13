@@ -182,18 +182,12 @@ wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/17ba
 wget -c "https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb"
 ## VirtualBox Extension Pack
 wget -c "https://download.virtualbox.org/virtualbox/7.1.8/Oracle_VirtualBox_Extension_Pack-7.1.8.vbox-extpack"
-## GitKraken
-### wget -c "https://release.gitkraken.com/linux/gitkraken-amd64.deb"
-## WordPress
-### wget -c "https://wordpress.org/latest.zip"
-## Local by Flywheel (WordPress Local Server)
-### wget -c "https://cdn.localwp.com/stable/latest/deb"
 ## Angry IP Scanner
 ### wget -c "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb"
 
 ### Installing the wget Programs
 sudo dpkg -i bleachbit_5.0.0-0_all_ubuntu2204.deb bottom_0.10.2-1_amd64.deb GitHubDesktop-linux-amd64-3.4.9-linux1.deb google-chrome-stable_current_amd64.deb code_1.99.3-1744761595_amd64.deb virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb
-#### gitkraken-amd64.deb local-8.0.0-linux.deb ipscan_3.9.1_amd64.deb
+#### ipscan_3.9.1_amd64.deb
 
 ## AutoKey Installation
 ### wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-common_0.96.0_all.deb"
