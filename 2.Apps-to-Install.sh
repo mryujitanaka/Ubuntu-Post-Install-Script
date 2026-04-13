@@ -7,7 +7,6 @@ sudo apt update
 
 # Apps
 sudo apt install -y synaptic
-sudo apt install -y baobab
 sudo apt install -y net-tools
 sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y flameshot
@@ -111,6 +110,8 @@ sudo apt update -qq
 flatpak update -y
 
 # Flatpak Apps
+## baobab (Disk Usage Analyzer)
+flatpak install flathub org.gnome.baobab -y
 ## Tor Browser
 flatpak install flathub org.torproject.torbrowser-launcher -y
 ## GIMP
