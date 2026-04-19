@@ -9,7 +9,6 @@ sudo apt update
 sudo apt install -y synaptic
 sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y adb
-sudo apt install -y numlockx
 sudo apt install -y inetutils-traceroute
 sudo apt install -y tldr
 sudo apt install -y virt-manager
