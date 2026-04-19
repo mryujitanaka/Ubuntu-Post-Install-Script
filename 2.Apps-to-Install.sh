@@ -67,14 +67,9 @@ sudo apt install -y keepassxc
 #### echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
 ### System Update
 sudo apt update -qq
-### PPA's Apps from Other Sources installation
-#### sudo apt install -y nodejs
+### Apps from Other Sources installation
 #### sudo apt install -y brave-browser
 #### sudo apt install -y anydesk
-
-### If Node.js was installed, probably npm was installed along with it. So, consider updating npm to the latest version:
-#### sudo npm config set fund false --location=global
-#### sudo npm install -g npm@latest
 
 # Flatpak Update
 flatpak update -y
