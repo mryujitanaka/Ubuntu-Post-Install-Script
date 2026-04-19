@@ -22,14 +22,6 @@ sudo apt install -y fuse3
 ### sudo apt install -y gnome-tweaks
 ### sudo apt install -y dconf-editor
 
-# Security
-## sudo apt install -y clamav
-## sudo apt install -y clamav-daemon
-## sudo apt install -y libclamunrar9
-## sudo apt install -y clamtk
-## sudo apt install -y chkrootkit
-## sudo apt install -y rkhunter
-
 # PPA's Apps from Launchpad
 ## Fastfetch
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
@@ -174,6 +166,8 @@ wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x6
 wget -c "https://download.virtualbox.org/virtualbox/7.2.6/virtualbox-7.2_7.2.6-172322~Ubuntu~jammy_amd64.deb"
 ## VirtualBox Extension Pack
 wget -c "https://download.virtualbox.org/virtualbox/7.2.6/Oracle_VirtualBox_Extension_Pack-7.2.6.vbox-extpack"
+## ClamAV
+wget -c "https://www.clamav.net/downloads/production/clamav-1.5.2.linux.x86_64.deb"
 
 ### Installing the wget Programs
 sudo dpkg -i bleachbit_5.0.0-0_all_ubuntu2204.deb bottom_0.10.2-1_amd64.deb GitHubDesktop-linux-amd64-3.4.9-linux1.deb google-chrome-stable_current_amd64.deb code_1.99.3-1744761595_amd64.deb virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb
