@@ -10,20 +10,13 @@ sudo apt install -y synaptic
 sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y adb
 sudo apt install -y inetutils-traceroute
-sudo apt install -y virt-manager
 
 ## Cryptomator dependecies
 sudo apt install -y fuse3
 
 ## VirtualBox dependecies
 ## In order for these packages to be installed, make sure that in the "Software & Updates" settings the "Download from" option is selected as "Main server". After that, make sure that you have enabled the Universe Repository; if not, you can do so by selecting the "Community-maintained free and open-source software (universe)" option. Finally, press the "Close" button.
-sudo apt install -y libqt5help5 libqt5opengl5 libxcb-cursor0
-
-## If your DE (Desktop Environment) is not GNOME, download the package below. Otherwise, use the KDE-Connect browser extension.
-### sudo apt install -y kdeconnect
-
-## Change the XFCE Lock Screen Wallpaper
-sudo apt install -y lightdm-gtk-greeter-settings
+### sudo apt install -y libqt5help5 libqt5opengl5 libxcb-cursor0
 
 ## GNOME DE packages
 ### sudo apt install -y gnome-tweaks
