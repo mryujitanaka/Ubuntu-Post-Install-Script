@@ -37,12 +37,6 @@ sudo add-apt-repository ppa:git-core/ppa -y
 sudo add-apt-repository ppa:sebastian-stenzel/cryptomator -y
 ## KeePassXC
 sudo add-apt-repository ppa:phoerious/keepassxc -y
-## Apache
-### sudo add-apt-repository ppa:ondrej/apache2 -y
-## PHP
-### sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php -y
-## Python 3.12.x
-### sudo add-apt-repository ppa:deadsnakes/ppa -y
 
 ### System Update
 sudo apt update -qq
@@ -54,27 +48,23 @@ sudo apt install -y qbittorrent
 sudo apt install -y git
 sudo apt install -y cryptomator
 sudo apt install -y keepassxc
-##### sudo apt install -y apache2
-##### sudo apt install -y php8.1
-##### sudo apt install -y python3.12 libpython3.12
 
 # Apps from Other Sources
-## Node.js LTS (v20.10.x) - https://github.com/nodesource/distributions#using-ubuntu-1
-### curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
+## Node.js (v24.15.0 LTS)
+### curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+### \. "$HOME/.nvm/nvm.sh"
+### nvm install 24
 ## Brave Browser
-### sudo apt install apt-transport-https curl
 ### sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-### echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+### sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
 ## AnyDesk
 ### Adding the AnyDesk GPG key
-#### wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
-#### echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
 #### sudo apt install ca-certificates curl apt-transport-https
 #### sudo install -m 0755 -d /etc/apt/keyrings
 #### sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
 #### sudo chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc
-##### Adding the AnyDesk apt repository
-###### echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
+### Adding the AnyDesk apt repository
+#### echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
 ### System Update
 sudo apt update -qq
 ### PPA's Apps from Other Sources installation
