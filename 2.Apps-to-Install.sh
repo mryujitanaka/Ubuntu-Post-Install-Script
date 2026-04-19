@@ -158,7 +158,7 @@ sudo rm -rf /var/lib/snapd/cache/*
 ## hardinfo2
 wget -c "https://github.com/hardinfo2/hardinfo2/releases/download/release-2.2.15pre/hardinfo2_2.2.15-Ubuntu-22.04_aarch64.deb"
 ## GParted
-wget -c "https://sinalbr.dl.sourceforge.net/project/gparted/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz?viasf=1"
+wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
 ## gufw
 wget -c "https://release-assets.githubusercontent.com/github-production-release-asset/218600664/eabed39d-f6e1-481a-945d-989253766eab?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-13T16%3A19%3A37Z&rscd=attachment%3B+filename%3Dgui-ufw-26.04.0.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-13T15%3A19%3A03Z&ske=2026-04-13T16%3A19%3A37Z&sks=b&skv=2018-11-09&sig=rE6fqt0wFT4VylM%2B5FN6bDixUzPN0LWEGyn4g41mqP4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NjA5NDM3NCwibmJmIjoxNzc2MDk0MDc0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.RlbHuctoabIWAOEA-Pb1ikpCvNXnP-X4QzbWxy7h3fo&response-content-disposition=attachment%3B%20filename%3Dgui-ufw-26.04.0.tar.gz&response-content-type=application%2Foctet-stream"
 ## scrcpy
