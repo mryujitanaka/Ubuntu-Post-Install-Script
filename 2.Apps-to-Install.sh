@@ -89,8 +89,6 @@ flatpak install flathub com.obsproject.Studio -y
 ### flatpak install flathub org.audacityteam.Audacity -y
 ## FileZilla
 ### flatpak install flathub org.filezillaproject.Filezilla -y
-## Okular
-### flatpak install flathub org.kde.okular -y
 ## Zoom
 ### flatpak install flathub us.zoom.Zoom -y
 ## Microsoft Skype
