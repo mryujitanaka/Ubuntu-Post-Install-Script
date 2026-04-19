@@ -176,7 +176,7 @@ wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 ## LibreOffice
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.2.2/deb/x86_64/LibreOffice_26.2.2_Linux_x86-64_deb.tar.gz"
 ## VSCode
-wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/17baf841131aa23349f217ca7c570c76ee87b957/code_1.99.3-1744761595_amd64.deb"
+wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
 ## VirtualBox
 wget -c "https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb"
 ## VirtualBox Extension Pack
