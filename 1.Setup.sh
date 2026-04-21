@@ -74,9 +74,12 @@ sudo apt autoclean
 sudo apt clean
 
 # Flatpak Support
-## sudo apt install -y flatpak
-## sudo apt install -y gnome-software-plugin-flatpak
-## flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt install -y flatpak
+sudo apt install -y gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+# Snap Support
+sudo snap install -y snapd
 
 # End of Script
 
