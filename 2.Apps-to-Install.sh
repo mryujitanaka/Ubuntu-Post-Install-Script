@@ -49,28 +49,6 @@ sudo apt install -y git
 sudo apt install -y cryptomator
 sudo apt install -y keepassxc
 
-# Apps from Other Sources
-## Node.js (v24.15.0 LTS)
-### curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
-### \. "$HOME/.nvm/nvm.sh"
-### nvm install 24
-## Brave Browser
-### sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-### sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
-## AnyDesk
-### Adding the AnyDesk GPG key
-#### sudo apt install ca-certificates curl apt-transport-https
-#### sudo install -m 0755 -d /etc/apt/keyrings
-#### sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
-#### sudo chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc
-### Adding the AnyDesk apt repository
-#### echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
-### System Update
-sudo apt update -qq
-### Apps from Other Sources installation
-#### sudo apt install -y brave-browser
-#### sudo apt install -y anydesk
-
 # Flatpak Update
 flatpak update -y
 
@@ -154,6 +132,32 @@ wget -c "https://download.documentfoundation.org/libreoffice/stable/26.2.2/deb/x
 
 ### Installing the wget Programs
 sudo dpkg -i hardinfo2_2.2.15-Ubuntu-22.04_amd64.deb bleachbit_5.0.2-0_all_ubuntu2204.deb bottom_0.12.3-1_amd64.deb GitHubDesktop-linux-amd64-3.4.9-linux1.deb google-chrome-stable_current_amd64.deb code_1.116.0-1776214182_amd64.deb virtualbox-7.2_7.2.8-173730~Ubuntu~jammy_amd64.deb clamav-1.5.2.linux.x86_64.deb
+
+# Apps from Other Sources
+## Node.js (v24.15.0 LTS)
+### curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+### \. "$HOME/.nvm/nvm.sh"
+### nvm install 24
+## Brave Browser
+### sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+### sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
+## AnyDesk
+### Adding the AnyDesk GPG key
+#### sudo apt install ca-certificates curl apt-transport-https
+#### sudo install -m 0755 -d /etc/apt/keyrings
+#### sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
+#### sudo chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc
+### Adding the AnyDesk apt repository
+#### echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
+## SDKMAN!
+curl -s https://get.sdkman.io | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java 25.0.2.1-sem
+### System Update
+sudo apt update -qq
+### Apps from Other Sources installation
+#### sudo apt install -y brave-browser
+#### sudo apt install -y anydesk
 
 # Finishing Things Up
 ## System Update and Upgrade
