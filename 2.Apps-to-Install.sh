@@ -125,6 +125,22 @@ sudo rm -rf /var/lib/snapd/cache/*
 # wget Apps
 ## hardinfo2
 wget -c "https://github.com/hardinfo2/hardinfo2/releases/download/release-2.2.15pre/hardinfo2_2.2.15-Ubuntu-22.04_aarch64.deb"
+## BleachBit
+wget -c "https://download.bleachbit.org/bleachbit_5.0.2-0_all_ubuntu2204.deb"
+## bottom
+wget -c "https://github.com/ClementTsang/bottom/releases/download/0.12.3/bottom_0.12.3-1_amd64.deb"
+## GitHubDesktop
+wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
+## GoogleChrome
+wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+## VSCode
+wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+## VirtualBox
+wget -c "https://download.virtualbox.org/virtualbox/7.2.8/virtualbox-7.2_7.2.8-173730~Ubuntu~jammy_amd64.deb"
+## VirtualBox Extension Pack
+wget -c "https://download.virtualbox.org/virtualbox/7.2.8/Oracle_VirtualBox_Extension_Pack-7.2.8.vbox-extpack"
+## ClamAV
+wget -c "https://www.clamav.net/downloads/production/clamav-1.5.2.linux.x86_64.deb"
 ## GParted
 wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
 ## gufw
@@ -133,28 +149,11 @@ wget -c "https://github.com/costales/gufw/releases/download/26.04/gui-ufw-26.04.
 wget -c "https://github.com/Genymobile/scrcpy/releases/download/v3.3.4/scrcpy-linux-x86_64-v3.3.4.tar.gz"
 ## tldr
 wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.2/tldr-musl-linux-v0.9.2.tar.gz"
-## BleachBit
-wget -c "https://download.bleachbit.org/bleachbit_5.0.0-0_all_ubuntu2204.deb"
-## bottom
-wget -c "https://github.com/ClementTsang/bottom/releases/download/0.12.3/bottom-musl_0.12.3-1_amd64.deb"
-## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
-## GoogleChrome
-wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## LibreOffice
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.2.2/deb/x86_64/LibreOffice_26.2.2_Linux_x86-64_deb.tar.gz"
-## VSCode
-wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
-## VirtualBox
-wget -c "https://download.virtualbox.org/virtualbox/7.2.6/virtualbox-7.2_7.2.6-172322~Ubuntu~jammy_amd64.deb"
-## VirtualBox Extension Pack
-wget -c "https://download.virtualbox.org/virtualbox/7.2.6/Oracle_VirtualBox_Extension_Pack-7.2.6.vbox-extpack"
-## ClamAV
-wget -c "https://www.clamav.net/downloads/production/clamav-1.5.2.linux.x86_64.deb"
 
 ### Installing the wget Programs
-sudo dpkg -i bleachbit_5.0.0-0_all_ubuntu2204.deb bottom_0.10.2-1_amd64.deb GitHubDesktop-linux-amd64-3.4.9-linux1.deb google-chrome-stable_current_amd64.deb code_1.99.3-1744761595_amd64.deb virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb
-#### ipscan_3.9.1_amd64.deb
+sudo dpkg -i hardinfo2_2.2.15-Ubuntu-22.04_amd64.deb bleachbit_5.0.2-0_all_ubuntu2204.deb bottom_0.12.3-1_amd64.deb GitHubDesktop-linux-amd64-3.4.9-linux1.deb google-chrome-stable_current_amd64.deb code_1.116.0-1776214182_amd64.deb virtualbox-7.2_7.2.8-173730~Ubuntu~jammy_amd64.deb clamav-1.5.2.linux.x86_64.deb
 
 ## AutoKey Installation
 ### wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-common_0.96.0_all.deb"
