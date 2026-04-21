@@ -155,23 +155,6 @@ wget -c "https://download.documentfoundation.org/libreoffice/stable/26.2.2/deb/x
 ### Installing the wget Programs
 sudo dpkg -i hardinfo2_2.2.15-Ubuntu-22.04_amd64.deb bleachbit_5.0.2-0_all_ubuntu2204.deb bottom_0.12.3-1_amd64.deb GitHubDesktop-linux-amd64-3.4.9-linux1.deb google-chrome-stable_current_amd64.deb code_1.116.0-1776214182_amd64.deb virtualbox-7.2_7.2.8-173730~Ubuntu~jammy_amd64.deb clamav-1.5.2.linux.x86_64.deb
 
-## AutoKey Installation
-### wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-common_0.96.0_all.deb"
-### wget -c "https://github.com/autokey/autokey/releases/download/v0.96.0/autokey-gtk_0.96.0_all.deb"
-### sudo dpkg -i autokey-common_0.96.0_all.deb autokey-gtk_0.96.0_all.deb
-### sudo apt --fix-broken install -y
-### sudo dpkg -i autokey-common_0.96.0_all.deb autokey-gtk_0.96.0_all.deb
-
-# Some Other Settings for Gnome DE distros
-## Permanently enable Do Not Disturb (No Notifications)
-### gsettings set org.gnome.desktop.notifications show-banners false
-## Permanently disable Bluetooth
-### sudo systemctl disable bluetooth.service
-## Enable Hidden Startup Programs
-### sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
-## Disable UTC and use Local Time in your Linux distro if necessary
-### timedatectl set-local-rtc 1 --adjust-system-clock
-
 # Finishing Things Up
 ## System Update and Upgrade
 sudo apt update
