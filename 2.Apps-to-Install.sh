@@ -29,8 +29,6 @@ sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
 ## Papirus Icons
 sudo add-apt-repository ppa:papirus/papirus -y
-## qBittorrent
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
 ## Git
 sudo add-apt-repository ppa:git-core/ppa -y
 ## Cryptomator
@@ -55,6 +53,8 @@ flatpak update -y
 # Flatpak Apps
 ## baobab (Disk Usage Analyzer)
 flatpak install flathub org.gnome.baobab -y
+## qBittorrent
+flatpak install flathub org.qbittorrent.qBittorrent -y
 ## Tor Browser
 flatpak install flathub org.torproject.torbrowser-launcher -y
 ## GIMP
