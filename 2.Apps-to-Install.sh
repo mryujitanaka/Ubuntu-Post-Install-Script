@@ -142,13 +142,11 @@ sudo dpkg -i hardinfo2_2.2.15-Ubuntu-22.04_amd64.deb bleachbit_5.0.2-0_all_ubunt
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
 ## AnyDesk
-### Adding the AnyDesk GPG key
-#### sudo apt install ca-certificates curl apt-transport-https
-#### sudo install -m 0755 -d /etc/apt/keyrings
-#### sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
-#### sudo chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc
-### Adding the AnyDesk apt repository
-#### echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
+sudo apt install ca-certificates apt-transport-https
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
+sudo chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc
+echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
 ## SDKMAN!
 curl -s https://get.sdkman.io | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
@@ -157,7 +155,7 @@ sdk install java 25.0.2.1-sem
 sudo apt update -qq
 ### Apps from Other Sources installation
 sudo apt install -y brave-browser
-#### sudo apt install -y anydesk
+sudo apt install -y anydesk
 
 # Finishing Things Up
 ## System Update and Upgrade
