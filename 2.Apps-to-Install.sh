@@ -139,8 +139,8 @@ sudo dpkg -i hardinfo2_2.2.15-Ubuntu-22.04_amd64.deb bleachbit_5.0.2-0_all_ubunt
 ### \. "$HOME/.nvm/nvm.sh"
 ### nvm install 24
 ## Brave Browser
-### sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-### sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
 ## AnyDesk
 ### Adding the AnyDesk GPG key
 #### sudo apt install ca-certificates curl apt-transport-https
@@ -156,7 +156,7 @@ sdk install java 25.0.2.1-sem
 ### System Update
 sudo apt update -qq
 ### Apps from Other Sources installation
-#### sudo apt install -y brave-browser
+sudo apt install -y brave-browser
 #### sudo apt install -y anydesk
 
 # Finishing Things Up
