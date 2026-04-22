@@ -63,9 +63,8 @@ sudo apt upgrade --allow-downgrades -y
 sudo apt full-upgrade --allow-downgrades -y
 
 # System Backup
-## sudo apt-add-repository ppa:teejee2008/ppa -y
-## sudo apt update
-## sudo apt install -y timeshift
+sudo apt update -q
+sudo apt install -y timeshift
 
 # System Clean Up
 sudo apt install -f
