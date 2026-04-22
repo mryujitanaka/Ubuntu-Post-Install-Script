@@ -22,6 +22,9 @@ sudo snap refresh
 # Snap Clean Up
 sudo rm -rf /var/lib/snapd/cache/*
 
+# SDKMAN!
+sdk selfupdate
+
 # System Clean Up
 sudo apt install -f
 sudo apt autoremove -y
