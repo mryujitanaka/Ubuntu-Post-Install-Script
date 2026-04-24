@@ -150,7 +150,8 @@ sudo apt install -y ./clamav-1.5.2.linux.x86_64.deb
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
 ## AnyDesk
-sudo apt install ca-certificates apt-transport-https
+sudo apt install -y ca-certificates
+sudo apt install -y apt-transport-https
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
 sudo chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc
