@@ -132,7 +132,14 @@ wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.2/tldr-musl-lin
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.2.2/deb/x86_64/LibreOffice_26.2.2_Linux_x86-64_deb.tar.gz"
 
 ### Installing the wget Programs
-sudo dpkg -i hardinfo2_2.2.15-Ubuntu-22.04_amd64.deb bleachbit_5.0.2-0_all_ubuntu2204.deb bottom_0.12.3-1_amd64.deb GitHubDesktop-linux-amd64-3.4.9-linux1.deb google-chrome-stable_current_amd64.deb code_1.116.0-1776214182_amd64.deb virtualbox-7.2_7.2.8-173730~Ubuntu~jammy_amd64.deb clamav-1.5.2.linux.x86_64.deb
+sudo apt install -y ./hardinfo2_2.2.15-Ubuntu-22.04_amd64.deb
+sudo apt install -y ./bleachbit_5.0.2-0_all_ubuntu2204.deb
+sudo apt install -y ./bottom_0.12.3-1_amd64.deb
+sudo apt install -y ./GitHubDesktop-linux-amd64-3.4.9-linux1.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb
+sudo apt install -y ./code_1.116.0-1776214182_amd64.deb
+sudo apt install -y ./virtualbox-7.2_7.2.8-173730~Ubuntu~jammy_amd64.deb
+sudo apt install -y ./clamav-1.5.2.linux.x86_64.deb
 
 # Apps from Other Sources
 ## Node.js (v24.15.0 LTS)
