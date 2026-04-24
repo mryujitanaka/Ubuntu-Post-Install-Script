@@ -7,10 +7,10 @@ sudo apt update
 
 # Apps
 sudo apt install -y synaptic
-sudo apt install -y ttf-mscorefonts-installer
 sudo apt install -y adb
 sudo apt install -y inetutils-traceroute
 sudo apt install -y curl
+## sudo apt install -y ttf-mscorefonts-installer
 
 ## Cryptomator dependecies
 sudo apt install -y fuse3
