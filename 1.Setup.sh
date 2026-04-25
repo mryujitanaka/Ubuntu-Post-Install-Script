@@ -62,10 +62,6 @@ sudo apt install --fix-missing -y
 sudo apt upgrade --allow-downgrades -y
 sudo apt full-upgrade --allow-downgrades -y
 
-# System Backup
-sudo apt update -q
-sudo apt install -y timeshift
-
 # Flatpak Support
 sudo apt install -y flatpak
 sudo apt install -y gnome-software-plugin-flatpak
@@ -73,6 +69,10 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 # Snap Support
 sudo apt install -y snapd
+
+# System Backup
+sudo apt update -q
+sudo apt install -y timeshift
 
 # System Clean Up
 sudo apt install -f
