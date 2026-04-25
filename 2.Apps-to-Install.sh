@@ -130,6 +130,8 @@ wget -c "https://github.com/Genymobile/scrcpy/releases/download/v3.3.4/scrcpy-li
 wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.2/tldr-musl-linux-v0.9.2.tar.gz"
 ## LibreOffice
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.2.2/deb/x86_64/LibreOffice_26.2.2_Linux_x86-64_deb.tar.gz"
+## 0xProto font from NerdFonts
+wget -c "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProto.zip"
 
 ### Installing the wget Programs
 sudo apt install -y ./hardinfo2_2.2.15-Ubuntu-22.04_amd64.deb
