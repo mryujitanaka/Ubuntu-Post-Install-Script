@@ -142,7 +142,8 @@ sudo apt install -y ./google-chrome-stable_current_amd64.deb
 sudo apt install -y ./code_1.116.0-1776214182_amd64.deb
 sudo apt install -y ./virtualbox-7.2_7.2.8-173730~Ubuntu~jammy_amd64.deb
 sudo apt install -y ./clamav-1.5.2.linux.x86_64.deb
-sudo unzip 0xProto.zip -d /usr/local/share/fonts
+mkdir /usr/local/share/fonts/0xProto
+sudo unzip 0xProto.zip -d /usr/local/share/fonts/0xProto
 sudo fc-cache -f -v
 
 # Apps from Other Sources
