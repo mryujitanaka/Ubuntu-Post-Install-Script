@@ -78,7 +78,7 @@ sudo apt install -y gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Snap Support
-sudo snap install -y snapd
+sudo apt install -y snapd
 
 # End of Script
 
