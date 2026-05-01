@@ -58,12 +58,6 @@ sudo apt --purge remove -y gnome-photos*
 sudo apt --purge remove -y sgt-puzzles*
 sudo apt --purge remove -y gigolo
 
-# System Update and Upgrade
-sudo apt update
-sudo apt install --fix-missing -y
-sudo apt upgrade --allow-downgrades -y
-sudo apt full-upgrade --allow-downgrades -y
-
 # Flatpak Support
 sudo apt install -y flatpak
 sudo apt install -y gnome-software-plugin-flatpak
@@ -78,6 +72,25 @@ sudo apt install -y timeshift
 
 # Uninstall Snap Packages
 sudo snap remove --purge thunderbird
+
+# System Update and Upgrade
+sudo apt update
+sudo apt install --fix-missing -y
+sudo apt upgrade --allow-downgrades -y
+sudo apt full-upgrade --allow-downgrades -y
+
+# Flatpak Update
+flatpak update -y
+
+# Snap Update
+sudo snap refresh
+
+# Flatpak Clean Up
+flatpak uninstall --delete-data -y
+flatpak uninstall --unused -y
+
+# Snap Clean Up
+sudo rm -rf /var/lib/snapd/cache/*
 
 # System Clean Up
 sudo apt install -f
