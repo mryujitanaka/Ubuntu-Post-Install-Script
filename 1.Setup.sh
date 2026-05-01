@@ -55,6 +55,8 @@ sudo apt --purge remove -y gnome-todo
 sudo apt --purge remove -y brasero*
 sudo apt --purge remove -y evolution*
 sudo apt --purge remove -y gnome-photos*
+sudo apt --purge remove -y sgt-puzzles*
+sudo apt --purge remove -y gigolo
 
 # System Update and Upgrade
 sudo apt update
@@ -73,6 +75,9 @@ sudo apt install -y snapd
 # System Backup
 sudo apt update -q
 sudo apt install -y timeshift
+
+# Uninstall Snap Packages
+sudo snap remove --purge thunderbird
 
 # System Clean Up
 sudo apt install -f
