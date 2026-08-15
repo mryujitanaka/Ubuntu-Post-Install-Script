@@ -62,7 +62,7 @@ flatpak install flathub org.torproject.torbrowser-launcher -y
 ## GIMP
 flatpak install flathub org.gimp.GIMP -y
 ## OBS Studio
-flatpak install flathub com.obsproject.Studio -y
+## flatpak install flathub com.obsproject.Studio -y
 ## Discord
 ### flatpak install flathub com.discordapp.Discord -y
 ## Audacity
