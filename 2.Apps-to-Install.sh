@@ -141,14 +141,14 @@ wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sw
 wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Ambar-Blue-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Ambar-Blue-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261011T181515Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=280a6e4e5c811ddab17c61ed4f1fe1028db3b3344fca1f901d7886790add9ef3"
 
 ### Installing the wget Programs
-sudo apt install -y ./hardinfo2_2.2.15-Ubuntu-26.04_amd64.deb
-sudo apt install -y ./bleachbit_6.0.0-0_all_ubuntu2604.deb
-sudo apt install -y ./bottom_0.12.3-1_amd64.deb
-sudo apt install -y ./GitHubDesktop-linux-amd64-3.4.9-linux1.deb
+sudo apt install -y ./hardinfo2_2.3.0-Ubuntu-26.04_amd64.deb
+sudo apt install -y ./bleachbit_6.0.4-0_all_ubuntu2604.deb
+sudo apt install -y ./bottom_0.14.9-1_amd64.deb
+sudo apt install -y ./GitButler_0.22.3_amd64.deb
 sudo apt install -y ./google-chrome-stable_current_amd64.deb
-sudo apt install -y ./code_1.118.1-1777474985_amd64.deb
-sudo apt install -y ./virtualbox-7.2_7.2.8-173730~Ubuntu~resolute_amd64.deb
-sudo apt install -y ./clamav-1.5.2.linux.x86_64.deb
+sudo apt install -y ./code_1.141.0-1791276758_amd64.deb
+sudo apt install -y ./virtualbox-7.2_7.2.20-175154~Ubuntu~resolute_amd64.deb
+sudo apt install -y ./clamav-1.5.4.linux.x86_64.deb
 mkdir /usr/local/share/fonts/0xProto
 sudo unzip 0xProto.zip -d /usr/local/share/fonts/0xProto
 sudo fc-cache -f -v
