@@ -123,6 +123,8 @@ wget -c "https://download.virtualbox.org/virtualbox/7.2.20/virtualbox-7.2_7.2.20
 wget -c "https://download.virtualbox.org/virtualbox/7.2.20/Oracle_VirtualBox_Extension_Pack-7.2.20.vbox-extpack"
 ## ClamAV
 wget -c "https://www.clamav.net/downloads/production/clamav-1.5.4.linux.x86_64.deb"
+## AnyDesk
+wget -c "https://download.anydesk.com/linux/anydesk_8.1.0-1_amd64.deb"
 ## GParted
 wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
 ## gufw
@@ -149,6 +151,7 @@ sudo apt install -y ./google-chrome-stable_current_amd64.deb
 sudo apt install -y ./code_1.141.0-1791276758_amd64.deb
 sudo apt install -y ./virtualbox-7.2_7.2.20-175154~Ubuntu~resolute_amd64.deb
 sudo apt install -y ./clamav-1.5.4.linux.x86_64.deb
+sudo apt install -y ./anydesk_8.1.0-1_amd64.deb
 mkdir /usr/local/share/fonts/0xProto
 sudo unzip 0xProto.zip -d /usr/local/share/fonts/0xProto
 sudo fc-cache -f -v
@@ -161,13 +164,6 @@ sudo fc-cache -f -v
 ## Brave Browser
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
-## AnyDesk
-sudo apt install -y ca-certificates
-sudo apt install -y apt-transport-https
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
-sudo chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc
-echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
 ## SDKMAN!
 curl -s https://get.sdkman.io | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
