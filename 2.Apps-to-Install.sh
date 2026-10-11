@@ -126,9 +126,9 @@ wget -c "https://www.clamav.net/downloads/production/clamav-1.5.4.linux.x86_64.d
 ## GParted
 wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
 ## gufw
-wget -c "https://github.com/costales/gufw/releases/download/26.04/gui-ufw-26.04.0.tar.gz"
+### wget -c "https://github.com/costales/gufw/releases/download/26.04/gui-ufw-26.04.0.tar.gz"
 ## scrcpy
-wget -c "https://github.com/Genymobile/scrcpy/releases/download/v3.3.4/scrcpy-linux-x86_64-v3.3.4.tar.gz"
+wget -c "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-linux-x86_64-v5.0.1.tar.gz"
 ## tldr
 wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.2/tldr-musl-linux-v0.9.2.tar.gz"
 ## LibreOffice
