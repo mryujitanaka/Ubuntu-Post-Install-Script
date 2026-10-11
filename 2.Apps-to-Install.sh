@@ -165,9 +165,9 @@ sudo fc-cache -f -v
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
 ## SDKMAN!
-curl -s https://get.sdkman.io | bash
+curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
-sdk install java 25.0.2.1-sem
+sdk install java 25.0.4-sem
 ### System Update
 sudo apt update -qq
 ### Apps from Other Sources installation
