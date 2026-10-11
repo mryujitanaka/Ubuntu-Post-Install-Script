@@ -122,7 +122,7 @@ wget -c "https://download.virtualbox.org/virtualbox/7.2.20/virtualbox-7.2_7.2.20
 ## VirtualBox Extension Pack
 wget -c "https://download.virtualbox.org/virtualbox/7.2.20/Oracle_VirtualBox_Extension_Pack-7.2.20.vbox-extpack"
 ## ClamAV
-wget -c "https://www.clamav.net/downloads/production/clamav-1.5.2.linux.x86_64.deb"
+wget -c "https://www.clamav.net/downloads/production/clamav-1.5.4.linux.x86_64.deb"
 ## GParted
 wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
 ## gufw
