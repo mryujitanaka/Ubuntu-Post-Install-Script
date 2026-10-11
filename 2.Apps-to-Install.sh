@@ -108,7 +108,7 @@ wget -c "https://release-assets.githubusercontent.com/github-production-release-
 ## BleachBit
 wget -c "https://download.bleachbit.org/bleachbit_6.0.4-0_all_ubuntu2604.deb"
 ## bottom
-wget -c "https://github.com/ClementTsang/bottom/releases/download/nightly-a9863107-1777165424/bottom_0.12.3-1_amd64.deb"
+wget -c "https://github.com/ClementTsang/bottom/releases/download/nightly-7d65d62c-1791077604/bottom_0.14.9-1_amd64.deb"
 ## GitHubDesktop
 wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
 ## GoogleChrome
