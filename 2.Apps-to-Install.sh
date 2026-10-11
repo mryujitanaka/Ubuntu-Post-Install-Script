@@ -110,7 +110,9 @@ wget -c "https://download.bleachbit.org/bleachbit_6.0.4-0_all_ubuntu2604.deb"
 ## bottom
 wget -c "https://github.com/ClementTsang/bottom/releases/download/nightly-7d65d62c-1791077604/bottom_0.14.9-1_amd64.deb"
 ## GitHubDesktop
-wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
+### wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
+## GitButler
+wget -c "https://releases.gitbutler.com/releases/release/0.22.3-3234/linux/x86_64/GitButler_0.22.3_amd64.deb"
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## VSCode
