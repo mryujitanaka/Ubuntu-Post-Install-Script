@@ -118,9 +118,9 @@ wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 ## VSCode
 wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
 ## VirtualBox
-wget -c "https://download.virtualbox.org/virtualbox/7.2.8/virtualbox-7.2_7.2.8-173730~Ubuntu~resolute_amd64.deb"
+wget -c "https://download.virtualbox.org/virtualbox/7.2.20/virtualbox-7.2_7.2.20-175154~Ubuntu~resolute_amd64.deb"
 ## VirtualBox Extension Pack
-wget -c "https://download.virtualbox.org/virtualbox/7.2.8/Oracle_VirtualBox_Extension_Pack-7.2.8.vbox-extpack"
+wget -c "https://download.virtualbox.org/virtualbox/7.2.20/Oracle_VirtualBox_Extension_Pack-7.2.20.vbox-extpack"
 ## ClamAV
 wget -c "https://www.clamav.net/downloads/production/clamav-1.5.2.linux.x86_64.deb"
 ## GParted
