@@ -132,7 +132,7 @@ wget -c "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-li
 ## tldr
 wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.3/tldr"
 ## LibreOffice
-wget -c "https://download.documentfoundation.org/libreoffice/stable/26.2.3/deb/x86_64/LibreOffice_26.2.3_Linux_x86-64_deb.tar.gz"
+wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.1/deb/x86_64/LibreOffice_26.8.1_Linux_x86-64_deb.tar.gz"
 ## 0xProto font from NerdFonts
 wget -c "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProto.zip"
 ## Sweet Dark Theme from OpenDesktop (GnomeLook)
