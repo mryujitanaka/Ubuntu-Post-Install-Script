@@ -106,7 +106,7 @@ sudo rm -rf /var/lib/snapd/cache/*
 ## hardinfo2
 wget -c "https://release-assets.githubusercontent.com/github-production-release-asset/754780099/ab6c4603-f3da-4a65-9052-d63c9de64803?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T16%3A47%3A51Z&rscd=attachment%3B+filename%3Dhardinfo2_2.3.0-Ubuntu-26.04_amd64.deb&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T15%3A47%3A20Z&ske=2026-10-11T16%3A47%3A51Z&sks=b&skv=2018-11-09&sig=6TLvntgayYWx2UTRpa2W8SCTejHHwJT3z9y802Yc88c%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTczNDgwOSwibmJmIjoxNzkxNzM0NTA5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.6DuU0bq83DefKAi-JXa4gFoSJU0yYhnriqLMbmQo0mg&response-content-disposition=attachment%3B%20filename%3Dhardinfo2_2.3.0-Ubuntu-26.04_amd64.deb&response-content-type=application%2Foctet-stream"
 ## BleachBit
-wget -c "https://download.bleachbit.org/get/bleachbit_6.0.0-0_all_ubuntu2604.deb"
+wget -c "https://download.bleachbit.org/bleachbit_6.0.4-0_all_ubuntu2604.deb"
 ## bottom
 wget -c "https://github.com/ClementTsang/bottom/releases/download/nightly-a9863107-1777165424/bottom_0.12.3-1_amd64.deb"
 ## GitHubDesktop
