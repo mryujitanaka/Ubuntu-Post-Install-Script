@@ -134,7 +134,7 @@ wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.3/tldr"
 ## LibreOffice
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.1/deb/x86_64/LibreOffice_26.8.1_Linux_x86-64_deb.tar.gz"
 ## 0xProto font from NerdFonts
-wget -c "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProto.zip"
+wget -c "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/0xProto.zip"
 ## Sweet Dark Theme from OpenDesktop (GnomeLook)
 wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Dark-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Dark-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20260503%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260503T192149Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=a740e28d230b89dbef93e09b70e4f635902bcf5333bfa8a1fa0bcae390c07a16"
 ## Sweet Ambar Blue Theme from OpenDesktop (GnomeLook)
