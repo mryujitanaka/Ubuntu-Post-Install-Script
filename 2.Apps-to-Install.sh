@@ -130,7 +130,7 @@ wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gp
 ## scrcpy
 wget -c "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-linux-x86_64-v5.0.1.tar.gz"
 ## tldr
-wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.2/tldr-musl-linux-v0.9.2.tar.gz"
+wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.3/tldr"
 ## LibreOffice
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.2.3/deb/x86_64/LibreOffice_26.2.3_Linux_x86-64_deb.tar.gz"
 ## 0xProto font from NerdFonts
