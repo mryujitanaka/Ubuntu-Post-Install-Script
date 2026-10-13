@@ -126,13 +126,9 @@ wget -c "https://www.clamav.net/downloads/production/clamav-1.5.4.linux.x86_64.d
 ## AnyDesk
 wget -c "https://download.anydesk.com/linux/anydesk_8.1.0-1_amd64.deb"
 ## GParted
-wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
+### wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
 ## gufw
 ### wget -c "https://github.com/costales/gufw/releases/download/26.04/gui-ufw-26.04.0.tar.gz"
-## scrcpy
-wget -c "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-linux-x86_64-v5.0.1.tar.gz"
-## tldr
-wget -c "https://github.com/psibi/tldr-hs/releases/download/v0.9.3/tldr"
 ## LibreOffice
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.1/deb/x86_64/LibreOffice_26.8.1_Linux_x86-64_deb.tar.gz"
 ## 0xProto font from NerdFonts
