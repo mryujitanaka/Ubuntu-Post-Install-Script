@@ -126,7 +126,7 @@ wget -c "https://www.clamav.net/downloads/production/clamav-1.5.5.linux.x86_64.d
 ## AnyDesk
 wget -c "https://download.anydesk.com/linux/anydesk_8.1.1-1_amd64.deb"
 ## LibreOffice
-wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.1/deb/x86_64/LibreOffice_26.8.1_Linux_x86-64_deb.tar.gz"
+wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.3/deb/x86_64/LibreOffice_26.8.3_Linux_x86-64_deb.tar.gz"
 ## 0xProto font from NerdFonts
 wget -c "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/0xProto.zip"
 ## Sweet Dark Theme from OpenDesktop (GnomeLook)
