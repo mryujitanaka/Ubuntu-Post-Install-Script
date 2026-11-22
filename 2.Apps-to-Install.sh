@@ -112,7 +112,7 @@ wget -c "https://github.com/ClementTsang/bottom/releases/download/nightly-eb8735
 ## GitHubDesktop
 ### wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
 ## GitButler
-wget -c "https://releases.gitbutler.com/releases/release/0.22.3-3234/linux/x86_64/GitButler_0.22.3_amd64.deb"
+wget -c "https://releases.gitbutler.com/releases/release/0.23.5-3373/linux/x86_64/GitButler_0.23.5_amd64.deb"
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## VSCode
@@ -142,7 +142,7 @@ wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sw
 sudo apt install -y ./hardinfo2_2.3.0-Ubuntu-26.04_amd64.deb
 sudo apt install -y ./bleachbit_6.0.6-0_all_ubuntu2604.deb
 sudo apt install -y ./bottom_0.15.0-1_amd64.deb
-sudo apt install -y ./GitButler_0.22.3_amd64.deb
+sudo apt install -y ./GitButler_0.23.5_amd64.deb
 sudo apt install -y ./google-chrome-stable_current_amd64.deb
 sudo apt install -y ./code_1.141.0-1791276758_amd64.deb
 sudo apt install -y ./virtualbox-7.2_7.2.20-175154~Ubuntu~resolute_amd64.deb
