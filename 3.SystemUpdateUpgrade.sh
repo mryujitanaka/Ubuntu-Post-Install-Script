@@ -16,7 +16,7 @@ flatpak update -y
 sudo snap refresh
 
 # SDKMAN!
-sdk selfupdate
+## sdk selfupdate
 
 # Flatpak Clean Up
 flatpak uninstall --delete-data -y
