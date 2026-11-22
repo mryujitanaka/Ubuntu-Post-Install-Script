@@ -124,7 +124,7 @@ wget -c "https://download.virtualbox.org/virtualbox/7.2.20/Oracle_VirtualBox_Ext
 ## ClamAV
 wget -c "https://www.clamav.net/downloads/production/clamav-1.5.5.linux.x86_64.deb"
 ## AnyDesk
-wget -c "https://download.anydesk.com/linux/anydesk_8.1.0-1_amd64.deb"
+wget -c "https://download.anydesk.com/linux/anydesk_8.1.1-1_amd64.deb"
 ## GParted
 ### wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
 ## gufw
@@ -147,7 +147,7 @@ sudo apt install -y ./google-chrome-stable_current_amd64.deb
 sudo apt install -y ./code_1.141.0-1791276758_amd64.deb
 sudo apt install -y ./virtualbox-7.2_7.2.20-175154~Ubuntu~resolute_amd64.deb
 sudo apt install -y ./clamav-1.5.5.linux.x86_64.deb
-sudo apt install -y ./anydesk_8.1.0-1_amd64.deb
+sudo apt install -y ./anydesk_8.1.1-1_amd64.deb
 mkdir /usr/local/share/fonts/0xProto
 sudo unzip 0xProto.zip -d /usr/local/share/fonts/0xProto
 sudo fc-cache -f -v
