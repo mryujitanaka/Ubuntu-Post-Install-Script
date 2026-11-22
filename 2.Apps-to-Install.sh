@@ -121,20 +121,20 @@ wget -c "https://releases.gitbutler.com/releases/release/0.23.5-3373/linux/x86_6
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## hardinfo2
 wget -c "https://release-assets.githubusercontent.com/github-production-release-asset/754780099/ab6c4603-f3da-4a65-9052-d63c9de64803?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T16%3A47%3A51Z&rscd=attachment%3B+filename%3Dhardinfo2_2.3.0-Ubuntu-26.04_amd64.deb&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T15%3A47%3A20Z&ske=2026-10-11T16%3A47%3A51Z&sks=b&skv=2018-11-09&sig=6TLvntgayYWx2UTRpa2W8SCTejHHwJT3z9y802Yc88c%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTczNDgwOSwibmJmIjoxNzkxNzM0NTA5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.6DuU0bq83DefKAi-JXa4gFoSJU0yYhnriqLMbmQo0mg&response-content-disposition=attachment%3B%20filename%3Dhardinfo2_2.3.0-Ubuntu-26.04_amd64.deb&response-content-type=application%2Foctet-stream"
+## LibreOffice
+wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.3/deb/x86_64/LibreOffice_26.8.3_Linux_x86-64_deb.tar.gz"
+## Sweet Dark Theme from OpenDesktop (GnomeLook)
+wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Dark-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Dark-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261122T071317Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=e7b3bad27169def8259bb9b0a1737c2ea1144ff0a86e6b2cef2084283cff2296"
+## Sweet Ambar Blue Theme from OpenDesktop (GnomeLook)
+wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Ambar-Blue-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Ambar-Blue-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261122T071513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=c78ac1284cf9fc8605363368807b8e9bc5fb988cab5423bda5de042c69682776"
 ## VSCode
 wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/code_1.147.0-1794903003_amd64.deb"
 ## VirtualBox
 wget -c "https://download.virtualbox.org/virtualbox/7.2.22/virtualbox-7.2_7.2.22-175245~Ubuntu~resolute_amd64.deb"
 ## VirtualBox Extension Pack
 wget -c "https://download.virtualbox.org/virtualbox/7.2.22/Oracle_VirtualBox_Extension_Pack-7.2.22.vbox-extpack"
-## LibreOffice
-wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.3/deb/x86_64/LibreOffice_26.8.3_Linux_x86-64_deb.tar.gz"
 ## 0xProto font from NerdFonts
 wget -c "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/0xProto.zip"
-## Sweet Dark Theme from OpenDesktop (GnomeLook)
-wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Dark-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Dark-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261122T071317Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=e7b3bad27169def8259bb9b0a1737c2ea1144ff0a86e6b2cef2084283cff2296"
-## Sweet Ambar Blue Theme from OpenDesktop (GnomeLook)
-wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Ambar-Blue-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Ambar-Blue-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261122T071513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=c78ac1284cf9fc8605363368807b8e9bc5fb988cab5423bda5de042c69682776"
 
 ### Installing the wget Programs
 sudo apt install -y ./anydesk_8.1.1-1_amd64.deb
