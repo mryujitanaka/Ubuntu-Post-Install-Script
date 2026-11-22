@@ -108,7 +108,7 @@ wget -c "https://release-assets.githubusercontent.com/github-production-release-
 ## BleachBit
 wget -c "https://download.bleachbit.org/bleachbit_6.0.6-0_all_ubuntu2604.deb"
 ## bottom
-wget -c "https://github.com/ClementTsang/bottom/releases/download/nightly-7d65d62c-1791077604/bottom_0.14.9-1_amd64.deb"
+wget -c "https://github.com/ClementTsang/bottom/releases/download/nightly-eb8735ee-1795326587/bottom_0.15.0-1_amd64.deb"
 ## GitHubDesktop
 ### wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
 ## GitButler
@@ -141,7 +141,7 @@ wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sw
 ### Installing the wget Programs
 sudo apt install -y ./hardinfo2_2.3.0-Ubuntu-26.04_amd64.deb
 sudo apt install -y ./bleachbit_6.0.6-0_all_ubuntu2604.deb
-sudo apt install -y ./bottom_0.14.9-1_amd64.deb
+sudo apt install -y ./bottom_0.15.0-1_amd64.deb
 sudo apt install -y ./GitButler_0.22.3_amd64.deb
 sudo apt install -y ./google-chrome-stable_current_amd64.deb
 sudo apt install -y ./code_1.141.0-1791276758_amd64.deb
