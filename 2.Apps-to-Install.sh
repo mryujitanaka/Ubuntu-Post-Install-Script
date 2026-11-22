@@ -107,10 +107,12 @@ sudo rm -rf /var/lib/snapd/cache/*
 wget -c "https://download.anydesk.com/linux/anydesk_8.1.1-1_amd64.deb"
 ## BleachBit
 wget -c "https://download.bleachbit.org/bleachbit_6.0.6-0_all_ubuntu2604.deb"
-## hardinfo2
-wget -c "https://release-assets.githubusercontent.com/github-production-release-asset/754780099/ab6c4603-f3da-4a65-9052-d63c9de64803?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T16%3A47%3A51Z&rscd=attachment%3B+filename%3Dhardinfo2_2.3.0-Ubuntu-26.04_amd64.deb&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T15%3A47%3A20Z&ske=2026-10-11T16%3A47%3A51Z&sks=b&skv=2018-11-09&sig=6TLvntgayYWx2UTRpa2W8SCTejHHwJT3z9y802Yc88c%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTczNDgwOSwibmJmIjoxNzkxNzM0NTA5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.6DuU0bq83DefKAi-JXa4gFoSJU0yYhnriqLMbmQo0mg&response-content-disposition=attachment%3B%20filename%3Dhardinfo2_2.3.0-Ubuntu-26.04_amd64.deb&response-content-type=application%2Foctet-stream"
 ## bottom
 wget -c "https://github.com/ClementTsang/bottom/releases/download/nightly-eb8735ee-1795326587/bottom_0.15.0-1_amd64.deb"
+## ClamAV
+wget -c "https://www.clamav.net/downloads/production/clamav-1.5.5.linux.x86_64.deb"
+## hardinfo2
+wget -c "https://release-assets.githubusercontent.com/github-production-release-asset/754780099/ab6c4603-f3da-4a65-9052-d63c9de64803?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-11T16%3A47%3A51Z&rscd=attachment%3B+filename%3Dhardinfo2_2.3.0-Ubuntu-26.04_amd64.deb&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-11T15%3A47%3A20Z&ske=2026-10-11T16%3A47%3A51Z&sks=b&skv=2018-11-09&sig=6TLvntgayYWx2UTRpa2W8SCTejHHwJT3z9y802Yc88c%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTczNDgwOSwibmJmIjoxNzkxNzM0NTA5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.6DuU0bq83DefKAi-JXa4gFoSJU0yYhnriqLMbmQo0mg&response-content-disposition=attachment%3B%20filename%3Dhardinfo2_2.3.0-Ubuntu-26.04_amd64.deb&response-content-type=application%2Foctet-stream"
 ## GitHubDesktop
 ### wget -c "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-amd64-3.4.9-linux1.deb"
 ## GitButler
@@ -123,8 +125,6 @@ wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/8a14
 wget -c "https://download.virtualbox.org/virtualbox/7.2.22/virtualbox-7.2_7.2.22-175245~Ubuntu~resolute_amd64.deb"
 ## VirtualBox Extension Pack
 wget -c "https://download.virtualbox.org/virtualbox/7.2.22/Oracle_VirtualBox_Extension_Pack-7.2.22.vbox-extpack"
-## ClamAV
-wget -c "https://www.clamav.net/downloads/production/clamav-1.5.5.linux.x86_64.deb"
 ## LibreOffice
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.3/deb/x86_64/LibreOffice_26.8.3_Linux_x86-64_deb.tar.gz"
 ## 0xProto font from NerdFonts
@@ -137,13 +137,13 @@ wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sw
 ### Installing the wget Programs
 sudo apt install -y ./anydesk_8.1.1-1_amd64.deb
 sudo apt install -y ./bleachbit_6.0.6-0_all_ubuntu2604.deb
-sudo apt install -y ./hardinfo2_2.3.0-Ubuntu-26.04_amd64.deb
 sudo apt install -y ./bottom_0.15.0-1_amd64.deb
+sudo apt install -y ./clamav-1.5.5.linux.x86_64.deb
+sudo apt install -y ./hardinfo2_2.3.0-Ubuntu-26.04_amd64.deb
 sudo apt install -y ./GitButler_0.23.5_amd64.deb
 sudo apt install -y ./google-chrome-stable_current_amd64.deb
 sudo apt install -y ./code_1.147.0-1794903003_amd64.deb
 sudo apt install -y ./virtualbox-7.2_7.2.22-175245~Ubuntu~resolute_amd64.deb
-sudo apt install -y ./clamav-1.5.5.linux.x86_64.deb
 mkdir /usr/local/share/fonts/0xProto
 sudo unzip 0xProto.zip -d /usr/local/share/fonts/0xProto
 sudo fc-cache -f -v
