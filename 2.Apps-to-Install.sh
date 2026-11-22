@@ -116,11 +116,11 @@ wget -c "https://releases.gitbutler.com/releases/release/0.23.5-3373/linux/x86_6
 ## GoogleChrome
 wget -c "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ## VSCode
-wget -c "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+wget -c "https://vscode.download.prss.microsoft.com/dbazure/download/stable/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/code_1.147.0-1794903003_amd64.deb"
 ## VirtualBox
-wget -c "https://download.virtualbox.org/virtualbox/7.2.20/virtualbox-7.2_7.2.20-175154~Ubuntu~resolute_amd64.deb"
+wget -c "https://download.virtualbox.org/virtualbox/7.2.22/virtualbox-7.2_7.2.22-175245~Ubuntu~resolute_amd64.deb"
 ## VirtualBox Extension Pack
-wget -c "https://download.virtualbox.org/virtualbox/7.2.20/Oracle_VirtualBox_Extension_Pack-7.2.20.vbox-extpack"
+wget -c "https://download.virtualbox.org/virtualbox/7.2.22/Oracle_VirtualBox_Extension_Pack-7.2.22.vbox-extpack"
 ## ClamAV
 wget -c "https://www.clamav.net/downloads/production/clamav-1.5.5.linux.x86_64.deb"
 ## AnyDesk
@@ -130,9 +130,9 @@ wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.3/deb/x
 ## 0xProto font from NerdFonts
 wget -c "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/0xProto.zip"
 ## Sweet Dark Theme from OpenDesktop (GnomeLook)
-wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Dark-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Dark-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261011T181405Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=b01d34ad1f33ebf0b137dba567435a9c40c35de6f4ea4bc15e0d34b917782c54"
+wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Dark-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Dark-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261122T071317Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=e7b3bad27169def8259bb9b0a1737c2ea1144ff0a86e6b2cef2084283cff2296"
 ## Sweet Ambar Blue Theme from OpenDesktop (GnomeLook)
-wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Ambar-Blue-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Ambar-Blue-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261011T181515Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=280a6e4e5c811ddab17c61ed4f1fe1028db3b3344fca1f901d7886790add9ef3"
+wget -c "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1533954207/Sweet-Ambar-Blue-v40.tar.xz?response-content-disposition=attachment%3B%2520Sweet-Ambar-Blue-v40.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20261122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261122T071513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=c78ac1284cf9fc8605363368807b8e9bc5fb988cab5423bda5de042c69682776"
 
 ### Installing the wget Programs
 sudo apt install -y ./hardinfo2_2.3.0-Ubuntu-26.04_amd64.deb
@@ -140,8 +140,8 @@ sudo apt install -y ./bleachbit_6.0.6-0_all_ubuntu2604.deb
 sudo apt install -y ./bottom_0.15.0-1_amd64.deb
 sudo apt install -y ./GitButler_0.23.5_amd64.deb
 sudo apt install -y ./google-chrome-stable_current_amd64.deb
-sudo apt install -y ./code_1.141.0-1791276758_amd64.deb
-sudo apt install -y ./virtualbox-7.2_7.2.20-175154~Ubuntu~resolute_amd64.deb
+sudo apt install -y ./code_1.147.0-1794903003_amd64.deb
+sudo apt install -y ./virtualbox-7.2_7.2.22-175245~Ubuntu~resolute_amd64.deb
 sudo apt install -y ./clamav-1.5.5.linux.x86_64.deb
 sudo apt install -y ./anydesk_8.1.1-1_amd64.deb
 mkdir /usr/local/share/fonts/0xProto
