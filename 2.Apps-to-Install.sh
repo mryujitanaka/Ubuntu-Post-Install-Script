@@ -125,10 +125,6 @@ wget -c "https://download.virtualbox.org/virtualbox/7.2.20/Oracle_VirtualBox_Ext
 wget -c "https://www.clamav.net/downloads/production/clamav-1.5.5.linux.x86_64.deb"
 ## AnyDesk
 wget -c "https://download.anydesk.com/linux/anydesk_8.1.1-1_amd64.deb"
-## GParted
-### wget -c "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download"
-## gufw
-### wget -c "https://github.com/costales/gufw/releases/download/26.04/gui-ufw-26.04.0.tar.gz"
 ## LibreOffice
 wget -c "https://download.documentfoundation.org/libreoffice/stable/26.8.1/deb/x86_64/LibreOffice_26.8.1_Linux_x86-64_deb.tar.gz"
 ## 0xProto font from NerdFonts
